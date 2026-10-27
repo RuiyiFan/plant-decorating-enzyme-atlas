@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Plant Decorating Enzyme Atlas · Reaction Evidence &amp; Engineering Screening Resource</title>
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<style>
+  :root{--bg:#FDFBF7;--card:#FFFFFF;--primary:#558B2F;--primary-dark:#3f6b20;--ink:#1F2937;--sec:#6B7280;--border:#E8E4DA;
+        --ugt:#2563EB;--omt:#7C3AED;--bahd:#D97706;--cyp:#0D9488}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Inter,Arial,sans-serif;line-height:1.6;-webkit-font-smoothing:antialiased}
+  a{color:var(--primary);text-decoration:none}
+  a:hover{color:var(--primary-dark)}
+  /* nav */
+  nav{position:sticky;top:0;z-index:50;background:rgba(253,251,247,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--border);padding:12px 40px;display:flex;align-items:center;gap:12px}
+  .logo{font-weight:800;font-size:1.02rem;color:var(--ink);display:flex;align-items:center;gap:10px}
+  .logo svg{width:26px;height:26px;flex:none}
+  nav .links{display:flex;gap:20px;margin-left:auto;align-items:center}
+  nav .links a{color:var(--sec);font-size:.9rem;font-weight:500}
+  nav .links a:hover{color:var(--primary)}
+  nav .links a.active{color:var(--primary);font-weight:700}
+  /* hero */
+  .hero{max-width:1180px;margin:0 auto;padding:48px 40px 20px;display:grid;grid-template-columns:1.2fr .8fr;gap:44px;align-items:center}
+  .hero h1{font-size:2.35rem;font-weight:800;letter-spacing:-.03em;line-height:1.15}
+  .hero h1 .green{color:var(--primary)}
+  .hero .tagline{color:var(--sec);font-size:1.02rem;margin-top:14px;max-width:56ch}
+  .famstrip{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:22px}
+  .fam{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:12px 14px;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+  .fam .ico{width:30px;height:30px;border-radius:8px;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:.72rem;color:#fff}
+  .fam b{display:block;font-size:.95rem;margin-top:8px}
+  .fam span{font-size:.74rem;color:var(--sec)}
+  .hero-right{display:flex;flex-direction:column;align-items:center;gap:18px}
+  .mark{width:150px;height:150px;filter:drop-shadow(0 6px 18px rgba(31,41,55,.18))}
+  .stats{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;width:100%}
+  .stat{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:14px 16px;box-shadow:0 1px 3px rgba(0,0,0,.05)}
+  .stat b{display:block;font-size:1.7rem;font-weight:800;color:var(--primary);letter-spacing:-.02em}
+  .stat span{font-size:.76rem;color:var(--sec);font-weight:500}
+  /* search */
+  .searchband{max-width:1180px;margin:30px auto 0;padding:0 40px}
+  .searchbox{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:22px 26px;box-shadow:0 2px 8px rgba(0,0,0,.06)}
+  .searchbox .row{display:flex;gap:10px}
+  .searchbox input{flex:1;padding:13px 18px;border:1.5px solid var(--border);border-radius:10px;font-size:1rem;color:var(--ink);background:#FDFCFA}
+  .searchbox input:focus{outline:none;border-color:var(--primary)}
+  .searchbox button{background:var(--primary);color:#fff;border:none;border-radius:10px;padding:13px 26px;font-size:.95rem;font-weight:700;cursor:pointer;white-space:nowrap}
+  .searchbox button:hover{background:var(--primary-dark)}
+  .quicklinks{margin-top:12px;font-size:.82rem;color:var(--sec)}
+  .quicklinks a{margin-right:14px;font-weight:600}
+  /* modules */
+  .modules{max-width:1180px;margin:44px auto 60px;padding:0 40px}
+  .modules h2{font-size:1.3rem;font-weight:800;letter-spacing:-.02em;margin-bottom:18px}
+  .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+  .card{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:22px;box-shadow:0 2px 6px rgba(0,0,0,.05);transition:transform .12s,box-shadow .12s;cursor:pointer;display:block;color:var(--ink)}
+  .card:hover{transform:translateY(-3px);box-shadow:0 8px 20px rgba(0,0,0,.09)}
+  .card .ico{width:44px;height:44px;border-radius:11px;display:flex;align-items:center;justify-content:center}
+  .card h3{font-size:1.02rem;font-weight:700;margin-top:12px;color:var(--ink)}
+  .card p{font-size:.86rem;color:var(--sec);margin-top:6px}
+  .card .num{display:inline-block;margin-top:12px;font-size:.78rem;font-weight:700;color:var(--primary)}
+  footer{max-width:1180px;margin:0 auto;padding:28px 40px 48px;border-top:1px solid var(--border);color:var(--sec);font-size:.82rem;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+  @media(max-width:900px){.hero{grid-template-columns:1fr;padding-top:32px}.grid{grid-template-columns:1fr}.famstrip{grid-template-columns:repeat(2,1fr)}nav{padding:12px 20px}.hero,.searchband,.modules{padding-left:20px;padding-right:20px}}
+</style>
+</head>
+<body>
+<nav>
+  <span class="logo">
+    <svg viewBox="0 0 48 48"><circle cx="24" cy="24" r="23" fill="#1F2937"/><path d="M24 2 A22 22 0 0 1 46 24 L24 24 Z" fill="#2563EB"/><path d="M46 24 A22 22 0 0 1 24 46 L24 24 Z" fill="#7C3AED"/><path d="M24 46 A22 22 0 0 1 2 24 L24 24 Z" fill="#D97706"/><path d="M2 24 A22 22 0 0 1 24 2 L24 24 Z" fill="#0D9488"/><circle cx="24" cy="24" r="8.5" fill="#FFFFFF"/><circle cx="24" cy="24" r="4" fill="#1F2937"/></svg>
+    Plant Decorating Enzyme Atlas
+  </span>
+  <div class="links">
+    <a href="index.html" class="active">Home</a>
+    <a href="browse_v3.html">Browse</a>
+    <a href="#modules">Modules</a>
+    <a href="browse_v3.html">Download</a>
+  </div>
+</nav>
+
+<section class="hero">
+  <div>
+    <h1>Plant <span class="green">Decorating Enzyme</span> Atlas</h1>
+    <p class="tagline">A reaction-evidence and engineering-screening resource for plant secondary-metabolism decorating enzymes — four modification chemistries, one substrate-centric search.</p>
+    <div class="famstrip">
+      <div class="fam"><div class="ico" style="background:var(--ugt)">U</div><b>UGT</b><span>Glycosylation</span></div>
+      <div class="fam"><div class="ico" style="background:var(--omt)">M</div><b>OMT</b><span>Methylation</span></div>
+      <div class="fam"><div class="ico" style="background:var(--bahd)">A</div><b>BAHD</b><span>Acylation</span></div>
+      <div class="fam"><div class="ico" style="background:var(--cyp)">O</div><b>CYP</b><span>Oxidation</span></div>
+    </div>
+  </div>
+  <div class="hero-right">
+    <svg class="mark" viewBox="0 0 48 48">
+      <circle cx="24" cy="24" r="23" fill="#1F2937"/>
+      <path d="M24 2 A22 22 0 0 1 46 24 L24 24 Z" fill="#2563EB"/>
+      <path d="M46 24 A22 22 0 0 1 24 46 L24 24 Z" fill="#7C3AED"/>
+      <path d="M24 46 A22 22 0 0 1 2 24 L24 24 Z" fill="#D97706"/>
+      <path d="M2 24 A22 22 0 0 1 24 2 L24 24 Z" fill="#0D9488"/>
+      <circle cx="24" cy="24" r="8.5" fill="#FFFFFF"/>
+      <circle cx="24" cy="24" r="4" fill="#1F2937"/>
+    </svg>
+    <div class="stats">
+      <div class="stat"><b>95,945</b><span>candidate pool</span></div>
+      <div class="stat"><b>1,080</b><span>reaction records</span></div>
+      <div class="stat"><b>198</b><span>Validated</span></div>
+      <div class="stat"><b>81%</b><span>structure coverage</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="searchband">
+  <div class="searchbox">
+    <div class="row">
+      <input id="q" type="text" placeholder="Search a substrate (quercetin, cyanidin), enzyme accession, or PMID…">
+      <button onclick="goSearch()">Search</button>
+    </div>
+    <div class="quicklinks">Quick links:
+      <a href="browse_v3.html?q=quercetin">quercetin glycosylation</a>
+      <a href="browse_v3.html?f=Validated">198 validated reactions</a>
+      <a href="browse_v3.html?fam=CYP71">CYP71 hydroxylases</a>
+      <a href="browse_v3.html?fam=BAHD">BAHD acyltransferases</a>
+    </div>
+  </div>
+</section>
+
+<section class="modules" id="modules">
+  <h2>Modules</h2>
+  <div class="grid">
+    <a class="card" href="browse_v3.html">
+      <div class="ico" style="background:#EFF6FF"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.35-4.35"/></svg></div>
+      <h3>Reaction Browser</h3>
+      <p>Search and filter 1,080 reaction-level records by substrate, family, modification type, donor and position — each traceable to a PMID.</p>
+      <span class="num">1,080 reactions</span>
+    </a>
+    <a class="card" href="browse_v3.html?f=Validated">
+      <div class="ico" style="background:#ECFDF3"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#1e7a34" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l8 4v6c0 5-3.5 8-8 10-4.5-2-8-5-8-10V6z"/><path d="M9 12l2 2 4-4"/></svg></div>
+      <h3>Validated Evidence</h3>
+      <p>198 reactions manually verified against the primary literature (protein · acceptor · conversion assay · product identification).</p>
+      <span class="num">198 validated</span>
+    </a>
+    <a class="card" href="browse_v3.html">
+      <div class="ico" style="background:#F5F3FF"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#7C3AED" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l7 4v5c0 4-3 7-7 9-4-2-7-5-7-9V6z"/><circle cx="12" cy="12" r="2.5" fill="#7C3AED" stroke="none"/></svg></div>
+      <h3>Regio- &amp; Donor-specificity</h3>
+      <p>Which enzyme transfers which sugar/methyl/acyl group to which position (3-O vs 7-O vs 4′-O) — the granularity UniProt alone cannot answer.</p>
+      <span class="num">position × donor indexed</span>
+    </a>
+    <a class="card" href="browse_v3.html">
+      <div class="ico" style="background:#FFF7ED"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#D97706" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M19.1 4.9L17 7M7 17l-2.1 2.1"/></svg></div>
+      <h3>Engineering Readiness</h3>
+      <p>Chassis compatibility (no predicted transmembrane helix: UGT/OMT/BAHD 83–87%, CYP 4%) and structure coverage for heterologous expression.</p>
+      <span class="num">chassis &amp; structure</span>
+    </a>
+    <a class="card" href="browse_v3.html">
+      <div class="ico" style="background:#F0FDFA"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 20V12" stroke="#2563EB"/><path d="M11 20V6" stroke="#7C3AED"/><path d="M17 20V15" stroke="#D97706"/><path d="M20 20V9" stroke="#0D9488"/></svg></div>
+      <h3>Cross-family Comparison</h3>
+      <p>Dark-enzyme rates (L0) across UGT 92% / OMT 91% / BAHD 99% / CYP71 87% — curation coverage, not a biological claim.</p>
+      <span class="num">4 families compared</span>
+    </a>
+    <a class="card" href="browse_v3.html">
+      <div class="ico" style="background:#F0F4EA"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#558B2F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"/><path d="M7 10l5 5 5-5"/><path d="M5 21h14"/></svg></div>
+      <h3>Download</h3>
+      <p>Full reaction-evidence table (JSON / TSV) and the layered candidate pool for downstream analysis.</p>
+      <span class="num">open access</span>
+    </a>
+  </div>
+</section>
+
+<footer>
+  <div><b>Plant Decorating Enzyme Atlas</b> · v0.1 (2026-10-15)<br>A domain hit is a <i>candidate</i>, not a confirmed decorating enzyme. Functional inclusion and enzymological evidence level (L0–L3) are two independent dimensions.</div>
+  <div>Data: UniProtKB · AlphaFold DB · PubMed</div>
+</footer>
+
+<script>
+function goSearch(){
+  const q = document.getElementById('q').value.trim();
+  if(q) window.location.href = 'browse.html?q='+encodeURIComponent(q);
+}
+document.getElementById('q').addEventListener('keydown', e=>{ if(e.key==='Enter') goSearch(); });
+</script>
+</body>
+</html>

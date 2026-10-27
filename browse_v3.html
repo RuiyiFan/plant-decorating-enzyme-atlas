@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Browse · Plant Decorating Enzyme Atlas</title>
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<style>
+  :root{--bg:#FDFBF7;--card:#FFFFFF;--primary:#558B2F;--primary-dark:#3f6b20;--ink:#1F2937;--sec:#6B7280;--border:#E8E4DA;--ok:#1e7a34;--okbg:#eaf5ec;--warn:#B26A00;--warnbg:#fdf3e4;--danger:#b3261e;--dangerbg:#fdecea;--info:#1f4e79;--infobg:#eaf1f8}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Inter,Arial,sans-serif;line-height:1.6}
+  a{color:var(--primary);text-decoration:none}
+  nav{position:sticky;top:0;z-index:50;background:rgba(253,251,247,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--border);padding:13px 40px;display:flex;align-items:center;gap:22px}
+  .logo{font-weight:800;font-size:1.02rem;color:var(--ink);display:flex;align-items:center;gap:9px}
+  nav .links{display:flex;gap:20px;margin-left:auto}
+  nav .links a{color:var(--sec);font-size:.88rem;font-weight:500}
+  nav .links a.active{color:var(--primary);font-weight:700}
+  .wrap{max-width:1280px;margin:22px auto;padding:0 32px}
+  .stats{display:flex;gap:12px;margin-bottom:14px;flex-wrap:wrap}
+  .stat{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:9px 16px;text-align:center}
+  .stat b{display:block;font-size:1.28rem;color:var(--primary)}
+  .stat span{font-size:.7rem;color:var(--sec)}
+  .meta{font-size:.74rem;color:var(--sec);margin-bottom:14px;line-height:1.5}
+  .meta code{font-family:ui-monospace,monospace;background:#F4F1E8;padding:1px 5px;border-radius:4px}
+  .layout{display:grid;grid-template-columns:250px 1fr;gap:18px}
+  .panel{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:15px;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+  .panel h3{font-size:.74rem;text-transform:uppercase;letter-spacing:.08em;color:var(--sec);margin-bottom:10px}
+  input[type=text]{width:100%;padding:9px 12px;background:#FDFCFA;border:1.5px solid var(--border);border-radius:9px;color:var(--ink);font-size:.9rem}
+  input[type=text]:focus{outline:none;border-color:var(--primary)}
+  .fgroup{margin-bottom:13px}
+  .fgroup label{display:block;font-size:.76rem;color:var(--sec);margin-bottom:5px}
+  .chips{display:flex;flex-wrap:wrap;gap:5px}
+  .chip{padding:3px 9px;border-radius:999px;border:1px solid var(--border);font-size:.72rem;cursor:pointer;color:var(--sec);background:#FDFCFA;user-select:none}
+  .chip.on{background:#F0F4EA;border-color:var(--primary);color:var(--primary-dark);font-weight:600}
+  table{width:100%;border-collapse:collapse;font-size:.82rem}
+  th{position:sticky;top:0;background:var(--card);color:var(--sec);text-align:left;padding:8px 10px;border-bottom:1.5px solid var(--border);font-weight:600;font-size:.7rem;text-transform:uppercase;letter-spacing:.04em}
+  td{padding:7px 10px;border-bottom:1px solid #F0EDE4;vertical-align:top}
+  tr.clickable{cursor:pointer}
+  tr.clickable:hover td{background:#FBF9F3}
+  .acc{color:var(--primary);font-family:ui-monospace,monospace;font-size:.76rem;font-weight:600}
+  .mono{font-family:ui-monospace,monospace;font-size:.72rem}
+  .badge{font-weight:700;font-size:.7rem;padding:2px 8px;border-radius:999px;white-space:nowrap;display:inline-block}
+  .b-unc{background:#F0EDE4;color:var(--sec)}
+  .b-sup{background:var(--okbg);color:var(--ok)}
+  .b-part{background:var(--warnbg);color:var(--warn)}
+  .b-ctl{background:var(--infobg);color:var(--info)}
+  .b-legacy{background:#F3EFE6;color:#8a7d5c}
+  .count{color:var(--sec);font-size:.8rem;margin:10px 0}
+  .boundary{background:#FDF8EC;border-left:3px solid var(--warn);padding:9px 12px;border-radius:6px;font-size:.76rem;color:var(--sec);margin-bottom:12px}
+  .detail-link{color:var(--primary);font-size:.72rem;font-weight:600}
+  /* modal */
+  .modal{display:none;position:fixed;inset:0;background:rgba(20,25,20,.42);z-index:100;align-items:flex-start;justify-content:center;padding:40px 16px;overflow:auto}
+  .modal.open{display:flex}
+  .modal-box{background:var(--card);border-radius:14px;max-width:720px;width:100%;padding:22px;box-shadow:0 12px 40px rgba(0,0,0,.18)}
+  .modal-head{display:flex;align-items:flex-start;justify-content:space-between;gap:14px;margin-bottom:14px}
+  .modal-head .acc{font-size:1.05rem}
+  .close{background:none;border:none;font-size:1.4rem;cursor:pointer;color:var(--sec);line-height:1}
+  .rxn{font-size:.92rem;font-weight:600;margin-bottom:14px;padding:10px 12px;background:#FBF8F1;border-radius:8px}
+  .fieldrow{display:grid;grid-template-columns:170px 1fr;gap:10px;padding:8px 0;border-bottom:1px solid #F4F1EA;font-size:.85rem}
+  .fieldrow .k{color:var(--sec);font-size:.78rem}
+  .fieldrow .v{font-weight:500}
+  .dimtag{font-size:.7rem;padding:2px 8px;border-radius:6px;margin-right:5px;font-weight:700}
+  .note-block{font-size:.76rem;color:var(--sec);background:#FDF9EE;border:1px solid #F0E8D2;border-radius:8px;padding:9px 12px;margin-top:8px}
+  .cond-block{font-size:.76rem;color:var(--sec);background:#F4F8F2;border:1px solid #E0EBDD;border-radius:8px;padding:9px 12px;margin-top:8px}
+  .cond-block .warn{color:var(--warn);font-weight:600}
+  @media(max-width:900px){.layout{grid-template-columns:1fr}nav{padding:11px 18px}.wrap{padding:0 16px}}
+</style>
+</head>
+<body>
+<nav>
+  <span class="logo"><svg viewBox="0 0 48 48" width="26" height="26"><circle cx="24" cy="24" r="23" fill="#1F2937"/><path d="M24 2 A22 22 0 0 1 46 24 L24 24 Z" fill="#2563EB"/><path d="M46 24 A22 22 0 0 1 24 46 L24 24 Z" fill="#7C3AED"/><path d="M24 46 A22 22 0 0 1 2 24 L24 24 Z" fill="#D97706"/><path d="M2 24 A22 22 0 0 1 24 2 L24 24 Z" fill="#0D9488"/><circle cx="24" cy="24" r="8.5" fill="#FFFFFF"/><circle cx="24" cy="24" r="4" fill="#1F2937"/></svg>Plant Decorating Enzyme Atlas</span>
+  <div class="links">
+    <a href="index.html">Home</a>
+    <a href="browse_v3.html" class="active">Browse</a>
+    <a href="#" id="navDownload">Download</a>
+  </div>
+</nav>
+
+<div class="wrap">
+  <div class="stats" id="stats"></div>
+  <div class="meta" id="meta"></div>
+  <div class="boundary" id="boundary"></div>
+
+  <div class="layout">
+    <aside>
+      <div class="panel">
+        <h3>Search</h3>
+        <input type="text" id="q" placeholder="substrate / accession / PMID…">
+      </div>
+      <div class="panel">
+        <h3>Filter</h3>
+        <div class="fgroup"><label>Family</label><div class="chips" id="famChips"></div></div>
+        <div class="fgroup"><label>Evidence state</label><div class="chips" id="evChips"></div></div>
+        <div class="fgroup"><label>Expression system (E1)</label><div class="chips" id="e1Chips"></div></div>
+        <div class="fgroup"><label>Control status (E3)</label><div class="chips" id="e3Chips"></div></div>
+        <div class="fgroup"><label>Product ID (E4)</label><div class="chips" id="e4Chips"></div></div>
+      </div>
+      <div class="panel">
+        <h3>Download</h3>
+        <a id="dlJson" download="atlas_evidence.json" style="font-size:.8rem">⬇ JSON (current view)</a><br>
+        <a id="dlTsv" download="atlas_evidence.tsv" style="font-size:.8rem">⬇ TSV (current view)</a>
+      </div>
+    </aside>
+
+    <main>
+      <div class="count" id="count"></div>
+      <div class="panel" style="padding:0;overflow:auto;max-height:74vh">
+        <table id="tbl">
+          <thead><tr><th>State</th><th>Family</th><th>Accession</th><th>Reaction (substrate → product)</th><th>E1 host</th><th>E3 control</th><th>E4 product</th><th>PMID</th></tr></thead>
+          <tbody id="tbody"></tbody>
+        </table>
+      </div>
+    </main>
+  </div>
+</div>
+
+<!-- detail modal -->
+<div class="modal" id="modal">
+  <div class="modal-box" id="modalBox"></div>
+</div>
+
+<script>
+let DATA = null;
+const state = {fam:new Set(), ev:new Set(), e1:new Set(), e3:new Set(), e4:new Set(), q:""};
+
+const E1_LABEL = {'recombinant_Ecoli':'Recombinant — E. coli','recombinant_yeast':'Recombinant — yeast','recombinant_plant':'Recombinant — plant','recombinant_insect':'Recombinant — insect cells','purified_native':'Native (purified)','native_and_recombinant':'Native + recombinant'};
+const E3_LABEL = {'explicit_current':'Explicit & applicable','not_located':'Not located','scope_pending':'Reference pending'};
+const E4_LABEL = {'supported':'Confirmed (NMR / standard)','partial':'Partial (MS only)','':'Pending'};
+const EV_CLASS = {'未策展':'b-unc','Supported':'b-sup','Partial':'b-part','Control not located':'b-ctl'};
+
+function evLabel(r){
+  if(!r.is_curated) return 'Uncurated';
+  if(r.direct_conversion_support==='supported') return 'Supported';
+  if(r.direct_conversion_support==='partial') return 'Partial';
+  if(r.control_reporting_status==='not_located') return 'Control not located';
+  return 'Curated';
+}
+
+fetch('data_web.json').then(r=>r.json()).then(d=>{
+  DATA = d;
+  const s = d.stats;
+  document.getElementById('stats').innerHTML = `
+    <div class="stat"><b>${s.curated_records.toLocaleString()}</b><span>curated records</span></div>
+    <div class="stat"><b>${s.coverage_pct}%</b><span>curation coverage (${s.curated_records}/${s.total_records})</span></div>
+    <div class="stat"><b>${s.papers}</b><span>papers</span></div>
+    <div class="stat"><b>${s.proteins}</b><span>proteins</span></div>
+    <div class="stat"><b>${s.uncurated}</b><span>uncurated</span></div>`;
+  document.getElementById('meta').innerHTML = `Version <code>${d.version}</code> · data SHA <code>${d.sha}</code> · <code>${s.total_records}</code> reaction records across <code>UGT / OMT / BAHD / CYP71 clan</code>`;
+  document.getElementById('boundary').innerHTML = '<b>Scope &amp; boundaries:</b> '+(d.boundary_note||'')+'<br><b>Status labels</b>: <span class="badge b-sup">Supported</span> E4 confirmed (NMR/standard) · <span class="badge b-part">Partial</span> E4 MS-only · <span class="badge b-ctl">Control not located</span> E3 not located in searched scope · <span class="badge b-unc">Uncurated</span> no E1/E3/E4 yet · <span class="badge b-legacy">Legacy</span> historical Validated/Candidate (does NOT override current E1/E3/E4)<br><b>Note:</b> the % shown is <b>curation coverage</b> (records with E1/E3/E4 wired), <i>not</i> accuracy or evidence-confirmation rate; a <code>source_line</code> records where a claim was located during curation, not proof that the line supports the reaction.';
+
+  buildChips('famChips', Object.keys(d.family_summary||{}), state.fam);
+  buildChips('evChips', ['Supported','Partial','Control not located','Uncurated'], state.ev);
+  buildChips('e1Chips', [...new Set(d.reactions.map(r=>r.enzyme_preparation_route).filter(Boolean))].sort(), state.e1);
+  buildChips('e3Chips', [...new Set(d.reactions.map(r=>r.control_reporting_status).filter(Boolean))].sort(), state.e3);
+  buildChips('e4Chips', [...new Set(d.reactions.map(r=>r.direct_conversion_support).filter(Boolean))].sort(), state.e4);
+  apply();
+});
+
+function buildChips(id, vals, set){
+  const el = document.getElementById(id);
+  el.innerHTML='';
+  vals.forEach(v=>{
+    const c = document.createElement('span');
+    c.className='chip'; c.textContent = v;
+    if(set.has(v)) c.classList.add('on');
+    c.onclick = ()=>{ set.has(v)?set.delete(v):set.add(v); c.classList.toggle('on'); apply(); };
+    el.appendChild(c);
+  });
+}
+
+function esc(s){return String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
+
+function currentView(){
+  const q = state.q.toLowerCase();
+  return DATA.reactions.filter(r=>{
+    if(state.fam.size && !state.fam.has(r.family)) return false;
+    const ev = evLabel(r);
+    if(state.ev.size && !state.ev.has(ev)) return false;
+    if(state.e1.size && !(r.enzyme_preparation_route && state.e1.has(r.enzyme_preparation_route))) return false;
+    if(state.e3.size && !(r.control_reporting_status && state.e3.has(r.control_reporting_status))) return false;
+    if(state.e4.size && !(r.direct_conversion_support && state.e4.has(r.direct_conversion_support))) return false;
+    if(q){ const hay=(r.reaction+' '+r.accession+' '+r.pmid+' '+r.substrate+' '+(r.donor||'')).toLowerCase(); if(!hay.includes(q)) return false; }
+    return true;
+  });
+}
+
+function apply(){
+  const rows = currentView();
+  document.getElementById('count').textContent = `Showing ${rows.length} of ${DATA.stats.total_records} reactions`;
+  const tb = document.getElementById('tbody');
+  tb.innerHTML='';
+  rows.slice(0,500).forEach((r,i)=>{
+    const ev = evLabel(r);
+    const cls = EV_CLASS[ev]||'b-unc';
+    const legacy = r.status==='Validated'?'<span class="badge b-legacy" title="historical label; does not override current E1/E3/E4">legacy Validated</span>':'';
+    const tr = document.createElement('tr');
+    tr.className='clickable';
+    tr.innerHTML = `<td><span class="badge ${cls}">${ev}</span></td><td>${esc(r.family)}</td><td class="acc">${esc(r.accession)}</td><td>${esc(r.reaction||'')}</td><td class="note" style="font-size:.72rem">${esc(r.enzyme_preparation_route?'Recomb. '+(r.enzyme_preparation_route.split('_').slice(1).join(' ')):'—')}</td><td class="note" style="font-size:.72rem">${esc(E3_LABEL[r.control_reporting_status]||'—')}</td><td class="note" style="font-size:.72rem">${esc(E4_LABEL[r.direct_conversion_support]||'—')}</td><td><a class="mono" target="_blank" href="https://pubmed.ncbi.nlm.nih.gov/${r.pmid}/" onclick="event.stopPropagation()">${r.pmid}</a></td>`;
+    tr.onclick = ()=>openDetail(r);
+    tb.appendChild(tr);
+  });
+  if(rows.length>500){
+    const trNote = document.createElement('tr');
+    trNote.innerHTML = `<td colspan="8" style="color:var(--sec);text-align:center">…showing first 500 of ${rows.length}; refine filter to narrow.</td>`;
+    tb.appendChild(trNote);
+  }
+  // export
+  const dl = rows;
+  const payload = {meta:{version:DATA.version,sha:DATA.sha,coverage:DATA.stats.coverage_pct,count:dl.length},records:dl.map(r=>({family:r.family,accession:r.accession,pmid:r.pmid,reaction:r.reaction,substrate:r.substrate,position:r.position,donor:r.donor,enzyme_preparation_route:r.enzyme_preparation_route||null,control_reporting_status:r.control_reporting_status||null,direct_conversion_support:r.direct_conversion_support||null,evidence_state:evLabel(r),source_line:r.source_line||null,note:r.note||null,legacy_status:r.status}))};
+  document.getElementById('dlJson').href = URL.createObjectURL(new Blob([JSON.stringify(payload)],{type:'application/json'}));
+  document.getElementById('dlTsv').href = URL.createObjectURL(new Blob([toTsv(dl)],{type:'text/tab-separated-values'}));
+}
+
+function toTsv(rows){
+  const h=['family','accession','pmid','reaction','substrate','position','donor','enzyme_preparation_route','control_reporting_status','direct_conversion_support','evidence_state','source_line','legacy_status'];
+  const lines=[h.join('\t')];
+  rows.forEach(r=>lines.push([r.family,r.accession,r.pmid,r.reaction,r.substrate,r.position||'',r.donor||'',r.enzyme_preparation_route||'',r.control_reporting_status||'',r.direct_conversion_support||'',evLabel(r),r.source_line||'',r.status].map(v=>String(v==null?'':v).replace(/\t/g,' ')).join('\t')));
+  return lines.join('\n');
+}
+
+function openDetail(r){
+  const ev = evLabel(r);
+  const cls = EV_CLASS[ev]||'b-unc';
+  const conds = r.condition_clues || [];
+  const condHtml = conds.length ? conds.map(c=>{
+    const parts = [];
+    if(c.ph) parts.push('pH '+esc(c.ph));
+    if(c.temp) parts.push(esc(c.temp)+' °C');
+    if(c.conc) parts.push('substrate '+esc(c.conc));
+    return '<div style="padding:2px 0">'+(parts.join(' · ')||'—')+'</div>';
+  }).join('') : '';
+  const html = `
+    <div class="modal-head">
+      <div>
+        <span class="acc">${esc(r.accession)}</span>
+        <span class="badge ${cls}" style="margin-left:8px">${ev}</span>
+        <div style="font-size:.74rem;color:var(--sec)">${esc(r.family)} · PMID <a class="mono" target="_blank" href="https://pubmed.ncbi.nlm.nih.gov/${r.pmid}/">${r.pmid}</a></div>
+      </div>
+      <button class="close" onclick="document.getElementById('modal').classList.remove('open')">×</button>
+    </div>
+    <div class="rxn">${esc(r.reaction||'')}</div>
+    <div class="fieldrow"><div class="k">E1 · construct / host</div><div class="v">${E1_LABEL[r.enzyme_preparation_route]||'<i>Uncurated</i>'}</div></div>
+    <div class="fieldrow"><div class="k">E3 · negative control</div><div class="v">${E3_LABEL[r.control_reporting_status]||'<i>Uncurated</i>'}</div></div>
+    <div class="fieldrow"><div class="k">E4 · product identification</div><div class="v">${E4_LABEL[r.direct_conversion_support]||'<i>Uncurated</i>'}</div></div>
+    <div class="fieldrow"><div class="k">Source evidence</div><div class="v">${esc(r.source_line||'—')}</div></div>
+    <div class="fieldrow"><div class="k">Substrate / position / donor</div><div class="v">${esc(r.substrate||'—')} ${r.position?'· '+esc(r.position):''} ${r.donor?'· '+esc(r.donor):''}</div></div>
+    <div class="fieldrow"><div class="k">Legacy status</div><div class="v"><span class="badge b-legacy">${esc(r.status)}</span> <span style="font-size:.72rem;color:var(--sec)">(historical label — does NOT override current E1/E3/E4)</span></div></div>
+    ${r.note?`<div class="note-block"><b>Curation note:</b> ${esc(r.note)}</div>`:''}
+    <div class="fieldrow"><div class="k">Confirmed conditions</div><div class="v"><i>none verified yet — role-separated curation (storage / activity assay / production / analysis) pending</i></div></div>
+    ${conds.length?`<div class="cond-block" style="background:#FDF9EE;border-color:#F0E8D2"><b>待核文献线索 · unverified condition clues</b> — first-pass paper-level extraction, <span class="warn">NOT confirmed</span>; excluded from precise condition matching; not separated by experimental role.<div style="margin-top:6px">${condHtml}</div></div>`:''}
+  `;
+  document.getElementById('modalBox').innerHTML = html;
+  document.getElementById('modal').classList.add('open');
+}
+
+document.getElementById('modal').addEventListener('click', e=>{ if(e.target.id==='modal') document.getElementById('modal').classList.remove('open'); });
+document.getElementById('q').addEventListener('input', e=>{ state.q = e.target.value; apply(); });
+document.getElementById('navDownload').addEventListener('click', e=>{ e.preventDefault(); document.getElementById('dlJson').click(); });
+</script>
+</body>
+</html>
