@@ -126,7 +126,7 @@ const state = {fam:new Set(), ev:new Set(), e1:new Set(), e3:new Set(), e4:new S
 const E1_LABEL = {'recombinant_Ecoli':'Recombinant — E. coli','recombinant_yeast':'Recombinant — yeast','recombinant_plant':'Recombinant — plant','recombinant_insect':'Recombinant — insect cells','purified_native':'Native (purified)','native_and_recombinant':'Native + recombinant'};
 const E3_LABEL = {'explicit_current':'Explicit & applicable','not_located':'Not located','scope_pending':'Reference pending'};
 const E4_LABEL = {'supported':'Confirmed (NMR / standard)','partial':'Partial (MS only)','':'Pending'};
-const EV_CLASS = {'未策展':'b-unc','Supported':'b-sup','Partial':'b-part','Control not located':'b-ctl'};
+const EV_CLASS = {'Uncurated':'b-unc','Supported':'b-sup','Partial':'b-part','Control not located':'b-ctl'};
 
 function evLabel(r){
   if(!r.is_curated) return 'Uncurated';
@@ -242,12 +242,10 @@ function openDetail(r){
     <div class="fieldrow"><div class="k">E1 · construct / host</div><div class="v">${E1_LABEL[r.enzyme_preparation_route]||'<i>Uncurated</i>'}</div></div>
     <div class="fieldrow"><div class="k">E3 · negative control</div><div class="v">${E3_LABEL[r.control_reporting_status]||'<i>Uncurated</i>'}</div></div>
     <div class="fieldrow"><div class="k">E4 · product identification</div><div class="v">${E4_LABEL[r.direct_conversion_support]||'<i>Uncurated</i>'}</div></div>
-    <div class="fieldrow"><div class="k">Source evidence</div><div class="v">${esc(r.source_line||'—')}</div></div>
     <div class="fieldrow"><div class="k">Substrate / position / donor</div><div class="v">${esc(r.substrate||'—')} ${r.position?'· '+esc(r.position):''} ${r.donor?'· '+esc(r.donor):''}</div></div>
     <div class="fieldrow"><div class="k">Legacy status</div><div class="v"><span class="badge b-legacy">${esc(r.status)}</span> <span style="font-size:.72rem;color:var(--sec)">(historical label — does NOT override current E1/E3/E4)</span></div></div>
-    ${r.note?`<div class="note-block"><b>Curation note:</b> ${esc(r.note)}</div>`:''}
     <div class="fieldrow"><div class="k">Confirmed conditions</div><div class="v"><i>none verified yet — role-separated curation (storage / activity assay / production / analysis) pending</i></div></div>
-    ${conds.length?`<div class="cond-block" style="background:#FDF9EE;border-color:#F0E8D2"><b>待核文献线索 · unverified condition clues</b> — first-pass paper-level extraction, <span class="warn">NOT confirmed</span>; excluded from precise condition matching; not separated by experimental role.<div style="margin-top:6px">${condHtml}</div></div>`:''}
+    ${conds.length?`<div class="cond-block" style="background:#FDF9EE;border-color:#F0E8D2"><b>Unverified condition clues</b> — first-pass paper-level extraction, <span class="warn">NOT confirmed</span>; excluded from precise condition matching; not separated by experimental role.<div style="margin-top:6px">${condHtml}</div></div>`:''}
   `;
   document.getElementById('modalBox').innerHTML = html;
   document.getElementById('modal').classList.add('open');

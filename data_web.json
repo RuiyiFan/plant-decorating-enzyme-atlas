@@ -1,7 +1,7 @@
 {
  "version": "v0.4 (2026-10-27)",
  "update_note": "deep-curation to 97.9% coverage (1057/1080); E1/E3/E4 wired; frozen 32-task benchmark E1 29/32 E3 32/32 E4 32/32",
- "boundary_note": "Two independent dimensions: functional inclusion (confirmed 0 / candidate 83,166 / undetermined 12,779 / excluded 268) vs. enzymological evidence level (L0-L3).",
+ "boundary_note": "Reaction-level experimental evidence (E1 expression system, E3 negative control, E4 product identification) for plant specialized-metabolism enzymes, curated from full-text literature across four families (UGT, OMT, BAHD, CYP71 clan).",
  "sha": "3f52e98ed28348f7",
  "stats": {
   "total_records": 1080,
