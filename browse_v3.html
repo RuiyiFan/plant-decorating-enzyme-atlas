@@ -92,8 +92,8 @@
         <div class="fgroup"><label>Family</label><div class="chips" id="famChips"></div></div>
         <div class="fgroup"><label>Evidence state</label><div class="chips" id="evChips"></div></div>
         <div class="fgroup"><label>Expression system (E1)</label><div class="chips" id="e1Chips"></div></div>
-        <div class="fgroup"><label>Control status (E3)</label><div class="chips" id="e3Chips"></div></div>
-        <div class="fgroup"><label>Product ID (E4)</label><div class="chips" id="e4Chips"></div></div>
+        <div class="fgroup"><label>Control status (E2)</label><div class="chips" id="e3Chips"></div></div>
+        <div class="fgroup"><label>Product ID (E3)</label><div class="chips" id="e4Chips"></div></div>
       </div>
       <div class="panel">
         <h3>Download</h3>
@@ -106,7 +106,7 @@
       <div class="count" id="count"></div>
       <div class="panel" style="padding:0;overflow:auto;max-height:74vh">
         <table id="tbl">
-          <thead><tr><th>State</th><th>Family</th><th>Accession</th><th>Reaction (substrate → product)</th><th>E1 host</th><th>E3 control</th><th>E4 product</th><th>PMID</th></tr></thead>
+          <thead><tr><th>State</th><th>Family</th><th>Accession</th><th>Reaction (substrate → product)</th><th>E1 host</th><th>E2 control</th><th>E3 product</th><th>PMID</th></tr></thead>
           <tbody id="tbody"></tbody>
         </table>
       </div>
@@ -125,7 +125,7 @@ const state = {fam:new Set(), ev:new Set(), e1:new Set(), e3:new Set(), e4:new S
 
 const E1_LABEL = {'recombinant_Ecoli':'Recombinant — E. coli','recombinant_yeast':'Recombinant — yeast','recombinant_plant':'Recombinant — plant','recombinant_insect':'Recombinant — insect cells','purified_native':'Native (purified)','native_and_recombinant':'Native + recombinant'};
 const E3_LABEL = {'explicit_current':'Explicit & applicable','not_located':'Not located','scope_pending':'Reference pending'};
-const E4_LABEL = {'supported':'Confirmed (NMR / standard)','partial':'Partial (MS only)','':'Pending'};
+const E4_LABEL = {'supported':'Confirmed (NMR / standard)','partial':'Partial (MS only)','negative_supported':'Negative (no conversion detected)','':'Pending'};
 const EV_CLASS = {'Uncurated':'b-unc','Supported':'b-sup','Partial':'b-part','Control not located':'b-ctl'};
 
 function evLabel(r){
@@ -133,7 +133,7 @@ function evLabel(r){
   if(r.direct_conversion_support==='supported') return 'Supported';
   if(r.direct_conversion_support==='partial') return 'Partial';
   if(r.control_reporting_status==='not_located') return 'Control not located';
-  return 'Curated';
+  return 'Graded';
 }
 
 fetch('data_web.json').then(r=>r.json()).then(d=>{
@@ -195,7 +195,8 @@ function apply(){
     const legacy = r.status==='Validated'?'<span class="badge b-legacy" title="historical label; does not override current E1/E3/E4">legacy Validated</span>':'';
     const tr = document.createElement('tr');
     tr.className='clickable';
-    tr.innerHTML = `<td><span class="badge ${cls}">${ev}</span></td><td>${esc(r.family)}</td><td class="acc">${esc(r.accession)}</td><td>${esc(r.reaction||'')}</td><td class="note" style="font-size:.72rem">${esc(r.enzyme_preparation_route?'Recomb. '+(r.enzyme_preparation_route.split('_').slice(1).join(' ')):'—')}</td><td class="note" style="font-size:.72rem">${esc(E3_LABEL[r.control_reporting_status]||'—')}</td><td class="note" style="font-size:.72rem">${esc(E4_LABEL[r.direct_conversion_support]||'—')}</td><td><a class="mono" target="_blank" href="https://pubmed.ncbi.nlm.nih.gov/${r.pmid}/" onclick="event.stopPropagation()">${r.pmid}</a></td>`;
+    const tierBadge = r.tier?`<span style="display:inline-block;padding:0 4px;border-radius:4px;background:#EEF2FF;color:#3730A3;font-size:.66rem;font-weight:600;margin-right:5px" title="Tier ${r.tier}">${r.tier}</span>`:'';
+    tr.innerHTML = `<td><span class="badge ${cls}">${ev}</span></td><td>${esc(r.family)}</td><td class="acc">${esc(r.accession)}</td><td>${tierBadge}${esc(r.reaction||'')}</td><td class="note" style="font-size:.72rem">${esc(r.enzyme_preparation_route?'Recomb. '+(r.enzyme_preparation_route.split('_').slice(1).join(' ')):'—')}</td><td class="note" style="font-size:.72rem">${esc(E3_LABEL[r.control_reporting_status]||'—')}</td><td class="note" style="font-size:.72rem">${esc(E4_LABEL[r.direct_conversion_support]||'—')}</td><td><a class="mono" target="_blank" href="https://pubmed.ncbi.nlm.nih.gov/${r.pmid}/" onclick="event.stopPropagation()">${r.pmid}</a></td>`;
     tr.onclick = ()=>openDetail(r);
     tb.appendChild(tr);
   });
@@ -206,7 +207,7 @@ function apply(){
   }
   // export
   const dl = rows;
-  const payload = {meta:{version:DATA.version,sha:DATA.sha,coverage:DATA.stats.coverage_pct,count:dl.length},records:dl.map(r=>({family:r.family,accession:r.accession,pmid:r.pmid,reaction:r.reaction,substrate:r.substrate,position:r.position,donor:r.donor,enzyme_preparation_route:r.enzyme_preparation_route||null,control_reporting_status:r.control_reporting_status||null,direct_conversion_support:r.direct_conversion_support||null,evidence_state:evLabel(r),source_line:r.source_line||null,note:r.note||null,legacy_status:r.status}))};
+  const payload = {meta:{version:DATA.version,sha:DATA.sha,coverage:DATA.stats.coverage_pct,count:dl.length},records:dl.map(r=>({family:r.family,accession:r.accession,pmid:r.pmid,reaction:r.reaction,substrate:r.substrate,position:r.position,donor:r.donor,tier:r.tier||null,outcome:r.outcome||null,figure:r.figure||null,text_offset:r.text_offset??null,quote:r.quote||null,enzyme_preparation_route:r.enzyme_preparation_route||null,control_reporting_status:r.control_reporting_status||null,direct_conversion_support:r.direct_conversion_support||null,evidence_state:evLabel(r),source_line:r.source_line||null,note:r.note||null,legacy_status:r.status}))};
   document.getElementById('dlJson').href = URL.createObjectURL(new Blob([JSON.stringify(payload)],{type:'application/json'}));
   document.getElementById('dlTsv').href = URL.createObjectURL(new Blob([toTsv(dl)],{type:'text/tab-separated-values'}));
 }
@@ -239,6 +240,8 @@ function openDetail(r){
       <button class="close" onclick="document.getElementById('modal').classList.remove('open')">×</button>
     </div>
     <div class="rxn">${esc(r.reaction||'')}</div>
+    ${r.tier?`<div class="fieldrow"><div class="k">Tier / outcome</div><div class="v"><b>${r.tier}</b>${r.outcome?' · '+esc(r.outcome):''}${r.id_type?' · id: '+esc(r.id_type):''}</div></div>`:''}
+    ${r.quote?`<div class="fieldrow"><div class="k">Source anchor</div><div class="v">${esc(r.figure||'')}${r.text_offset!=null?' · offset '+r.text_offset:''}<br><span style="font-size:.75rem;color:var(--sec)">“${esc(r.quote)}”</span></div></div>`:''}
     <div class="fieldrow"><div class="k">E1 · construct / host</div><div class="v">${E1_LABEL[r.enzyme_preparation_route]||'<i>Uncurated</i>'}</div></div>
     <div class="fieldrow"><div class="k">E3 · negative control</div><div class="v">${E3_LABEL[r.control_reporting_status]||'<i>Uncurated</i>'}</div></div>
     <div class="fieldrow"><div class="k">E4 · product identification</div><div class="v">${E4_LABEL[r.direct_conversion_support]||'<i>Uncurated</i>'}</div></div>

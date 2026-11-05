@@ -1,0 +1,13 @@
+{
+ "name": "Plant Decorating Enzyme Atlas",
+ "version": "v0.51-draft (2026-11-03)",
+ "records": 1413,
+ "tier_counts": {
+  "legacy": 1080,
+  "A": 172,
+  "B": 161
+ },
+ "license": "CC BY 4.0",
+ "endpoint": "records.json",
+ "note": "Static bulk endpoint; filter client-side by family/substrate/position/tier/pmid."
+}
