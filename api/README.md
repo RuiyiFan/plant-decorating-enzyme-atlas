@@ -1,6 +1,6 @@
 # API (static)
 
-- `GET records.json` — all 1413 records as JSON (array under `records`).
+- `GET records.json` — all 1451 records as JSON (array under `records`).
 - `GET index.json` — metadata (version, counts, licence).
 
 There is no server-side query API. Filter client-side, e.g.:

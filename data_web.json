@@ -1,32 +1,32 @@
 {
- "version": "v0.51-draft (2026-11-03)",
+ "version": "v0.52",
  "update_note": "v0.51: removed 4 non-plant records (Streptomyces 3, Trametes 1); PV3445810 -> PV344590; added e4_reason (ms_only / mixed_substrate_attribution / product_name_inferred / standard_or_nmr / explicit_nonconversion)",
  "boundary_note": "Reaction-level experimental evidence (E1 expression system, E3 negative control, E4 product identification) for plant specialized-metabolism enzymes, curated from full-text literature across four families (UGT, OMT, BAHD, CYP71 clan).",
  "sha": "a16eb0b8efa89721",
  "stats": {
-  "total_records": 1413,
-  "curated_records": 797,
-  "coverage_pct": 56.4,
-  "papers": 126,
-  "proteins": 263,
+  "total_records": 1451,
+  "curated_records": 835,
+  "coverage_pct": 57.5,
+  "papers": 151,
+  "proteins": 296,
   "uncurated": 616
  },
  "e1_dist": {
-  "recombinant_Ecoli": 550,
+  "recombinant_Ecoli": 586,
   "recombinant_plant": 102,
-  "recombinant_yeast": 100,
+  "recombinant_yeast": 102,
   "native_and_recombinant": 1,
   "recombinant_insect": 2,
   "purified_native": 1
  },
  "e3_dist": {
-  "not_located": 235,
-  "explicit_current": 561,
+  "not_located": 255,
+  "explicit_current": 579,
   "scope_pending": 1
  },
  "e4_dist": {
-  "partial": 286,
-  "supported": 444,
+  "partial": 312,
+  "supported": 456,
   "negative_supported": 37
  },
  "family_summary": {
@@ -35267,6 +35267,7 @@
    "source_line": "PMID 41879229 | Fig. 3B/3E | offset 17496 | a distinct UV absorption peak matching the retention time of the (S)-tetrahydrop",
    "product": "(S)-tetrahydropalmatrubine",
    "e4_reason": "standard_or_nmr",
+   "year": "2026",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -35298,6 +35299,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 41879229 | Fig. 3B | offset 17933 | no corresponding UV absorption peak was detected at the expected retention time ",
    "e4_reason": "explicit_nonconversion",
+   "year": "2026",
    "evidence_state": "Curated",
    "is_curated": true,
    "conditions_verified": []
@@ -35329,6 +35331,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 41879229 | Fig. S5 | offset 18488 | showing absolute catalytic inertness toward (S)-coclaurine and (S)-reticuline (F",
    "e4_reason": "explicit_nonconversion",
+   "year": "2026",
    "evidence_state": "Curated",
    "is_curated": true,
    "conditions_verified": []
@@ -35360,6 +35363,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 41879229 | Fig. S5 | offset 18488 | showing absolute catalytic inertness toward (S)-coclaurine and (S)-reticuline (F",
    "e4_reason": "explicit_nonconversion",
+   "year": "2026",
    "evidence_state": "Curated",
    "is_curated": true,
    "conditions_verified": []
@@ -35393,6 +35397,7 @@
    "product": "(S)-coclaurine",
    "rhea_id": "RHEA:16173",
    "e4_reason": "standard_or_nmr",
+   "year": "2026",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -35425,6 +35430,7 @@
    "source_line": "PMID 41904984 | Table S3; Fig. 1 | offset 14192 | 3-hydroxyanthranilate and shikimate were about equally accepted as acyl acceptor",
    "product": "p-coumaroyl-3-hydroxyanthranilate",
    "e4_reason": "standard_or_nmr",
+   "year": "2026",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -35457,6 +35463,7 @@
    "source_line": "PMID 41904984 | Table S3; Fig. 1 | offset 14192 | 3-hydroxyanthranilate and shikimate were about equally accepted as acyl acceptor",
    "product": "p-coumaroylshikimate",
    "e4_reason": "standard_or_nmr",
+   "year": "2026",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -35489,6 +35496,7 @@
    "source_line": "PMID 41904984 | Table S3 | offset 14418 | NbHCT2 accepted shikimate, 3-hydroxyanthranilate, and quinate",
    "product": "p-coumaroylshikimate",
    "e4_reason": "standard_or_nmr",
+   "year": "2026",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -35521,6 +35529,7 @@
    "source_line": "PMID 41904984 | Table S3 | offset 14418 | NbHCT2 accepted shikimate, 3-hydroxyanthranilate, and quinate",
    "product": "p-coumaroyl-3-hydroxyanthranilate",
    "e4_reason": "standard_or_nmr",
+   "year": "2026",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -35553,6 +35562,7 @@
    "source_line": "PMID 41904984 | Table S3 | offset 14418 | NbHCT2 accepted shikimate, 3-hydroxyanthranilate, and quinate",
    "product": "p-coumaroylquinate",
    "e4_reason": "standard_or_nmr",
+   "year": "2026",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -35585,6 +35595,7 @@
    "source_line": "PMID 41904984 | Table S3 | offset 1593 | NbHCT3 was most active with quinic acid",
    "product": "p-coumaroylquinate",
    "e4_reason": "standard_or_nmr",
+   "year": "2026",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -35617,6 +35628,7 @@
    "source_line": "PMID 41904984 | Fig. 1; Table S3 | offset 30438 | NbHCT5 shows a high turnover with tryptamine",
    "product": "p-coumaroyl-N-tryptamine",
    "e4_reason": "standard_or_nmr",
+   "year": "2026",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -35649,6 +35661,7 @@
    "source_line": "PMID 41904984 | Table S3 | offset 14713 | 3-hydroxyanthranilic acid is the preferred acyl acceptor and p-coumaroyl-CoA and",
    "product": "p-coumaroyl-3-hydroxyanthranilate",
    "e4_reason": "standard_or_nmr",
+   "year": "2026",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -35681,6 +35694,7 @@
    "source_line": "PMID 41904984 | Table S3; Tables S9-S12; Fig. 1 | offset 30901 | NbHCT4, NbHCT6, NbHCT7, and NbHCT9 all accept homogentisic acid, tryptamine, and",
    "product": "p-coumaroylhomogentisic acid",
    "e4_reason": "standard_or_nmr",
+   "year": "2026",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -35713,6 +35727,7 @@
    "source_line": "PMID 41904984 | Table S3; Tables S9-S12; Fig. 1 | offset 30901 | NbHCT4, NbHCT6, NbHCT7, and NbHCT9 all accept homogentisic acid, tryptamine, and",
    "product": "p-coumaroyl-N-tryptamine",
    "e4_reason": "standard_or_nmr",
+   "year": "2026",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -35745,6 +35760,7 @@
    "source_line": "PMID 41904984 | Table S3; Tables S9-S12; Fig. 1 | offset 30901 | NbHCT4, NbHCT6, NbHCT7, and NbHCT9 all accept homogentisic acid, tryptamine, and",
    "product": "p-coumaroyl-1-phenylethanol",
    "e4_reason": "standard_or_nmr",
+   "year": "2026",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -35777,6 +35793,7 @@
    "source_line": "PMID 41904984 | Table S3; Tables S9-S12; Fig. 1 | offset 30901 | NbHCT4, NbHCT6, NbHCT7, and NbHCT9 all accept homogentisic acid, tryptamine, and",
    "product": "p-coumaroylhomogentisic acid",
    "e4_reason": "standard_or_nmr",
+   "year": "2026",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -35809,6 +35826,7 @@
    "source_line": "PMID 41904984 | Table S3; Tables S9-S12; Fig. 1 | offset 30901 | NbHCT4, NbHCT6, NbHCT7, and NbHCT9 all accept homogentisic acid, tryptamine, and",
    "product": "p-coumaroyl-N-tryptamine",
    "e4_reason": "standard_or_nmr",
+   "year": "2026",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -35841,6 +35859,7 @@
    "source_line": "PMID 41904984 | Table S3; Tables S9-S12; Fig. 1 | offset 30901 | NbHCT4, NbHCT6, NbHCT7, and NbHCT9 all accept homogentisic acid, tryptamine, and",
    "product": "p-coumaroyl-1-phenylethanol",
    "e4_reason": "standard_or_nmr",
+   "year": "2026",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -35873,6 +35892,7 @@
    "source_line": "PMID 41904984 | Table S3; Tables S9-S12; Fig. 1 | offset 30901 | NbHCT4, NbHCT6, NbHCT7, and NbHCT9 all accept homogentisic acid, tryptamine, and",
    "product": "p-coumaroylhomogentisic acid",
    "e4_reason": "standard_or_nmr",
+   "year": "2026",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -35905,6 +35925,7 @@
    "source_line": "PMID 41904984 | Table S3; Tables S9-S12; Fig. 1 | offset 30901 | NbHCT4, NbHCT6, NbHCT7, and NbHCT9 all accept homogentisic acid, tryptamine, and",
    "product": "p-coumaroyl-N-tryptamine",
    "e4_reason": "standard_or_nmr",
+   "year": "2026",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -35937,6 +35958,7 @@
    "source_line": "PMID 41904984 | Table S3; Tables S9-S12; Fig. 1 | offset 30901 | NbHCT4, NbHCT6, NbHCT7, and NbHCT9 all accept homogentisic acid, tryptamine, and",
    "product": "p-coumaroyl-1-phenylethanol",
    "e4_reason": "standard_or_nmr",
+   "year": "2026",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -35969,6 +35991,7 @@
    "source_line": "PMID 41904984 | Table S3; Tables S9-S12; Fig. 1 | offset 30901 | NbHCT4, NbHCT6, NbHCT7, and NbHCT9 all accept homogentisic acid, tryptamine, and",
    "product": "p-coumaroylhomogentisic acid",
    "e4_reason": "standard_or_nmr",
+   "year": "2026",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -36001,6 +36024,7 @@
    "source_line": "PMID 41904984 | Table S3; Tables S9-S12; Fig. 1 | offset 30901 | NbHCT4, NbHCT6, NbHCT7, and NbHCT9 all accept homogentisic acid, tryptamine, and",
    "product": "p-coumaroyl-N-tryptamine",
    "e4_reason": "standard_or_nmr",
+   "year": "2026",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -36033,6 +36057,7 @@
    "source_line": "PMID 41904984 | Table S3; Tables S9-S12; Fig. 1 | offset 30901 | NbHCT4, NbHCT6, NbHCT7, and NbHCT9 all accept homogentisic acid, tryptamine, and",
    "product": "p-coumaroyl-1-phenylethanol",
    "e4_reason": "standard_or_nmr",
+   "year": "2026",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -36065,6 +36090,7 @@
    "source_line": "PMID 41095253 | Fig. 4 | offset 11581 | Both UGT84A28 and UGT84B3 showed 7-OH glycosylation activity, when apigenin (Fig",
    "product": "apigenin 7-O-glucoside",
    "e4_reason": "standard_or_nmr",
+   "year": "2025",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -36097,6 +36123,7 @@
    "source_line": "PMID 41095253 | Fig. 5 | offset 11581 | Both UGT84A28 and UGT84B3 showed 7-OH glycosylation activity, when apigenin (Fig",
    "product": "naringenin 7-O-glucoside",
    "e4_reason": "standard_or_nmr",
+   "year": "2025",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -36129,6 +36156,7 @@
    "source_line": "PMID 41095253 | Fig. 4 | offset 11581 | Both UGT84A28 and UGT84B3 showed 7-OH glycosylation activity, when apigenin (Fig",
    "product": "apigenin 7-O-glucoside",
    "e4_reason": "standard_or_nmr",
+   "year": "2025",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -36161,6 +36189,7 @@
    "source_line": "PMID 41095253 | Fig. 5 | offset 11581 | Both UGT84A28 and UGT84B3 showed 7-OH glycosylation activity, when apigenin (Fig",
    "product": "naringenin 7-O-glucoside",
    "e4_reason": "standard_or_nmr",
+   "year": "2025",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -36193,6 +36222,7 @@
    "source_line": "PMID 41095253 | Fig. 6 | offset 12188 | UGT84B3 catalyzed luteolin almost exclusively to luteolin-3'-O-glucoside",
    "product": "luteolin 3'-O-glucoside",
    "e4_reason": "standard_or_nmr",
+   "year": "2025",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -36226,6 +36256,7 @@
    "product": "(R)-coclaurine",
    "rhea_id": "RHEA:16173",
    "e4_reason": "standard_or_nmr",
+   "year": "2025",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -36259,6 +36290,7 @@
    "product": "(S)-coclaurine",
    "rhea_id": "RHEA:16173",
    "e4_reason": "standard_or_nmr",
+   "year": "2025",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -36292,6 +36324,7 @@
    "product": "(R)-coclaurine",
    "rhea_id": "RHEA:16173",
    "e4_reason": "standard_or_nmr",
+   "year": "2025",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -36325,6 +36358,7 @@
    "product": "(S)-coclaurine",
    "rhea_id": "RHEA:16173",
    "e4_reason": "standard_or_nmr",
+   "year": "2025",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -36357,6 +36391,7 @@
    "source_line": "PMID 39997717 | Fig. 4 | offset 26727 | accepting several BIA pathway intermediates as substrates, including the C7 posi",
    "product": "(R)-armepavine",
    "e4_reason": "standard_or_nmr",
+   "year": "2025",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -36389,6 +36424,7 @@
    "source_line": "PMID 39997717 | Fig. 4 | offset 24786 | Se6OMT3 catalyzed the methylation at the C7 position of (R)-NMC and (S)-NMC, pro",
    "product": "(S)-armepavine",
    "e4_reason": "standard_or_nmr",
+   "year": "2025",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -36421,6 +36457,7 @@
    "source_line": "PMID 39997717 | Fig. 4 | offset 26727 | accepting several BIA pathway intermediates as substrates, including the C7 posi",
    "product": "(S)-7-methyl-3-hydroxy-N-methylcoclaurine",
    "e4_reason": "standard_or_nmr",
+   "year": "2025",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -36453,6 +36490,7 @@
    "source_line": "PMID 39997717 | Fig. 4G | offset 26355 | Se6OMT3 catalyzes methylation at the C4' position of (S)-HNMC to produce (S)-ret",
    "product": "(S)-reticuline",
    "e4_reason": "standard_or_nmr",
+   "year": "2025",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -36486,6 +36524,7 @@
    "product": "(S)-laudanine",
    "rhea_id": "RHEA:10444",
    "e4_reason": "standard_or_nmr",
+   "year": "2025",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -36518,6 +36557,7 @@
    "source_line": "PMID 38255854 | Fig. 6 | offset 10428 | ElOMT1 was capable of catalyzing the methylation of caffeic acid, baicalein, and",
    "product": "monomethylated caffeic acid",
    "e4_reason": "ms_only",
+   "year": "2024",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -36550,6 +36590,7 @@
    "source_line": "PMID 38255854 | Fig. 6 | offset 10838 | ElOMT1 with baicalein showed peaks at m/z 285.0764 ([M+H]+, monomethoxy-baicalei",
    "product": "monomethoxy-baicalein",
    "e4_reason": "ms_only",
+   "year": "2024",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -36582,6 +36623,7 @@
    "source_line": "PMID 38255854 | Fig. 6 | offset 10838 | ElOMT1 with baicalein showed peaks at m/z 285.0764 ([M+H]+, monomethoxy-baicalei",
    "product": "dimethoxy-baicalein",
    "e4_reason": "ms_only",
+   "year": "2024",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -36614,6 +36656,7 @@
    "source_line": "PMID 38255854 | Fig. 6 | offset 10838 | ElOMT1 with baicalein showed peaks at m/z 285.0764 ([M+H]+, monomethoxy-baicalei",
    "product": "trimethoxy-baicalein",
    "e4_reason": "ms_only",
+   "year": "2024",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -36646,6 +36689,7 @@
    "source_line": "PMID 38255854 | Fig. 7 | offset 11117 | ElOMT1 could catalyze two hydroxyl groups on the parent nucleus of the luteolin ",
    "product": "dimethylated luteolin (two ring OH)",
    "e4_reason": "ms_only",
+   "year": "2024",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -36677,6 +36721,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 38255854 | text | offset 13448 | we tested other flavonoid substrates, such as naringenin, rutin, and kaempferol,",
    "e4_reason": "explicit_nonconversion",
+   "year": "2024",
    "evidence_state": "Curated",
    "is_curated": true,
    "conditions_verified": []
@@ -36708,6 +36753,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 38255854 | text | offset 13448 | we tested other flavonoid substrates, such as naringenin, rutin, and kaempferol,",
    "e4_reason": "explicit_nonconversion",
+   "year": "2024",
    "evidence_state": "Curated",
    "is_curated": true,
    "conditions_verified": []
@@ -36739,6 +36785,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 38255854 | text | offset 13448 | we tested other flavonoid substrates, such as naringenin, rutin, and kaempferol,",
    "e4_reason": "explicit_nonconversion",
+   "year": "2024",
    "evidence_state": "Curated",
    "is_curated": true,
    "conditions_verified": []
@@ -36772,6 +36819,7 @@
    "product": "4-O-methylnorbelladine",
    "rhea_id": "RHEA:51260",
    "e4_reason": "ms_only",
+   "year": "2024",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -36804,6 +36852,7 @@
    "source_line": "PMID 39122011 | Table 1 | offset 2403 | NpOMT also catalyzed the synthesis of 3,4-O-dimethylnorbelladine from norbelladi",
    "product": "3,4-di-O-methylnorbelladine",
    "e4_reason": "ms_only",
+   "year": "2024",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -36836,6 +36885,7 @@
    "source_line": "PMID 39122011 | Table 1 | offset 27921 | The products were confirmed as ferulic acid ([M+H]+ m/z 195, peak at 8.10min) fo",
    "product": "ferulic acid",
    "e4_reason": "ms_only",
+   "year": "2024",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -36868,6 +36918,7 @@
    "source_line": "PMID 39122011 | Table 1 | offset 27921 | The products were confirmed as ferulic acid ([M+H]+ m/z 195, peak at 8.10min) fo",
    "product": "isoferulic acid",
    "e4_reason": "ms_only",
+   "year": "2024",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -36900,6 +36951,7 @@
    "source_line": "PMID 39122011 | Table 1 | offset 2565 | NpOMT methylates 3,4-dihydroxybenzylaldehyde and caffeic acid in a nonregiospeci",
    "product": "vanillin",
    "e4_reason": "ms_only",
+   "year": "2024",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -36932,6 +36984,7 @@
    "source_line": "PMID 39122011 | Table 1 | offset 2565 | NpOMT methylates 3,4-dihydroxybenzylaldehyde and caffeic acid in a nonregiospeci",
    "product": "isovanillin",
    "e4_reason": "ms_only",
+   "year": "2024",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -36964,6 +37017,7 @@
    "source_line": "PMID 42043698 | Fig. 5A | offset 21274 | LC-MS/MS analysis of anthocyanin ions confirmed glycosylation of the anthocyanid",
    "product": "cyanidin 3-O-glucoside",
    "e4_reason": "ms_only",
+   "year": "2026",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -36996,6 +37050,7 @@
    "source_line": "PMID 42043698 | Fig. 5A | offset 21274 | LC-MS/MS analysis of anthocyanin ions confirmed glycosylation of the anthocyanid",
    "product": "peonidin 3-O-glucoside",
    "e4_reason": "ms_only",
+   "year": "2026",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -37028,6 +37083,7 @@
    "source_line": "PMID 42043698 | Fig. 5A | offset 21274 | LC-MS/MS analysis of anthocyanin ions confirmed glycosylation of the anthocyanid",
    "product": "delphinidin 3-O-glucoside",
    "e4_reason": "ms_only",
+   "year": "2026",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -37060,6 +37116,7 @@
    "source_line": "PMID 42043698 | Fig. 5A | offset 21274 | LC-MS/MS analysis of anthocyanin ions confirmed glycosylation of the anthocyanid",
    "product": "malvidin 3-O-glucoside",
    "e4_reason": "ms_only",
+   "year": "2026",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -37092,6 +37149,7 @@
    "source_line": "PMID 42043698 | Fig. 5A | offset 21274 | LC-MS/MS analysis of anthocyanin ions confirmed glycosylation of the anthocyanid",
    "product": "pelargonidin 3-O-glucoside",
    "e4_reason": "ms_only",
+   "year": "2026",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -37124,6 +37182,7 @@
    "source_line": "PMID 42043698 | Fig. 5A | offset 21274 | LC-MS/MS analysis of anthocyanin ions confirmed glycosylation of the anthocyanid",
    "product": "petunidin 3-O-glucoside",
    "e4_reason": "ms_only",
+   "year": "2026",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -37156,6 +37215,7 @@
    "source_line": "PMID 42043698 | Fig. 6 | offset 22723 | When tested on flavonols, Trx-OsA3GT1 and MBP-OsA3GT2 could glucosylate querceti",
    "product": "kaempferol 3-O-glucoside",
    "e4_reason": "position_ambiguous",
+   "year": "2026",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -37188,6 +37248,7 @@
    "source_line": "PMID 42043698 | Fig. 6 | offset 22723 | When tested on flavonols, Trx-OsA3GT1 and MBP-OsA3GT2 could glucosylate querceti",
    "product": "quercetin 3-O-glucoside",
    "e4_reason": "position_ambiguous",
+   "year": "2026",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -37220,6 +37281,7 @@
    "source_line": "PMID 42043698 | Fig. 5A | offset 21274 | LC-MS/MS analysis of anthocyanin ions confirmed glycosylation of the anthocyanid",
    "product": "cyanidin 3-O-glucoside",
    "e4_reason": "ms_only",
+   "year": "2026",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -37252,6 +37314,7 @@
    "source_line": "PMID 42043698 | Fig. 5A | offset 21274 | LC-MS/MS analysis of anthocyanin ions confirmed glycosylation of the anthocyanid",
    "product": "peonidin 3-O-glucoside",
    "e4_reason": "ms_only",
+   "year": "2026",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -37284,6 +37347,7 @@
    "source_line": "PMID 42043698 | Fig. 5A | offset 21274 | LC-MS/MS analysis of anthocyanin ions confirmed glycosylation of the anthocyanid",
    "product": "delphinidin 3-O-glucoside",
    "e4_reason": "ms_only",
+   "year": "2026",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -37316,6 +37380,7 @@
    "source_line": "PMID 42043698 | Fig. 5A | offset 21274 | LC-MS/MS analysis of anthocyanin ions confirmed glycosylation of the anthocyanid",
    "product": "malvidin 3-O-glucoside",
    "e4_reason": "ms_only",
+   "year": "2026",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -37348,6 +37413,7 @@
    "source_line": "PMID 42043698 | Fig. 5A | offset 21274 | LC-MS/MS analysis of anthocyanin ions confirmed glycosylation of the anthocyanid",
    "product": "pelargonidin 3-O-glucoside",
    "e4_reason": "ms_only",
+   "year": "2026",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -37380,6 +37446,7 @@
    "source_line": "PMID 42043698 | Fig. 5A | offset 21274 | LC-MS/MS analysis of anthocyanin ions confirmed glycosylation of the anthocyanid",
    "product": "petunidin 3-O-glucoside",
    "e4_reason": "ms_only",
+   "year": "2026",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -37412,6 +37479,7 @@
    "source_line": "PMID 42043698 | Fig. 6 | offset 22723 | When tested on flavonols, Trx-OsA3GT1 and MBP-OsA3GT2 could glucosylate querceti",
    "product": "kaempferol 3-O-glucoside",
    "e4_reason": "position_ambiguous",
+   "year": "2026",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -37444,6 +37512,7 @@
    "source_line": "PMID 42043698 | Fig. 6 | offset 22723 | When tested on flavonols, Trx-OsA3GT1 and MBP-OsA3GT2 could glucosylate querceti",
    "product": "quercetin 3-O-glucoside",
    "e4_reason": "position_ambiguous",
+   "year": "2026",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -37476,6 +37545,7 @@
    "source_line": "PMID 40256712 | Fig. 3 | offset 1614 | RpUGT1 catalyzed the glycosylation of isorhamnetin to form 3-O-glucoside and kae",
    "product": "isorhamnetin 3-O-glucoside",
    "e4_reason": "standard_or_nmr",
+   "year": "2024",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -37508,6 +37578,7 @@
    "source_line": "PMID 40256712 | Fig. 3 | offset 1614 | RpUGT1 catalyzed the glycosylation of isorhamnetin to form 3-O-glucoside and kae",
    "product": "kaempferol 7-O-glucoside",
    "e4_reason": "standard_or_nmr",
+   "year": "2024",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -37540,6 +37611,7 @@
    "source_line": "PMID 39059496 | Fig. 1B | offset 7975 | We observed mass features corresponding to three single glycosylation products: ",
    "product": "luteolin 3'-O-glucoside",
    "e4_reason": "ms_only",
+   "year": "2024",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -37572,6 +37644,7 @@
    "source_line": "PMID 39059496 | Fig. 1B | offset 7975 | We observed mass features corresponding to three single glycosylation products: ",
    "product": "luteolin 4'-O-glucoside",
    "e4_reason": "ms_only",
+   "year": "2024",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -37604,6 +37677,7 @@
    "source_line": "PMID 39059496 | Fig. 1B | offset 7975 | We observed mass features corresponding to three single glycosylation products: ",
    "product": "luteolin 7-O-glucoside",
    "e4_reason": "ms_only",
+   "year": "2024",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -37636,6 +37710,7 @@
    "source_line": "PMID 39059496 | Fig. 1B | offset 7975 | We observed mass features corresponding to three single glycosylation products: ",
    "product": "luteolin 7,3'-di-O-glucoside",
    "e4_reason": "ms_only",
+   "year": "2024",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -37668,6 +37743,7 @@
    "source_line": "PMID 42818724 | Fig. 3 | offset 2979 | Gb_04669 catalyzed the oxidation of abietane-type diterpenoids",
    "product": "2α-hydroxyabietadiene",
    "e4_reason": "mixed_substrate_attribution",
+   "year": "2026",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -37700,6 +37776,7 @@
    "source_line": "PMID 42818724 | Fig. 3 | offset 3101 | Gb_33836 catalyzed the C-19 oxidation of labdane-related alcohol substrates, pro",
    "product": "isocupressic acid",
    "e4_reason": "mixed_substrate_attribution",
+   "year": "2026",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -37732,6 +37809,7 @@
    "source_line": "PMID 41612197 | Fig. 3 | offset 2768 | three of the four HQT proteins (NtHQT2, NtHQT3, and NtHQT4) were obtained in sol",
    "product": "chlorogenic acid (5-O-caffeoylquinate)",
    "e4_reason": "ms_only",
+   "year": "2026",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -37764,6 +37842,7 @@
    "source_line": "PMID 41612197 | Fig. 3 | offset 2768 | three of the four HQT proteins (NtHQT2, NtHQT3, and NtHQT4) were obtained in sol",
    "product": "chlorogenic acid (5-O-caffeoylquinate)",
    "e4_reason": "ms_only",
+   "year": "2026",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -37795,6 +37874,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 41612197 | text | offset 33428 | NtHQT4 exhibited no detectable catalytic activity",
    "e4_reason": "explicit_nonconversion",
+   "year": "2026",
    "evidence_state": "Control not located",
    "is_curated": true,
    "conditions_verified": []
@@ -37827,6 +37907,7 @@
    "source_line": "PMID 40671640 | Fig. 1b/2b | offset 25896 | the angeloylation of ingenol (5) at the C3 position (Fig. 1b) to produce ingenol",
    "product": "ingenol 3-angelate",
    "e4_reason": "ms_only",
+   "year": "2025",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -37859,6 +37940,7 @@
    "source_line": "PMID 40671640 | Fig. S15 | offset 29694 | expression of EpBAHD-12 in N. benthamiana also led to acetylation of ingenol 3-a",
    "product": "ingenol 3-angelate 20-acetate",
    "e4_reason": "ms_only",
+   "year": "2025",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -37891,6 +37973,7 @@
    "source_line": "PMID 40961143 | Fig. 1 | offset 3279 | UGT76G4 that efficiently catalyzes the conversion of Reb D to Reb M with a stron",
    "product": "rebaudioside M",
    "rhea_id": "RHEA:61776",
+   "year": "2025",
    "evidence_state": "Control not located",
    "is_curated": true,
    "conditions_verified": []
@@ -37923,6 +38006,7 @@
    "source_line": "PMID 40961143 | Fig. 1 | offset 8568 | UGT76G4 catalyzes the conversion of Reb E to Reb AM and Reb D",
    "product": "rebaudioside D",
    "rhea_id": "RHEA:61772",
+   "year": "2025",
    "evidence_state": "Control not located",
    "is_curated": true,
    "conditions_verified": []
@@ -37955,6 +38039,7 @@
    "source_line": "PMID 41829866 | Fig. 5 | offset 1915 | analysis demonstrated that UGT78G3 catalyzes the formation of kaempferol 3-O-glu",
    "product": "kaempferol 3-O-glucoside",
    "e4_reason": "standard_or_nmr",
+   "year": "2026",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -37987,6 +38072,7 @@
    "source_line": "PMID 39563265 | Fig. 4 | offset 29604 | UGT708S6 was found to catalyze the glycosylation of phloretin (1), luteolin (4),",
    "product": "phloretin C-glycoside (product 1a/1b)",
    "e4_reason": "ms_only",
+   "year": "2024",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -38019,6 +38105,7 @@
    "source_line": "PMID 39563265 | Fig. 4 | offset 29604 | UGT708S6 was found to catalyze the glycosylation of phloretin (1), luteolin (4),",
    "product": "luteolin C-glycoside (product 4a)",
    "e4_reason": "ms_only",
+   "year": "2024",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -38051,6 +38138,7 @@
    "source_line": "PMID 39563265 | Fig. 4 | offset 29604 | UGT708S6 was found to catalyze the glycosylation of phloretin (1), luteolin (4),",
    "product": "naringenin C-glycoside (product 9a/9b)",
    "e4_reason": "ms_only",
+   "year": "2024",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -38083,6 +38171,7 @@
    "source_line": "PMID 39563265 | Fig. 4 | offset 29604 | UGT708S6 was found to catalyze the glycosylation of phloretin (1), luteolin (4),",
    "product": "liquiritigenin C-glycoside (product 12a/12b)",
    "e4_reason": "ms_only",
+   "year": "2024",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -38115,6 +38204,7 @@
    "source_line": "PMID 39563265 | Fig. 4 | offset 29604 | UGT708S6 was found to catalyze the glycosylation of phloretin (1), luteolin (4),",
    "product": "2-hydroxynaringenin C-glycoside (product 14a-c)",
    "e4_reason": "ms_only",
+   "year": "2024",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -38147,6 +38237,7 @@
    "source_line": "PMID 39220864 | Fig. 1A | offset 26416 | Compounds 1a and 1b were then purified by preparative-scale enzyme catalysis, an",
    "product": "5,7,2'-trihydroxyflavone 2'-O-glucoside",
    "e4_reason": "standard_or_nmr",
+   "year": "2024",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -38179,6 +38270,7 @@
    "source_line": "PMID 39220864 | Fig. 1A | offset 26416 | Compounds 1a and 1b were then purified by preparative-scale enzyme catalysis, an",
    "product": "5,7,2'-trihydroxyflavone 7-O-glucoside",
    "e4_reason": "standard_or_nmr",
+   "year": "2024",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -38212,6 +38304,7 @@
    "product": "(S)-coclaurine",
    "rhea_id": "RHEA:16173",
    "e4_reason": "ms_only",
+   "year": "2026",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -38245,6 +38338,7 @@
    "product": "(S)-coclaurine",
    "rhea_id": "RHEA:16173",
    "e4_reason": "ms_only",
+   "year": "2026",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -38278,6 +38372,7 @@
    "product": "(S)-coclaurine",
    "rhea_id": "RHEA:16173",
    "e4_reason": "ms_only",
+   "year": "2026",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -38310,6 +38405,7 @@
    "source_line": "PMID 41876022 | Fig. 5C/Fig. S9 | offset 30398 | catalyzing methyl ation at position C7 to yield norarmepavine 2b ([M + H]+ = 300",
    "product": "norarmepavine",
    "e4_reason": "ms_only",
+   "year": "2026",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -38342,6 +38438,7 @@
    "source_line": "PMID 41876022 | Fig. 6 | offset 30398 | catalyzing methyl ation at position C7 to yield norarmepavine 2b ([M + H]+ = 300",
    "product": "armepavine",
    "e4_reason": "ms_only",
+   "year": "2026",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -38375,6 +38472,7 @@
    "product": "laudanine",
    "rhea_id": "RHEA:10444",
    "e4_reason": "ms_only",
+   "year": "2026",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -38407,6 +38505,7 @@
    "source_line": "PMID 41876022 | Fig. S10 | offset 31163 | position C7 to yield norarmepavine 2b ([M + H]+ = 300.2 Da) and armepavine 3a ([",
    "product": "norarmepavine",
    "e4_reason": "ms_only",
+   "year": "2026",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -38439,6 +38538,7 @@
    "source_line": "PMID 41876022 | Fig. S10 | offset 31163 | position C7 to yield norarmepavine 2b ([M + H]+ = 300.2 Da) and armepavine 3a ([",
    "product": "armepavine",
    "e4_reason": "ms_only",
+   "year": "2026",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -38472,6 +38572,7 @@
    "product": "codamine",
    "rhea_id": "RHEA:22180",
    "e4_reason": "ms_only",
+   "year": "2026",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -38504,6 +38605,7 @@
    "source_line": "PMID 41876022 | Fig. 5C | offset 31405 | SyOMT50 methylated (S)-coclaurine 2 at C7 to generate norarmepavine 2b",
    "product": "norarmepavine",
    "e4_reason": "ms_only",
+   "year": "2026",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -38536,6 +38638,7 @@
    "source_line": "PMID 41876022 | Fig. 5C | offset 31732 | Both SyOMT50 and SyOMT52 efficiently methylated the 2- hydroxyl group of (S)-sco",
    "product": "(S)-tetrahydropalmatrubine",
    "e4_reason": "ms_only",
+   "year": "2026",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -38568,6 +38671,7 @@
    "source_line": "PMID 41876022 | Fig. 5C | offset 31732 | Both SyOMT50 and SyOMT52 efficiently methylated the 2- hydroxyl group of (S)-sco",
    "product": "(S)-tetrahydropalmatrubine",
    "e4_reason": "ms_only",
+   "year": "2026",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -38601,6 +38705,7 @@
    "product": "(S)-tetrahydropalmatine",
    "rhea_id": "RHEA:22536",
    "e4_reason": "ms_only",
+   "year": "2026",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -38634,6 +38739,7 @@
    "product": "(S)-tetrahydropalmatine",
    "rhea_id": "RHEA:22536",
    "e4_reason": "ms_only",
+   "year": "2026",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -38667,6 +38773,7 @@
    "product": "(S)-tetrahydropalmatine",
    "rhea_id": "RHEA:22536",
    "e4_reason": "ms_only",
+   "year": "2026",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -38700,6 +38807,7 @@
    "product": "(S)-tetrahydrocolumbamine",
    "rhea_id": "RHEA:23808",
    "e4_reason": "ms_only",
+   "year": "2026",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -38731,6 +38839,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 41876022 | Table S6 | offset 30009 | none of the seven SyOMTs methylated the bisbenzylisoquinoline alkaloid fangchino",
    "e4_reason": "explicit_nonconversion",
+   "year": "2026",
    "evidence_state": "Curated",
    "is_curated": true,
    "conditions_verified": []
@@ -38762,6 +38871,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 41876022 | Table S6 | offset 30009 | none of the seven SyOMTs methylated the bisbenzylisoquinoline alkaloid fangchino",
    "e4_reason": "explicit_nonconversion",
+   "year": "2026",
    "evidence_state": "Curated",
    "is_curated": true,
    "conditions_verified": []
@@ -38793,6 +38903,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 41876022 | Table S6 | offset 30009 | none of the seven SyOMTs methylated the bisbenzylisoquinoline alkaloid fangchino",
    "e4_reason": "explicit_nonconversion",
+   "year": "2026",
    "evidence_state": "Curated",
    "is_curated": true,
    "conditions_verified": []
@@ -38822,6 +38933,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 41524108 | Fig. 3E | offset 21720 | Peak 4, a monoglucosyl\nproduct that could be further converted to luteolin-3��,7",
    "e4_reason": "standard_or_nmr",
+   "year": "2026",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -38851,6 +38963,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 41524108 | Fig. 3A,C | offset 21600 | Peaks 2 and 3\nwere luteolin-3��,7-di-O-glucoside",
    "e4_reason": "standard_or_nmr",
+   "year": "2026",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -38880,6 +38993,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 41524108 | Fig. 3B,D | offset 21600 | Peaks 2 and 3\nwere luteolin-3��,7-di-O-glucoside",
    "e4_reason": "standard_or_nmr",
+   "year": "2026",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -38909,6 +39023,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 41524108 | Fig. 3F | offset 21879 | Peak 1, a diglucosyl product, was assigned as luteolin-4��,7-\ndi-O-glucoside",
    "e4_reason": "ms_only",
+   "year": "2026",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -38938,6 +39053,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 41524108 | Fig. 6 | offset 26522 | Peak a: kaempferol-7-O- glucoside; Peak b:\neriodictyol-7-O- glucoside; Peak c: a",
    "e4_reason": "standard_or_nmr",
+   "year": "2026",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -38967,6 +39083,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 41524108 | Fig. 6 | offset 26522 | Peak a: kaempferol-7-O- glucoside; Peak b:\neriodictyol-7-O- glucoside; Peak c: a",
    "e4_reason": "standard_or_nmr",
+   "year": "2026",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -38996,6 +39113,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 41524108 | Fig. 6 | offset 26522 | Peak a: kaempferol-7-O- glucoside; Peak b:\neriodictyol-7-O- glucoside; Peak c: a",
    "e4_reason": "standard_or_nmr",
+   "year": "2026",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -39025,6 +39143,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 41524108 | Fig. 6 | offset 26522 | Peak a: kaempferol-7-O- glucoside; Peak b:\neriodictyol-7-O- glucoside; Peak c: a",
    "e4_reason": "standard_or_nmr",
+   "year": "2026",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -39054,6 +39173,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 41524108 | Fig. 6 | offset 26522 | Peak a: kaempferol-7-O- glucoside; Peak b:\neriodictyol-7-O- glucoside; Peak c: a",
    "e4_reason": "standard_or_nmr",
+   "year": "2026",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -39083,6 +39203,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 42287288 | text | offset 60532 | The product structure was confirmed\nas fisetin-3-O-glucoside by LCMS and NMR ana",
    "e4_reason": "standard_or_nmr",
+   "year": "2026",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -39113,6 +39234,7 @@
    "source_line": "PMID 42094847 | Fig. 3D | offset 14946 | we expressed recombinant proteins in E. coli and evaluated their ability to conv",
    "rhea_id": "RHEA:31539",
    "e4_reason": "ms_only",
+   "year": "2026",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -39142,6 +39264,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 42530669 | Fig. S3 | offset 21436 | By comparing with the reference standard iso-\nquercitrin (25), the product 2a wa",
    "e4_reason": "standard_or_nmr",
+   "year": "2026",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -39171,6 +39294,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 42530669 | Fig. S4 | offset 21925 | The major product 3a was designated as \nastragalin (26) by comparison with the r",
    "e4_reason": "standard_or_nmr",
+   "year": "2026",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -39200,6 +39324,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 42530669 | text | offset 22045 | the minor product 3b was confirmed to \nbe kaempferol",
    "e4_reason": "standard_or_nmr",
+   "year": "2026",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -39229,6 +39354,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 38511857 | Fig. 3; Fig. 4 | offset 13882 | Peak 1: luteolin-3��-O-glucoside; peak 2: luteolin-4��-O-glucoside; peak 3: lute",
    "e4_reason": "standard_or_nmr",
+   "year": "2024",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -39258,6 +39384,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 38511857 | Fig. 3; Fig. 4 | offset 13882 | Peak 1: luteolin-3��-O-glucoside; peak 2: luteolin-4��-O-glucoside; peak 3: lute",
    "e4_reason": "standard_or_nmr",
+   "year": "2024",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -39287,6 +39414,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 38511857 | Fig. 3; Fig. 4 | offset 13882 | Peak 1: luteolin-3��-O-glucoside; peak 2: luteolin-4��-O-glucoside; peak 3: lute",
    "e4_reason": "standard_or_nmr",
+   "year": "2024",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -39316,6 +39444,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 38511857 | Fig. 3; Fig. 4 | offset 13882 | Peak 1: luteolin-3��-O-glucoside; peak 2: luteolin-4��-O-glucoside; peak 3: lute",
    "e4_reason": "standard_or_nmr",
+   "year": "2024",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -39345,6 +39474,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 38511857 | Fig. 3; Fig. 4 | offset 13882 | Peak 1: luteolin-3��-O-glucoside; peak 2: luteolin-4��-O-glucoside; peak 3: lute",
    "e4_reason": "standard_or_nmr",
+   "year": "2024",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -39374,6 +39504,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 38511857 | Fig. 3; Fig. 4 | offset 13882 | Peak 1: luteolin-3��-O-glucoside; peak 2: luteolin-4��-O-glucoside; peak 3: lute",
    "e4_reason": "standard_or_nmr",
+   "year": "2024",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -39403,6 +39534,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 38511857 | Fig. 3; Fig. 4 | offset 13882 | Peak 1: luteolin-3��-O-glucoside; peak 2: luteolin-4��-O-glucoside; peak 3: lute",
    "e4_reason": "standard_or_nmr",
+   "year": "2024",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -39432,6 +39564,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 38511857 | Fig. 3; Fig. 4 | offset 13882 | Peak 1: luteolin-3��-O-glucoside; peak 2: luteolin-4��-O-glucoside; peak 3: lute",
    "e4_reason": "standard_or_nmr",
+   "year": "2024",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -39461,6 +39594,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 38511857 | Fig. 3; Fig. 4 | offset 13882 | Peak 1: luteolin-3��-O-glucoside; peak 2: luteolin-4��-O-glucoside; peak 3: lute",
    "e4_reason": "standard_or_nmr",
+   "year": "2024",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -39490,6 +39624,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 38511857 | Fig. 3; Fig. 4 | offset 13882 | Peak 1: luteolin-3��-O-glucoside; peak 2: luteolin-4��-O-glucoside; peak 3: lute",
    "e4_reason": "standard_or_nmr",
+   "year": "2024",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -39519,6 +39654,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 38805380 | Fig. 4B | offset 31093 | the reaction products of\nrCsUGT73AC15 included two additional peaks at 6.63 min\n",
    "e4_reason": "standard_or_nmr",
+   "year": "2024",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -39548,6 +39684,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 38805380 | Fig. 4B | offset 31093 | the reaction products of\nrCsUGT73AC15 included two additional peaks at 6.63 min\n",
    "e4_reason": "standard_or_nmr",
+   "year": "2024",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -39577,6 +39714,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 38805380 | Fig. 4B | offset 31093 | the reaction products of\nrCsUGT73AC15 included two additional peaks at 6.63 min\n",
    "e4_reason": "ms_only",
+   "year": "2024",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -39606,6 +39744,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 38805380 | Fig. 4B | offset 31093 | the reaction products of\nrCsUGT73AC15 included two additional peaks at 6.63 min\n",
    "e4_reason": "ms_only",
+   "year": "2024",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -39635,6 +39774,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 40615004 | text | offset 10042 | Structural identification via nuclear magnetic resonance (NMR) \nconfirmed the pr",
    "e4_reason": "standard_or_nmr",
+   "year": "2025",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -39664,6 +39804,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 41083098 | Fig. 1A,B | offset 26354 | I4��OMT \ncould act on the C-4�� and C-7 positions of substrate liquiritigenin, \n",
    "e4_reason": "standard_or_nmr",
+   "year": "2025",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -39693,6 +39834,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 41083098 | Fig. 1A,B | offset 26354 | I4��OMT \ncould act on the C-4�� and C-7 positions of substrate liquiritigenin, \n",
    "e4_reason": "standard_or_nmr",
+   "year": "2025",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -39722,6 +39864,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 40721354 | Fig. 2 | offset 967 | efficiently converted luteolin to luteolin-3��-O-glucoside",
    "e4_reason": "standard_or_nmr",
+   "year": "2025",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -39751,6 +39894,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 38069442 | Fig. 4 | offset 11583 | Incubation of PcApiT with apigenin 7- O -glucoside and UDP-Api produced apiin",
    "e4_reason": "standard_or_nmr",
+   "year": "2023",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -39780,6 +39924,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 41432436 | Fig. 2 | offset 18835 | CaApiGT1�\\catalysed glycosylation of A7OGlc and UDP�\\Api",
    "e4_reason": "standard_or_nmr",
+   "year": "2025",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -39809,6 +39954,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 40417856 | Fig. 2 | offset 816 | PcUGT73BF6, capable of regioselectively forming Emo 6-O-glucoside",
    "e4_reason": "standard_or_nmr",
+   "year": "2025",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -39838,6 +39984,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 40417856 | Fig. 2 | offset 6667 | PcUGT95D10",
    "e4_reason": "standard_or_nmr",
+   "year": "2025",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -39867,6 +40014,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 41568575 | Fig. 3 | offset 783 | EkCGT1 catalyzes the C-\nglycosylation of the chromone substrate noreugenin with ",
    "e4_reason": "standard_or_nmr",
+   "year": "2026",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -39896,6 +40044,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 41568575 | Fig. 3 | offset 783 | EkCGT1 catalyzes the C-\nglycosylation of the chromone substrate noreugenin with ",
    "e4_reason": "standard_or_nmr",
+   "year": "2026",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -39925,6 +40074,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 42816328 | Fig. 3 | offset 12241 | identified CtAH12T0146500.1 as a flavonoid 3-O",
    "e4_reason": "standard_or_nmr",
+   "year": "2026",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -39954,6 +40104,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 42816328 | Fig. 4 | offset 14971 | CtAH05T0181400.1 could efficiently con-\nvert 12c into the 3,6-di-O-glucoside",
    "e4_reason": "standard_or_nmr",
+   "year": "2026",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -39983,6 +40134,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 41881800 | Table 1 | offset 954 | both enzymes methylate quercetin, eriodictyol, and luteolin to produce isorhamne",
    "e4_reason": "standard_or_nmr",
+   "year": "2026",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -40012,6 +40164,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 41881800 | Table 1 | offset 954 | both enzymes methylate quercetin, eriodictyol, and luteolin to produce isorhamne",
    "e4_reason": "standard_or_nmr",
+   "year": "2026",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -40041,6 +40194,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 41881800 | Table 1 | offset 954 | both enzymes methylate quercetin, eriodictyol, and luteolin to produce isorhamne",
    "e4_reason": "standard_or_nmr",
+   "year": "2026",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -40070,6 +40224,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 41881800 | Table 1 | offset 954 | both enzymes methylate quercetin, eriodictyol, and luteolin to produce isorhamne",
    "e4_reason": "standard_or_nmr",
+   "year": "2026",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -40099,6 +40254,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 41881800 | Table 1 | offset 954 | both enzymes methylate quercetin, eriodictyol, and luteolin to produce isorhamne",
    "e4_reason": "standard_or_nmr",
+   "year": "2026",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -40128,6 +40284,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 41881800 | Table 1 | offset 954 | both enzymes methylate quercetin, eriodictyol, and luteolin to produce isorhamne",
    "e4_reason": "standard_or_nmr",
+   "year": "2026",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -40157,6 +40314,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 40358466 | Fig. S16 | offset 1768 | UGT95A2 instead catalyzes the formation of 6-O-glucosides, as observed for baica",
    "e4_reason": "ms_only",
+   "year": "2025",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -40186,6 +40344,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 41677235 | Fig. 4 | offset 30224 | co-eluted with luteolin 7-O-glucoside on \nthe chromatogram",
    "e4_reason": "standard_or_nmr",
+   "year": "2026",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -40215,6 +40374,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 41677235 | Fig. 4 | offset 30284 | along with an additional peak of luteolin-\n3��-O-glucoside",
    "e4_reason": "ms_only",
+   "year": "2026",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -40244,6 +40404,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 40192629 | text | offset 16746 | confirmed as quercetin 3��-O-glucoside",
    "e4_reason": "standard_or_nmr",
+   "year": "2025",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -40273,6 +40434,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 40192629 | text | offset 16794 | quercetin 4��-O-glucoside",
    "e4_reason": "standard_or_nmr",
+   "year": "2025",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -40302,6 +40464,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 41222750 | text | offset 1976 | kaempferol 3-O-rhamnosyl-(1",
    "e4_reason": "ms_only",
+   "year": "2025",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -40331,6 +40494,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 40105789 | text | offset 907 | AUTG25 could\nregioselectively catalyze 3-O-glucosylation of isorhamnetin to prod",
    "e4_reason": "standard_or_nmr",
+   "year": "2025",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -40360,6 +40524,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 40105789 | text | offset 5892 | AUTG23 could subsequently convert",
    "e4_reason": "standard_or_nmr",
+   "year": "2025",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -40389,6 +40554,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 42151777 | text | offset 42116 | methylated caffeic acid and myricetin, yielding products that\ncoeluted with auth",
    "e4_reason": "standard_or_nmr",
+   "year": "2026",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -40418,6 +40584,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 42151777 | text | offset 42228 | authentic\nlaricitrin standard",
    "e4_reason": "standard_or_nmr",
+   "year": "2026",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -40447,6 +40614,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 42151777 | text | offset 42116 | methylated caffeic acid and myricetin, yielding products that\ncoeluted with auth",
    "e4_reason": "standard_or_nmr",
+   "year": "2026",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -40476,6 +40644,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 42151777 | text | offset 42228 | authentic\nlaricitrin standard",
    "e4_reason": "standard_or_nmr",
+   "year": "2026",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -40505,6 +40674,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 39960015 | text | offset 35084 | Based on these findings, the structures of 1a and\n1b were identified as amentofl",
    "e4_reason": "standard_or_nmr",
+   "year": "2025",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -40534,6 +40704,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 39960015 | text | offset 35084 | Based on these findings, the structures of 1a and\n1b were identified as amentofl",
    "e4_reason": "ms_only",
+   "year": "2025",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -40563,6 +40734,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 39960015 | text | offset 37180 | Thus, 4a and 5a had been identified as ginkgetin 4-O-\n��-D-glycoside and isogink",
    "e4_reason": "ms_only",
+   "year": "2025",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -40592,6 +40764,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 39960015 | text | offset 37180 | Thus, 4a and 5a had been identified as ginkgetin 4-O-\n��-D-glycoside and isogink",
    "e4_reason": "ms_only",
+   "year": "2025",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -40621,6 +40794,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 42019853 | text | offset 1502 | catalyzed the glycosylation of emodin to \nform emodin-6-O-��-D-glucoside",
    "e4_reason": "standard_or_nmr",
+   "year": "2026",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -40650,6 +40824,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 40131784 | text | offset 1827 | The product formed was apigenin 7-O-glucoside (apigetrin), which was conrmed thr",
    "e4_reason": "standard_or_nmr",
+   "year": "2025",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -40679,6 +40854,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 41985162 | text | offset 2092 | encodes a feeding-inducible avonol 3-O-glycosyltransferase (F3GlcT or UGT78D2) t",
    "e4_reason": "standard_or_nmr",
+   "year": "2026",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -40708,6 +40884,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 41985162 | text | offset 2092 | encodes a feeding-inducible avonol 3-O-glycosyltransferase (F3GlcT or UGT78D2) t",
    "e4_reason": "standard_or_nmr",
+   "year": "2026",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -40737,6 +40914,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 41985162 | text | offset 2092 | encodes a feeding-inducible avonol 3-O-glycosyltransferase (F3GlcT or UGT78D2) t",
    "e4_reason": "standard_or_nmr",
+   "year": "2026",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -40766,6 +40944,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 41985162 | text | offset 2092 | encodes a feeding-inducible avonol 3-O-glycosyltransferase (F3GlcT or UGT78D2) t",
    "e4_reason": "standard_or_nmr",
+   "year": "2026",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -40795,6 +40974,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 42788149 | text | offset 36521 | two\n \nmain\n \nproducts\n \nwere\n \nidentified\n \nto\n \nkaempferol-3-O-glucoside",
    "e4_reason": "standard_or_nmr",
+   "year": "2026",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -40824,6 +41004,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 41108262 | text | offset 5582 | identified as a specific\nglucosyltransferase that catalyzes the formation of Q3G",
    "e4_reason": "standard_or_nmr",
+   "year": "2025",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -40853,6 +41034,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 41108262 | text | offset 5582 | identified as a specific\nglucosyltransferase that catalyzes the formation of Q3G",
    "e4_reason": "standard_or_nmr",
+   "year": "2025",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -40882,6 +41064,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 39964809 | text | offset 36227",
    "e4_reason": "ms_only",
+   "year": "2025",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -40911,6 +41094,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 39989077 | text | offset 2182",
    "e4_reason": "standard_or_nmr",
+   "year": "2025",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -40940,6 +41124,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 40358466 | Fig. S15 | offset 10664",
    "e4_reason": "standard_or_nmr",
+   "year": "2025",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -40969,6 +41154,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 42476662 | text | offset 8311",
    "e4_reason": "standard_or_nmr",
+   "year": "2026",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -40998,6 +41184,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 40617078 | Fig. S4; Fig. S5 | offset 21419",
    "e4_reason": "standard_or_nmr",
+   "year": "2025",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -41027,6 +41214,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 40617078 | Fig. S4; Fig. S5 | offset 21419",
    "e4_reason": "standard_or_nmr",
+   "year": "2025",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -41056,6 +41244,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 40617078 | Fig. S4; Fig. S5 | offset 21419",
    "e4_reason": "standard_or_nmr",
+   "year": "2025",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -41085,6 +41274,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 40617078 | Fig. S4; Fig. S5 | offset 21419",
    "e4_reason": "standard_or_nmr",
+   "year": "2025",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -41114,6 +41304,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 40617078 | Fig. S4; Fig. S5 | offset 21419",
    "e4_reason": "standard_or_nmr",
+   "year": "2025",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -41143,6 +41334,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 40617078 | Fig. S4; Fig. S5 | offset 21419",
    "e4_reason": "standard_or_nmr",
+   "year": "2025",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -41172,6 +41364,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 40617078 | Fig. S4; Fig. S5 | offset 21419",
    "e4_reason": "standard_or_nmr",
+   "year": "2025",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -41201,6 +41394,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 40617078 | Fig. S4 | offset 22073",
    "e4_reason": "explicit_nonconversion",
+   "year": "2025",
    "evidence_state": "Curated",
    "is_curated": true,
    "conditions_verified": []
@@ -41230,6 +41424,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 40617078 | Fig. S4 | offset 22073",
    "e4_reason": "explicit_nonconversion",
+   "year": "2025",
    "evidence_state": "Curated",
    "is_curated": true,
    "conditions_verified": []
@@ -41259,6 +41454,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 40617078 | Fig. S4 | offset 22073",
    "e4_reason": "explicit_nonconversion",
+   "year": "2025",
    "evidence_state": "Curated",
    "is_curated": true,
    "conditions_verified": []
@@ -41288,6 +41484,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 41491070 | Fig. 1g,h | offset 24487",
    "e4_reason": "standard_or_nmr",
+   "year": "2026",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -41317,6 +41514,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 41655513 | text | offset 2084",
    "e4_reason": "standard_or_nmr",
+   "year": "2026",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -41346,6 +41544,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 41655513 | text | offset 2084",
    "e4_reason": "standard_or_nmr",
+   "year": "2026",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -41375,6 +41574,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 41655513 | text | offset 2189",
    "e4_reason": "standard_or_nmr",
+   "year": "2026",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -41404,6 +41604,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 42870027 | text | offset 3606",
    "e4_reason": "standard_or_nmr",
+   "year": "2026",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -41433,6 +41634,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 41870636 | text | offset 1752",
    "e4_reason": "standard_or_nmr",
+   "year": "2026",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -41462,6 +41664,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 41870636 | text | offset 1752",
    "e4_reason": "standard_or_nmr",
+   "year": "2026",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -41491,6 +41694,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 41870636 | text | offset 1752",
    "e4_reason": "standard_or_nmr",
+   "year": "2026",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -41520,6 +41724,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 41870636 | text | offset 1752",
    "e4_reason": "standard_or_nmr",
+   "year": "2026",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -41549,6 +41754,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 41870636 | text | offset 1752",
    "e4_reason": "standard_or_nmr",
+   "year": "2026",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -41578,6 +41784,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 41870636 | text | offset 1752",
    "e4_reason": "standard_or_nmr",
+   "year": "2026",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -41607,6 +41814,7 @@
    "source_line": "PMID 39923422 | Fig. 3 | offset 31904 | The analysis of the glucosylated products with the flavonols\nkaempferol (KAE) an",
    "product": "kaempferol 7-O-glucoside",
    "e4_reason": "standard_or_nmr",
+   "year": "2025",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -41636,6 +41844,7 @@
    "source_line": "PMID 39923422 | Fig. 3; Fig. S2 | offset 31904 | The analysis of the glucosylated products with the flavonols\nkaempferol (KAE) an",
    "product": "quercetin 7-O-glucoside",
    "e4_reason": "standard_or_nmr",
+   "year": "2025",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -41665,6 +41874,7 @@
    "source_line": "PMID 39923422 | Fig. 4 | offset 35024 | API yielded two products, the\nmajor one corresponding to API 7-O-glucoside (P1)",
    "product": "apigenin 7-O-glucoside",
    "e4_reason": "standard_or_nmr",
+   "year": "2025",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -41694,6 +41904,7 @@
    "source_line": "PMID 39923422 | Fig. S3 | offset 35278 | LUT was converted to the major product LUT 7-O-\nglucoside",
    "product": "luteolin 7-O-glucoside",
    "e4_reason": "standard_or_nmr",
+   "year": "2025",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -41723,6 +41934,7 @@
    "source_line": "PMID 39923422 | Fig. 5 | offset 35546 | When using the flavanones naringenin (NAR) and ERI as\nsubstrates, ZmUGT85W2 prod",
    "product": "naringenin 7-O-glucoside",
    "e4_reason": "standard_or_nmr",
+   "year": "2025",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -41752,6 +41964,7 @@
    "source_line": "PMID 39923422 | Fig. 5; Fig. S4 | offset 35546 | When using the flavanones naringenin (NAR) and ERI as\nsubstrates, ZmUGT85W2 prod",
    "product": "eriodictyol 7-O-glucoside",
    "e4_reason": "standard_or_nmr",
+   "year": "2025",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -41781,6 +41994,7 @@
    "source_line": "PMID 39923422 | Fig. 2; Fig. S5 | offset 31494 | With 7-\nhydroxyflavone (7-OH F) as a substrate, which has only one free hy-\ndrox",
    "product": "7-hydroxyflavone 7-O-glucoside",
    "e4_reason": "ms_only",
+   "year": "2025",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -41810,6 +42024,7 @@
    "source_line": "PMID 39923422 | Fig. S4 | offset 35814 | PIN, a flavanone lacking hydroxy groups in the B-ring\n(Fig. 2A), was also conver",
    "product": "pinocembrin O-glucoside",
    "e4_reason": "ms_only",
+   "year": "2025",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -41839,6 +42054,7 @@
    "source_line": "PMID 39923422 | Fig. S5 | offset 35958 | using as substrates a flavonol (galangin, GAL) and a\nflavone (chrysin, CHRY) lac",
    "product": "galangin O-glucoside",
    "e4_reason": "ms_only",
+   "year": "2025",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -41868,6 +42084,7 @@
    "source_line": "PMID 39923422 | Fig. S6 | offset 35958 | using as substrates a flavonol (galangin, GAL) and a\nflavone (chrysin, CHRY) lac",
    "product": "chrysin O-glucoside",
    "e4_reason": "ms_only",
+   "year": "2025",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -41897,6 +42114,7 @@
    "source_line": "PMID 39923422 | Fig. S5 | offset 36268 | when we used the\nB-ring 3′-O-methylated flavone CHRYSO (Fig. 2A) or the 3′-O-met",
    "product": "chrysoeriol O-glucoside",
    "e4_reason": "ms_only",
+   "year": "2025",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -41926,6 +42144,7 @@
    "source_line": "PMID 39923422 | Fig. S6 | offset 36268 | when we used the\nB-ring 3′-O-methylated flavone CHRYSO (Fig. 2A) or the 3′-O-met",
    "product": "isorhamnetin O-glucoside",
    "e4_reason": "ms_only",
+   "year": "2025",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -41955,6 +42174,7 @@
    "source_line": "PMID 39923422 | Fig. 3 | offset 32586 | An additional product (P3) was generated with both flavonols,\nwhose retention ti",
    "product": "kaempferol di-O-glucoside",
    "e4_reason": "ms_only",
+   "year": "2025",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -41984,6 +42204,7 @@
    "source_line": "PMID 39923422 | Fig. S2 | offset 32586 | An additional product (P3) was generated with both flavonols,\nwhose retention ti",
    "product": "quercetin di-O-glucoside",
    "e4_reason": "ms_only",
+   "year": "2025",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -42012,6 +42233,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 39923422 | Fig. 2A | offset 31815 | No glucoside product was detected with\n3-hydroxyflavone (3-OH F) (Fig. 2A) as su",
    "e4_reason": "explicit_nonconversion",
+   "year": "2025",
    "evidence_state": "Curated",
    "is_curated": true,
    "conditions_verified": []
@@ -42041,6 +42263,7 @@
    "source_line": "PMID 40029908 | Fig. 2a; Table S7 | offset 19082 | The enzyme catalyzes\nthe\ntransfer\nof\na\nhydroxycinnamoyl\nmoiety\nfrom\nhydroxycinna",
    "product": "p-coumaroyl-5-O-shikimic acid",
    "e4_reason": "ms_only",
+   "year": "2025",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -42070,6 +42293,7 @@
    "source_line": "PMID 40029908 | Fig. 2a; Table S7 | offset 19082 | The enzyme catalyzes\nthe\ntransfer\nof\na\nhydroxycinnamoyl\nmoiety\nfrom\nhydroxycinna",
    "product": "caffeoyl-5-O-shikimic acid",
    "e4_reason": "ms_only",
+   "year": "2025",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -42099,6 +42323,7 @@
    "source_line": "PMID 40029908 | Fig. 2b; Table S7 | offset 33194 | The\nproduction of p-coumaroyl-5-O-quinic acid seems to play a\nminor role",
    "product": "p-coumaroyl-5-O-quinic acid",
    "e4_reason": "ms_only",
+   "year": "2025",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -42128,6 +42353,7 @@
    "source_line": "PMID 40029908 | Table S7 | offset 1030 | SgHST mainly\nforms p-coumaroyl- and caffeoylshikimic acid, but also the correspo",
    "product": "caffeoyl-5-O-quinic acid",
    "e4_reason": "ms_only",
+   "year": "2025",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -42157,6 +42383,7 @@
    "source_line": "PMID 40029908 | Fig. 2c; Table S7 | offset 35125 | (c) EIC of an assay with SgHST resulting in p-coumaroyl-2-N-3-hydroxyanthranilic",
    "product": "p-coumaroyl-2-N-3-hydroxyanthranilic acid",
    "e4_reason": "ms_only",
+   "year": "2025",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -42186,6 +42413,7 @@
    "source_line": "PMID 40029908 | Fig. S5; Table S7 | offset 1030 | SgHST mainly\nforms p-coumaroyl- and caffeoylshikimic acid, but also the correspo",
    "product": "p-coumaroyl-5-hydroxyanthranilate",
    "e4_reason": "ms_only",
+   "year": "2025",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -42215,6 +42443,7 @@
    "source_line": "PMID 40029908 | Fig. 3c; Fig. S6; Table S9 | offset 42969 | In summary, SgHQT1 forms p-coumaroyl-5-O-quinic,\nchlorogenic (CA, caffeoyl-5-O-q",
    "product": "p-coumaroyl-5-O-quinic acid",
    "e4_reason": "ms_only",
+   "year": "2025",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -42244,6 +42473,7 @@
    "source_line": "PMID 40029908 | Fig. 3c; Fig. S6; Table S9 | offset 42969 | In summary, SgHQT1 forms p-coumaroyl-5-O-quinic,\nchlorogenic (CA, caffeoyl-5-O-q",
    "product": "chlorogenic acid (caffeoyl-5-O-quinic acid)",
    "e4_reason": "ms_only",
+   "year": "2025",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -42273,6 +42503,7 @@
    "source_line": "PMID 40029908 | Fig. S6, S7; Table S9 | offset 42969 | In summary, SgHQT1 forms p-coumaroyl-5-O-quinic,\nchlorogenic (CA, caffeoyl-5-O-q",
    "product": "p-coumaroyl-3-O-shikimic acid",
    "e4_reason": "ms_only",
+   "year": "2025",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -42302,6 +42533,7 @@
    "source_line": "PMID 40029908 | Fig. S6, S7; Table S9 | offset 42969 | In summary, SgHQT1 forms p-coumaroyl-5-O-quinic,\nchlorogenic (CA, caffeoyl-5-O-q",
    "product": "p-coumaroyl-4-O-shikimic acid",
    "e4_reason": "ms_only",
+   "year": "2025",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -42331,6 +42563,7 @@
    "source_line": "PMID 40029908 | Fig. S6, S7; Table S9 | offset 42969 | In summary, SgHQT1 forms p-coumaroyl-5-O-quinic,\nchlorogenic (CA, caffeoyl-5-O-q",
    "product": "p-coumaroyl-5-O-shikimic acid",
    "e4_reason": "ms_only",
+   "year": "2025",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -42360,6 +42593,7 @@
    "source_line": "PMID 40029908 | Fig. 3e; Fig. S6, S7; Table S9 | offset 42969 | In summary, SgHQT1 forms p-coumaroyl-5-O-quinic,\nchlorogenic (CA, caffeoyl-5-O-q",
    "product": "caffeoyl-3-O-shikimic acid",
    "e4_reason": "ms_only",
+   "year": "2025",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -42389,6 +42623,7 @@
    "source_line": "PMID 40029908 | Fig. 3e; Fig. S6, S7; Table S9 | offset 42969 | In summary, SgHQT1 forms p-coumaroyl-5-O-quinic,\nchlorogenic (CA, caffeoyl-5-O-q",
    "product": "caffeoyl-4-O-shikimic acid",
    "e4_reason": "ms_only",
+   "year": "2025",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -42418,6 +42653,7 @@
    "source_line": "PMID 40029908 | Fig. 3e; Fig. S6, S7; Table S9 | offset 42969 | In summary, SgHQT1 forms p-coumaroyl-5-O-quinic,\nchlorogenic (CA, caffeoyl-5-O-q",
    "product": "caffeoyl-5-O-shikimic acid",
    "e4_reason": "ms_only",
+   "year": "2025",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -42447,6 +42683,7 @@
    "source_line": "PMID 40029908 | Table S9 | offset 43191 | Variabil-\nity in the production of caffeoylshikimic acids resulted in a\ndicaffeo",
    "product": "dicaffeoylshikimic acid derivative",
    "e4_reason": "ms_only",
+   "year": "2025",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -42476,6 +42713,7 @@
    "source_line": "PMID 40029908 | Fig. 3f; Fig. S8; Table S10 | offset 43299 | SgHQT2 instead assem-\nbles p-coumaroyl-4-O-quinic acid, the precursor of crypto-",
    "product": "p-coumaroyl-4-O-quinic acid",
    "e4_reason": "ms_only",
+   "year": "2025",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -42505,6 +42743,7 @@
    "source_line": "PMID 40029908 | Fig. S8; Table S10 | offset 43299 | SgHQT2 instead assem-\nbles p-coumaroyl-4-O-quinic acid, the precursor of crypto-",
    "product": "cryptochlorogenic acid (caffeoyl-4-O-quinic acid)",
    "e4_reason": "ms_only",
+   "year": "2025",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -42534,6 +42773,7 @@
    "source_line": "PMID 40029908 | Fig. S8; Table S10 | offset 43453 | The formation of p-coumaroyl-4-O-shikimic\nacid and caffeoyl-4-O-shikimic acid wa",
    "product": "p-coumaroyl-4-O-shikimic acid",
    "e4_reason": "ms_only",
+   "year": "2025",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -42563,6 +42803,7 @@
    "source_line": "PMID 40029908 | Fig. S8; Table S10 | offset 66930 | Shikimic acid was taken as well, and the product\nwith caffeoyl-CoA as donor subs",
    "product": "caffeoyl-4-O-shikimic acid",
    "e4_reason": "standard_or_nmr",
+   "year": "2025",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -42592,6 +42833,7 @@
    "source_line": "PMID 40029908 | Fig. 3g; Table S11 | offset 47196 | Concluding from these in vitro\ndata,\nSgRAS\nis\nsupposed\nto\nform\nprimarily\np-couma",
    "product": "p-coumaroyl-4'-hydroxyphenyllactic acid",
    "e4_reason": "ms_only",
+   "year": "2025",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -42621,6 +42863,7 @@
    "source_line": "PMID 40029908 | Fig. 3h; Table S11 | offset 47196 | Concluding from these in vitro\ndata,\nSgRAS\nis\nsupposed\nto\nform\nprimarily\np-couma",
    "product": "p-coumaroyl-3',4'-dihydroxyphenyllactic acid",
    "e4_reason": "ms_only",
+   "year": "2025",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -42650,6 +42893,7 @@
    "source_line": "PMID 40029908 | Table S11 | offset 1498 | SgRAS synthesizes rosmarinic acid and its precursors (caffeoyl-40-hydroxyphenyll",
    "product": "caffeoyl-4'-hydroxyphenyllactic acid",
    "e4_reason": "ms_only",
+   "year": "2025",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -42679,6 +42923,7 @@
    "source_line": "PMID 40029908 | Table S11 | offset 1498 | SgRAS synthesizes rosmarinic acid and its precursors (caffeoyl-40-hydroxyphenyll",
    "product": "rosmarinic acid",
    "e4_reason": "ms_only",
+   "year": "2025",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -42708,6 +42953,7 @@
    "source_line": "PMID 40029908 | Table S11 | offset 46052 | The formation\nof\namides\nwith\nthe\naromatic\nD-amino\nacids\nD-phenylalanine,\nD-tyros",
    "product": "hydroxycinnamoyl-D-phenylalanine amide",
    "e4_reason": "ms_only",
+   "year": "2025",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -42737,6 +42983,7 @@
    "source_line": "PMID 40029908 | Table S11 | offset 46052 | The formation\nof\namides\nwith\nthe\naromatic\nD-amino\nacids\nD-phenylalanine,\nD-tyros",
    "product": "hydroxycinnamoyl-D-tyrosine amide",
    "e4_reason": "ms_only",
+   "year": "2025",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -42766,6 +43013,7 @@
    "source_line": "PMID 40029908 | Table S11 | offset 46052 | The formation\nof\namides\nwith\nthe\naromatic\nD-amino\nacids\nD-phenylalanine,\nD-tyros",
    "product": "hydroxycinnamoyl-D-DOPA amide",
    "e4_reason": "ms_only",
+   "year": "2025",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -42794,6 +43042,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 40029908 | Table S8 | offset 26685 | To date, however, a for-\nmation of benzyl benzoic acid catalyzed by SgHCT-F coul",
    "e4_reason": "explicit_nonconversion",
+   "year": "2025",
    "evidence_state": "Curated",
    "is_curated": true,
    "conditions_verified": []
@@ -42823,6 +43072,7 @@
    "source_line": "PMID 42161751 | Fig. 3A | offset 21559 | Reaction products formed from guaiacol and eugenol were \nidentiﬁed ed as veratro",
    "product": "veratrole",
    "e4_reason": "standard_or_nmr",
+   "year": "2026",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -42852,6 +43102,7 @@
    "source_line": "PMID 42161751 | Fig. 3B | offset 21559 | Reaction products formed from guaiacol and eugenol were \nidentiﬁed ed as veratro",
    "product": "methyleugenol",
    "e4_reason": "standard_or_nmr",
+   "year": "2026",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -42881,6 +43132,7 @@
    "source_line": "PMID 42161751 | Fig. 2 | offset 20859 | The highest activity was observed with guaiacol, followed \nby orcinol, vanillin,",
    "product": "orcinol O-methyl ether",
    "e4_reason": "ms_only",
+   "year": "2026",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -42910,6 +43162,7 @@
    "source_line": "PMID 42161751 | Fig. 2 | offset 20859 | The highest activity was observed with guaiacol, followed \nby orcinol, vanillin,",
    "product": "vanillin O-methyl ether",
    "e4_reason": "ms_only",
+   "year": "2026",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -42939,6 +43192,7 @@
    "source_line": "PMID 42161751 | Fig. 2 | offset 20859 | The highest activity was observed with guaiacol, followed \nby orcinol, vanillin,",
    "product": "5-methoxyeugenol O-methyl ether",
    "e4_reason": "ms_only",
+   "year": "2026",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -42968,6 +43222,7 @@
    "source_line": "PMID 42161751 | Fig. 2 | offset 20859 | The highest activity was observed with guaiacol, followed \nby orcinol, vanillin,",
    "product": "isoeugenol O-methyl ether",
    "e4_reason": "ms_only",
+   "year": "2026",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -42997,6 +43252,7 @@
    "source_line": "PMID 42161751 | Fig. 2 | offset 20859 | The highest activity was observed with guaiacol, followed \nby orcinol, vanillin,",
    "product": "chavicol O-methyl ether",
    "e4_reason": "ms_only",
+   "year": "2026",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -43026,6 +43282,7 @@
    "source_line": "PMID 42161751 | Fig. 2 | offset 20859 | The highest activity was observed with guaiacol, followed \nby orcinol, vanillin,",
    "product": "t-anol O-methyl ether",
    "e4_reason": "ms_only",
+   "year": "2026",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -43055,6 +43312,7 @@
    "source_line": "PMID 42161751 | Fig. 2 | offset 21205 | MsOMT exhibited low but detectable ac­\ntivity toward coniferyl alcohol, olivetol",
    "product": "coniferyl alcohol O-methyl ether",
    "e4_reason": "ms_only",
+   "year": "2026",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -43084,6 +43342,7 @@
    "source_line": "PMID 42161751 | Fig. 2 | offset 21205 | MsOMT exhibited low but detectable ac­\ntivity toward coniferyl alcohol, olivetol",
    "product": "olivetol O-methyl ether",
    "e4_reason": "ms_only",
+   "year": "2026",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -43113,6 +43372,7 @@
    "source_line": "PMID 42161751 | Fig. 2 | offset 21205 | MsOMT exhibited low but detectable ac­\ntivity toward coniferyl alcohol, olivetol",
    "product": "myricetin O-methyl ether",
    "e4_reason": "ms_only",
+   "year": "2026",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -43142,6 +43402,7 @@
    "source_line": "PMID 42161751 | Fig. 2 | offset 21205 | MsOMT exhibited low but detectable ac­\ntivity toward coniferyl alcohol, olivetol",
    "product": "ferulic acid O-methyl ether",
    "e4_reason": "ms_only",
+   "year": "2026",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -43171,6 +43432,7 @@
    "source_line": "PMID 42161751 | Fig. 2 | offset 21205 | MsOMT exhibited low but detectable ac­\ntivity toward coniferyl alcohol, olivetol",
    "product": "caffeic acid O-methyl ether",
    "e4_reason": "ms_only",
+   "year": "2026",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -43200,6 +43462,7 @@
    "source_line": "PMID 42161751 | Fig. 2 | offset 21205 | MsOMT exhibited low but detectable ac­\ntivity toward coniferyl alcohol, olivetol",
    "product": "coniferyl aldehyde O-methyl ether",
    "e4_reason": "ms_only",
+   "year": "2026",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -43229,6 +43492,7 @@
    "source_line": "PMID 42161751 | Fig. 2 | offset 21205 | MsOMT exhibited low but detectable ac­\ntivity toward coniferyl alcohol, olivetol",
    "product": "6-hydroxy-(Z)-isoeugenol O-methyl ether",
    "e4_reason": "ms_only",
+   "year": "2026",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -43258,6 +43522,7 @@
    "source_line": "PMID 42161751 | Fig. 2 | offset 21205 | MsOMT exhibited low but detectable ac­\ntivity toward coniferyl alcohol, olivetol",
    "product": "6-hydroxy-(E)-isoeugenol O-methyl ether",
    "e4_reason": "ms_only",
+   "year": "2026",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -43287,6 +43552,7 @@
    "source_line": "PMID 42161751 | Fig. 2 | offset 21205 | MsOMT exhibited low but detectable ac­\ntivity toward coniferyl alcohol, olivetol",
    "product": "resveratrol O-methyl ether",
    "e4_reason": "ms_only",
+   "year": "2026",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -43316,6 +43582,7 @@
    "source_line": "PMID 42161751 | Fig. 2 | offset 21205 | MsOMT exhibited low but detectable ac­\ntivity toward coniferyl alcohol, olivetol",
    "product": "naringenin O-methyl ether",
    "e4_reason": "ms_only",
+   "year": "2026",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -43345,6 +43612,7 @@
    "source_line": "PMID 42161751 | Fig. 2 | offset 21205 | MsOMT exhibited low but detectable ac­\ntivity toward coniferyl alcohol, olivetol",
    "product": "isorhapontigenin O-methyl ether",
    "e4_reason": "ms_only",
+   "year": "2026",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -43374,6 +43642,7 @@
    "source_line": "PMID 42161751 | Fig. 2 | offset 21205 | MsOMT exhibited low but detectable ac­\ntivity toward coniferyl alcohol, olivetol",
    "product": "pterostilbene O-methyl ether",
    "e4_reason": "ms_only",
+   "year": "2026",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -43402,6 +43671,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 42161751 | Fig. 2 | offset 21501 | no \ndetectable methylation was observed for isorhamnetin",
    "e4_reason": "explicit_nonconversion",
+   "year": "2026",
    "evidence_state": "Curated",
    "is_curated": true,
    "conditions_verified": []
@@ -43431,6 +43701,7 @@
    "source_line": "PMID 39571455 | Fig. 5; Fig. S7 | offset 37712 | indicated that either \nCac_g032709.t1 or Cac_g012175.t1, when coupled with Cr7DL",
    "product": "7-deoxyloganetic acid",
    "e4_reason": "standard_or_nmr",
+   "year": "2024",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -43460,6 +43731,7 @@
    "source_line": "PMID 39571455 | Fig. 5; Fig. S7 | offset 37712 | indicated that either \nCac_g032709.t1 or Cac_g012175.t1, when coupled with Cr7DL",
    "product": "7-deoxyloganetic acid",
    "e4_reason": "standard_or_nmr",
+   "year": "2024",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -43489,6 +43761,7 @@
    "source_line": "PMID 39571455 | Fig. 6; Fig. S12 | offset 43534 | indicated that either Cac_g008742.t1 or \nCac_g008741.t1, when coupled with Cr7DL",
    "product": "7-deoxyloganic acid",
    "e4_reason": "standard_or_nmr",
+   "year": "2024",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -43518,6 +43791,7 @@
    "source_line": "PMID 39571455 | Fig. 6; Fig. S12 | offset 43534 | indicated that either Cac_g008742.t1 or \nCac_g008741.t1, when coupled with Cr7DL",
    "product": "7-deoxyloganic acid",
    "e4_reason": "standard_or_nmr",
+   "year": "2024",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -43546,6 +43820,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 39571455 | Fig. 5A; Fig. S7A | offset 37288 | the Ca7DLS candidates were function­\nally assessed individually (Fig. 5A). The c",
    "e4_reason": "explicit_nonconversion",
+   "year": "2024",
    "evidence_state": "Curated",
    "is_curated": true,
    "conditions_verified": []
@@ -43574,6 +43849,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 39571455 | Fig. 5A; Fig. S7A | offset 37288 | the Ca7DLS candidates were function­\nally assessed individually (Fig. 5A). The c",
    "e4_reason": "explicit_nonconversion",
+   "year": "2024",
    "evidence_state": "Curated",
    "is_curated": true,
    "conditions_verified": []
@@ -43602,6 +43878,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 39571455 | Fig. 6A; Fig. S12A | offset 42128 | the CDS of each candidate Ca7DLGT was \nFig. 6. Functional characterization of Ca",
    "e4_reason": "explicit_nonconversion",
+   "year": "2024",
    "evidence_state": "Curated",
    "is_curated": true,
    "conditions_verified": []
@@ -43630,6 +43907,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 39571455 | Fig. 6A; Fig. S12A | offset 42128 | the CDS of each candidate Ca7DLGT was \nFig. 6. Functional characterization of Ca",
    "e4_reason": "explicit_nonconversion",
+   "year": "2024",
    "evidence_state": "Curated",
    "is_curated": true,
    "conditions_verified": []
@@ -43658,6 +43936,7 @@
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 39571455 | Fig. 6A; Fig. S12A | offset 42128 | the CDS of each candidate Ca7DLGT was \nFig. 6. Functional characterization of Ca",
    "e4_reason": "explicit_nonconversion",
+   "year": "2024",
    "evidence_state": "Curated",
    "is_curated": true,
    "conditions_verified": []
@@ -43687,6 +43966,7 @@
    "source_line": "PMID 37831082 | Fig. 3B/C | offset 16728 | Lysates containing recombinant OsPMT1 or OsPMT2 pro­ duced the anticipated monol",
    "product": "p-coumaryl p-coumarate (H-pCA)",
    "e4_reason": "standard_or_nmr",
+   "year": "2024",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -43716,6 +43996,7 @@
    "source_line": "PMID 37831082 | Fig. 3B/C | offset 16728 | Lysates containing recombinant OsPMT1 or OsPMT2 pro­ duced the anticipated monol",
    "product": "coniferyl p-coumarate (G-pCA)",
    "e4_reason": "standard_or_nmr",
+   "year": "2024",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -43745,6 +44026,7 @@
    "source_line": "PMID 37831082 | Fig. 3B/C | offset 16728 | Lysates containing recombinant OsPMT1 or OsPMT2 pro­ duced the anticipated monol",
    "product": "sinapyl p-coumarate (S-pCA)",
    "e4_reason": "standard_or_nmr",
+   "year": "2024",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -43774,6 +44056,7 @@
    "source_line": "PMID 37831082 | Fig. 3B/C | offset 16728 | Lysates containing recombinant OsPMT1 or OsPMT2 pro­ duced the anticipated monol",
    "product": "p-coumaryl p-coumarate (H-pCA)",
    "e4_reason": "standard_or_nmr",
+   "year": "2024",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -43803,6 +44086,7 @@
    "source_line": "PMID 37831082 | Fig. 3B/C | offset 16728 | Lysates containing recombinant OsPMT1 or OsPMT2 pro­ duced the anticipated monol",
    "product": "coniferyl p-coumarate (G-pCA)",
    "e4_reason": "standard_or_nmr",
+   "year": "2024",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -43832,6 +44116,7 @@
    "source_line": "PMID 37831082 | Fig. 3B/C | offset 16728 | Lysates containing recombinant OsPMT1 or OsPMT2 pro­ duced the anticipated monol",
    "product": "sinapyl p-coumarate (S-pCA)",
    "e4_reason": "standard_or_nmr",
+   "year": "2024",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -43861,6 +44146,7 @@
    "source_line": "PMID 40319736 | Fig. 3c/d | offset 23001 | demonstrated F6H activity, catalyzing the con­ version of Q to quercetagetin (Fi",
    "product": "quercetagetin",
    "e4_reason": "standard_or_nmr",
+   "year": "2025",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -43890,6 +44176,7 @@
    "source_line": "PMID 40319736 | Fig. 3e-g | offset 23001 | demonstrated F6H activity, catalyzing the con­ version of Q to quercetagetin (Fi",
    "product": "6-hydroxykaempferol",
    "e4_reason": "product_name_inferred",
+   "year": "2025",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -43919,6 +44206,7 @@
    "source_line": "PMID 40319736 | Fig. 3c/d | offset 23001 | demonstrated F6H activity, catalyzing the con­ version of Q to quercetagetin (Fi",
    "product": "quercetagetin",
    "e4_reason": "standard_or_nmr",
+   "year": "2025",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -43948,6 +44236,7 @@
    "source_line": "PMID 40319736 | Fig. 3e-g | offset 23001 | demonstrated F6H activity, catalyzing the con­ version of Q to quercetagetin (Fi",
    "product": "6-hydroxykaempferol",
    "e4_reason": "product_name_inferred",
+   "year": "2025",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -43977,6 +44266,7 @@
    "source_line": "PMID 40319736 | Fig. 4c/d | offset 30464 | it was confirmed that EaCCoAOMT homo1 and EaCCoAOMT homo2 (hereinafter referred ",
    "product": "patuletin",
    "e4_reason": "standard_or_nmr",
+   "year": "2025",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -44006,6 +44296,7 @@
    "source_line": "PMID 40319736 | Fig. 4c/d | offset 30464 | it was confirmed that EaCCoAOMT homo1 and EaCCoAOMT homo2 (hereinafter referred ",
    "product": "patuletin",
    "e4_reason": "standard_or_nmr",
+   "year": "2025",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -44035,6 +44326,7 @@
    "source_line": "PMID 39232219 | Fig. 3a | offset 18144 | As shown in Fig. 3a, SFT1 (GRMZM2G375159), SFT2 (GRMZM2G108714), SFT 3 (GRMZM2G0",
    "product": "3-O-feruloyl sucrose (sibiricose A5)",
    "e4_reason": "standard_or_nmr",
+   "year": "2024",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -44064,6 +44356,7 @@
    "source_line": "PMID 39232219 | Fig. 3a | offset 18144 | As shown in Fig. 3a, SFT1 (GRMZM2G375159), SFT2 (GRMZM2G108714), SFT 3 (GRMZM2G0",
    "product": "3-O-feruloyl sucrose (sibiricose A5)",
    "e4_reason": "standard_or_nmr",
+   "year": "2024",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -44093,6 +44386,7 @@
    "source_line": "PMID 39232219 | Fig. 3a | offset 18144 | As shown in Fig. 3a, SFT1 (GRMZM2G375159), SFT2 (GRMZM2G108714), SFT 3 (GRMZM2G0",
    "product": "3-O-feruloyl sucrose (sibiricose A5)",
    "e4_reason": "standard_or_nmr",
+   "year": "2024",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -44122,6 +44416,7 @@
    "source_line": "PMID 39232219 | Fig. 3a | offset 18144 | As shown in Fig. 3a, SFT1 (GRMZM2G375159), SFT2 (GRMZM2G108714), SFT 3 (GRMZM2G0",
    "product": "3-O-feruloyl sucrose (sibiricose A5)",
    "e4_reason": "standard_or_nmr",
+   "year": "2024",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -44151,6 +44446,7 @@
    "source_line": "PMID 39232219 | Fig. 2a/b | offset 20611 | catalyses the transfer of the ferulate group from Fer-CoA to sibiricose A5 (A5),",
    "product": "3,6-O-diferuloyl sucrose",
    "e4_reason": "standard_or_nmr",
+   "year": "2024",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -44180,6 +44476,7 @@
    "source_line": "PMID 40782307 | Table 1, Fig. S10 | offset 35550 | Purified PnPHT1 catalyzed the formation of FP with a specific activity of 190 nk",
    "product": "feruloylputrescine",
    "e4_reason": "standard_or_nmr",
+   "year": "2025",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -44209,6 +44506,7 @@
    "source_line": "PMID 40782307 | Table 1, Fig. S10 | offset 35550 | Purified PnPHT1 catalyzed the formation of FP with a specific activity of 190 nk",
    "product": "p-coumaroylputrescine",
    "e4_reason": "standard_or_nmr",
+   "year": "2025",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -44238,6 +44536,7 @@
    "source_line": "PMID 40782307 | Fig. 5a, Fig. S11a | offset 38307 | The activity for isoferuloyl-CoA was approximately 120% (relative to that for fe",
    "product": "isoferuloylputrescine",
    "e4_reason": "ms_only",
+   "year": "2025",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -44267,6 +44566,7 @@
    "source_line": "PMID 40782307 | Fig. 5a | offset 38307 | The activity for isoferuloyl-CoA was approximately 120% (relative to that for fe",
    "product": "3,4-dimethoxycinnamoylputrescine",
    "e4_reason": "ms_only",
+   "year": "2025",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -44296,6 +44596,7 @@
    "source_line": "PMID 40782307 | Fig. 5a | offset 38307 | The activity for isoferuloyl-CoA was approximately 120% (relative to that for fe",
    "product": "",
    "e4_reason": "explicit_nonconversion",
+   "year": "2025",
    "evidence_state": "Curated",
    "is_curated": true,
    "conditions_verified": []
@@ -44325,6 +44626,7 @@
    "source_line": "PMID 40782307 | Fig. 5b, Fig. S11b | offset 39041 | Of the eight diamines, those with a carbon chain length from C2 (ethylenedi- ami",
    "product": "1-N-feruloyl-1,3-diaminopropane",
    "e4_reason": "ms_only",
+   "year": "2025",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -44354,6 +44656,7 @@
    "source_line": "PMID 40782307 | Fig. 5b | offset 39041 | Of the eight diamines, those with a carbon chain length from C2 (ethylenedi- ami",
    "product": "N-feruloylethylenediamine",
    "e4_reason": "ms_only",
+   "year": "2025",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -44383,6 +44686,7 @@
    "source_line": "PMID 40782307 | Fig. 5b | offset 39041 | Of the eight diamines, those with a carbon chain length from C2 (ethylenedi- ami",
    "product": "N-feruloylcadaverine",
    "e4_reason": "ms_only",
+   "year": "2025",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -44412,6 +44716,7 @@
    "source_line": "PMID 40782307 | Fig. 5b | offset 39041 | Of the eight diamines, those with a carbon chain length from C2 (ethylenedi- ami",
    "product": "N-feruloyl-1,7-diaminoheptane",
    "e4_reason": "ms_only",
+   "year": "2025",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -44441,6 +44746,7 @@
    "source_line": "PMID 40782307 | Fig. 5b | offset 39041 | Of the eight diamines, those with a carbon chain length from C2 (ethylenedi- ami",
    "product": "",
    "e4_reason": "explicit_nonconversion",
+   "year": "2025",
    "evidence_state": "Curated",
    "is_curated": true,
    "conditions_verified": []
@@ -44470,6 +44776,7 @@
    "source_line": "PMID 40782307 | Fig. 5b | offset 39041 | Of the eight diamines, those with a carbon chain length from C2 (ethylenedi- ami",
    "product": "",
    "e4_reason": "explicit_nonconversion",
+   "year": "2025",
    "evidence_state": "Curated",
    "is_curated": true,
    "conditions_verified": []
@@ -44499,6 +44806,7 @@
    "source_line": "PMID 42934438 | Fig. S19, Table S15 | offset 52364 | Four of these substrates were hydroxylated by NbCYP98A268 (Fig. S19, Table S15).",
    "product": "hydroxy-p-coumaroyltryptamine",
    "e4_reason": "ms_only",
+   "year": "2026",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -44528,6 +44836,7 @@
    "source_line": "PMID 42934438 | Fig. S19, Table S15 | offset 52364 | Four of these substrates were hydroxylated by NbCYP98A268 (Fig. S19, Table S15).",
    "product": "hydroxy-p-coumaroyl-N-tyramine",
    "e4_reason": "ms_only",
+   "year": "2026",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -44557,6 +44866,7 @@
    "source_line": "PMID 42934438 | Fig. S19, Table S15 | offset 52364 | Four of these substrates were hydroxylated by NbCYP98A268 (Fig. S19, Table S15).",
    "product": "hydroxy-p-coumaroyl-N-3-hydroxyanthranilic acid",
    "e4_reason": "ms_only",
+   "year": "2026",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -44586,6 +44896,7 @@
    "source_line": "PMID 42934438 | Fig. S19, Table S15 | offset 52364 | Four of these substrates were hydroxylated by NbCYP98A268 (Fig. S19, Table S15).",
    "product": "hydroxy-p-coumaroyl-N-anthranilic acid",
    "e4_reason": "ms_only",
+   "year": "2026",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -44615,6 +44926,7 @@
    "source_line": "PMID 42934438 | Fig. S19, Table S15 | offset 52364 | Four of these substrates were hydroxylated by NbCYP98A268 (Fig. S19, Table S15).",
    "product": "",
    "e4_reason": "explicit_nonconversion",
+   "year": "2026",
    "evidence_state": "Curated",
    "is_curated": true,
    "conditions_verified": []
@@ -44644,6 +44956,7 @@
    "source_line": "PMID 42934438 | Fig. S19, Table S15 | offset 52364 | Four of these substrates were hydroxylated by NbCYP98A268 (Fig. S19, Table S15).",
    "product": "",
    "e4_reason": "explicit_nonconversion",
+   "year": "2026",
    "evidence_state": "Curated",
    "is_curated": true,
    "conditions_verified": []
@@ -44673,6 +44986,7 @@
    "source_line": "PMID 42934438 | Fig. S19, Table S15 | offset 52364 | Four of these substrates were hydroxylated by NbCYP98A268 (Fig. S19, Table S15).",
    "product": "",
    "e4_reason": "explicit_nonconversion",
+   "year": "2026",
    "evidence_state": "Curated",
    "is_curated": true,
    "conditions_verified": []
@@ -44702,6 +45016,7 @@
    "source_line": "PMID 42934438 | Fig. S19, Table S15 | offset 52364 | Four of these substrates were hydroxylated by NbCYP98A268 (Fig. S19, Table S15).",
    "product": "",
    "e4_reason": "explicit_nonconversion",
+   "year": "2026",
    "evidence_state": "Curated",
    "is_curated": true,
    "conditions_verified": []
@@ -44731,6 +45046,7 @@
    "source_line": "PMID 42580176 | Fig. 6A | offset 30693 | the product exhibited a single product peak at the same retention time as the Rh",
    "product": "ginsenoside Rh2",
    "e4_reason": "standard_or_nmr",
+   "year": "2026",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -44760,6 +45076,7 @@
    "source_line": "PMID 41775165 | Fig. 3a/c/d | offset 27347 | yeast strains lacking TcLOs accumulated levo­ pimaradiene as the major product, ",
    "product": "abietatriene",
    "e4_reason": "ms_only",
+   "year": "2026",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -44789,6 +45106,7 @@
    "source_line": "PMID 41775165 | Fig. 3a/c/d | offset 27347 | yeast strains lacking TcLOs accumulated levo­ pimaradiene as the major product, ",
    "product": "ferruginol",
    "e4_reason": "ms_only",
+   "year": "2026",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -44818,6 +45136,7 @@
    "source_line": "PMID 41775165 | Fig. 3a/c/d | offset 27347 | yeast strains lacking TcLOs accumulated levo­ pimaradiene as the major product, ",
    "product": "abietatriene",
    "e4_reason": "ms_only",
+   "year": "2026",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -44847,6 +45166,7 @@
    "source_line": "PMID 41775165 | Fig. 3a/c/d | offset 27347 | yeast strains lacking TcLOs accumulated levo­ pimaradiene as the major product, ",
    "product": "ferruginol",
    "e4_reason": "ms_only",
+   "year": "2026",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -44876,6 +45196,7 @@
    "source_line": "PMID 41457931 | Fig. 5B/C | offset 45232 | Recombinant VfUGT87H9 had glycosyla- ting activity only for myricetin. No activi",
    "product": "myricetin-3-O-glucoside",
    "e4_reason": "standard_or_nmr",
+   "year": "2025",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -44905,6 +45226,7 @@
    "source_line": "PMID 41457931 | Table 1 | offset 45303 | No activity was observed toward the other tested substrates (Table 1). The recom",
    "product": "",
    "e4_reason": "explicit_nonconversion",
+   "year": "2025",
    "evidence_state": "Curated",
    "is_curated": true,
    "conditions_verified": []
@@ -44934,6 +45256,7 @@
    "source_line": "PMID 41457931 | Table 1 | offset 45303 | No activity was observed toward the other tested substrates (Table 1). The recom",
    "product": "",
    "e4_reason": "explicit_nonconversion",
+   "year": "2025",
    "evidence_state": "Curated",
    "is_curated": true,
    "conditions_verified": []
@@ -44963,6 +45286,7 @@
    "source_line": "PMID 41457931 | Table 1 | offset 45303 | No activity was observed toward the other tested substrates (Table 1). The recom",
    "product": "",
    "e4_reason": "explicit_nonconversion",
+   "year": "2025",
    "evidence_state": "Curated",
    "is_curated": true,
    "conditions_verified": []
@@ -44992,6 +45316,7 @@
    "source_line": "PMID 41457931 | Table 1 | offset 45303 | No activity was observed toward the other tested substrates (Table 1). The recom",
    "product": "",
    "e4_reason": "explicit_nonconversion",
+   "year": "2025",
    "evidence_state": "Curated",
    "is_curated": true,
    "conditions_verified": []
@@ -45021,6 +45346,7 @@
    "source_line": "PMID 41457931 | Table 1 | offset 45303 | No activity was observed toward the other tested substrates (Table 1). The recom",
    "product": "",
    "e4_reason": "explicit_nonconversion",
+   "year": "2025",
    "evidence_state": "Curated",
    "is_curated": true,
    "conditions_verified": []
@@ -45050,6 +45376,7 @@
    "source_line": "PMID 40886456 | Supplementary Fig. 4, Fig. 3 | offset 20685 | The enzymatic product from caffeic acid was confirmed to be ferulic acid by comp",
    "product": "ferulic acid",
    "e4_reason": "standard_or_nmr",
+   "year": "2025",
    "evidence_state": "Supported",
    "is_curated": true,
    "conditions_verified": []
@@ -45079,6 +45406,7 @@
    "source_line": "PMID 40886456 | Fig. 3 | offset 20136 | AcCOMT exhibited the highest activity toward 5-hydroxyconiferyl alcohol, followe",
    "product": "sinapic acid",
    "e4_reason": "ms_only",
+   "year": "2025",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -45108,6 +45436,7 @@
    "source_line": "PMID 40886456 | Fig. 3 | offset 20136 | AcCOMT exhibited the highest activity toward 5-hydroxyconiferyl alcohol, followe",
    "product": "sinapyl alcohol",
    "e4_reason": "ms_only",
+   "year": "2025",
    "evidence_state": "Partial",
    "is_curated": true,
    "conditions_verified": []
@@ -45137,6 +45466,7 @@
    "source_line": "PMID 40886456 | Fig. 3 | offset 20273 | no detectable activity was observed toward piceatannol and quercetin, both of wh",
    "product": "",
    "e4_reason": "explicit_nonconversion",
+   "year": "2025",
    "evidence_state": "Control not located",
    "is_curated": true,
    "conditions_verified": []
@@ -45166,6 +45496,7 @@
    "source_line": "PMID 40886456 | Fig. 3 | offset 20273 | no detectable activity was observed toward piceatannol and quercetin, both of wh",
    "product": "",
    "e4_reason": "explicit_nonconversion",
+   "year": "2025",
    "evidence_state": "Control not located",
    "is_curated": true,
    "conditions_verified": []
@@ -45195,6 +45526,7 @@
    "source_line": "PMID 40886456 | Abstract | offset 1970 | no activity was observed towards the putative precursors of α-asarone and β-asar",
    "product": "",
    "e4_reason": "explicit_nonconversion",
+   "year": "2025",
    "evidence_state": "Control not located",
    "is_curated": true,
    "conditions_verified": []
@@ -45224,9 +45556,1453 @@
    "source_line": "PMID 40886456 | Abstract | offset 1970 | no activity was observed towards the putative precursors of α-asarone and β-asar",
    "product": "",
    "e4_reason": "explicit_nonconversion",
+   "year": "2025",
    "evidence_state": "Control not located",
    "is_curated": true,
    "conditions_verified": []
+  },
+  {
+   "family": "UGT",
+   "accession": "PpUGT78T3",
+   "reaction": "quercetin + UDP-glucose = quercetin 3-O-glucoside",
+   "substrate": "quercetin",
+   "position": "3-O",
+   "donor": "UDP-glucose",
+   "pmid": "file:Plant Cell   Environment - 2022 - Xie - ",
+   "status": "Validated",
+   "level": "L2",
+   "outcome": "positive",
+   "tier": "B",
+   "figure": "",
+   "text_offset": 57062,
+   "quote": "In addition, PpUGT78T3 can use either Q or I as substrate to form Q3Glc or I3Glc, respectively (Figure 5a)",
+   "id_type": "protein",
+   "note": "extension 2015-2022",
+   "chassis": "recombinant E. coli",
+   "afdb_status": "",
+   "mean_plddt": "",
+   "curated_this_round": "yes",
+   "enzyme_preparation_route": "recombinant_Ecoli",
+   "control_reporting_status": "not_located",
+   "direct_conversion_support": "partial",
+   "curation_completion": "complete",
+   "source_line": "Plant Cell   Environment - 2022 - Xie - Unravelling the consecutive glycosylation and methylation of flavonols in peach in.pdf",
+   "product": "quercetin 3-O-glucoside",
+   "e4_reason": "ms_only",
+   "year": "2022",
+   "evidence_state": "Partial",
+   "is_curated": true,
+   "conditions_verified": []
+  },
+  {
+   "family": "UGT",
+   "accession": "PpUGT78A2",
+   "reaction": "quercetin + UDP-galactose = quercetin 3-O-galactoside",
+   "substrate": "quercetin",
+   "position": "3-O",
+   "donor": "UDP-galactose",
+   "pmid": "file:Plant Cell   Environment - 2022 - Xie - ",
+   "status": "Validated",
+   "level": "L2",
+   "outcome": "positive",
+   "tier": "B",
+   "figure": "",
+   "text_offset": 33486,
+   "quote": "PpUGT78A2 protein was capable of transferring UDP-Gal into flavonols, resulting in production of Q3Gal, K3Gal and I3Gal, respectively",
+   "id_type": "protein",
+   "note": "extension 2015-2022",
+   "chassis": "recombinant E. coli",
+   "afdb_status": "",
+   "mean_plddt": "",
+   "curated_this_round": "yes",
+   "enzyme_preparation_route": "recombinant_Ecoli",
+   "control_reporting_status": "not_located",
+   "direct_conversion_support": "partial",
+   "curation_completion": "complete",
+   "source_line": "Plant Cell   Environment - 2022 - Xie - Unravelling the consecutive glycosylation and methylation of flavonols in peach in.pdf",
+   "product": "quercetin 3-O-galactoside",
+   "e4_reason": "ms_only",
+   "year": "2022",
+   "evidence_state": "Partial",
+   "is_curated": true,
+   "conditions_verified": []
+  },
+  {
+   "family": "UGT",
+   "accession": "PpUGT91AK6",
+   "reaction": "quercetin 3-O-glucoside + UDP-rhamnose = quercetin 3-O-rutinoside",
+   "substrate": "quercetin 3-O-glucoside",
+   "position": "3-O",
+   "donor": "UDP-rhamnose",
+   "pmid": "file:Plant Cell   Environment - 2022 - Xie - ",
+   "status": "Validated",
+   "level": "L2",
+   "outcome": "positive",
+   "tier": "B",
+   "figure": "",
+   "text_offset": 52388,
+   "quote": "PpUGT91AK6 was also identified as a branch-forming 1,6-rhamnosytransferase utilizing flavonol 3-O-glucosides such as Q3Glc, K3Glc, and I3Glc as substrates to form corresponding flavonol 3-O-rutinosides, that is, Q3Rut, K3Rut and I3Rut (Figure 4c).",
+   "id_type": "protein",
+   "note": "extension 2015-2022",
+   "chassis": "recombinant E. coli",
+   "afdb_status": "",
+   "mean_plddt": "",
+   "curated_this_round": "yes",
+   "enzyme_preparation_route": "recombinant_Ecoli",
+   "control_reporting_status": "not_located",
+   "direct_conversion_support": "partial",
+   "curation_completion": "complete",
+   "source_line": "Plant Cell   Environment - 2022 - Xie - Unravelling the consecutive glycosylation and methylation of flavonols in peach in.pdf",
+   "product": "quercetin 3-O-rutinoside",
+   "e4_reason": "ms_only",
+   "year": "2022",
+   "evidence_state": "Partial",
+   "is_curated": true,
+   "conditions_verified": []
+  },
+  {
+   "family": "OMT",
+   "accession": "PpFOMT1",
+   "reaction": "quercetin + SAM = isorhamnetin",
+   "substrate": "quercetin",
+   "position": "3'-O",
+   "donor": "SAM",
+   "pmid": "file:Plant Cell   Environment - 2022 - Xie - ",
+   "status": "Validated",
+   "level": "L2",
+   "outcome": "positive",
+   "tier": "B",
+   "figure": "",
+   "text_offset": 61849,
+   "quote": "PpFOMT1 can methylate Q, Q3Glc, or Q3Rut to form I, I3Glc or I3Rut, respectively.",
+   "id_type": "protein",
+   "note": "extension 2015-2022",
+   "chassis": "recombinant E. coli",
+   "afdb_status": "",
+   "mean_plddt": "",
+   "curated_this_round": "yes",
+   "enzyme_preparation_route": "recombinant_Ecoli",
+   "control_reporting_status": "not_located",
+   "direct_conversion_support": "partial",
+   "curation_completion": "complete",
+   "source_line": "Plant Cell   Environment - 2022 - Xie - Unravelling the consecutive glycosylation and methylation of flavonols in peach in.pdf",
+   "product": "isorhamnetin",
+   "e4_reason": "ms_only",
+   "year": "2022",
+   "evidence_state": "Partial",
+   "is_curated": true,
+   "conditions_verified": []
+  },
+  {
+   "family": "OMT",
+   "accession": "EcSPDS1",
+   "reaction": "spermidine + SAM = N-methylspermidine",
+   "substrate": "spermidine",
+   "position": "N-methyl",
+   "donor": "SAM",
+   "pmid": "file:chavez-et-al-2022-elucidation-of-tropane",
+   "status": "Validated",
+   "level": "L2",
+   "outcome": "positive",
+   "tier": "B",
+   "figure": "",
+   "text_offset": 22437,
+   "quote": "Both EcSPDS1 and EcSPDS2 showed SMT activity in which spermidine is methylated at the (internal) N4 position using the co-substrate SAM",
+   "id_type": "protein",
+   "note": "extension 2015-2022",
+   "chassis": "recombinant yeast",
+   "afdb_status": "",
+   "mean_plddt": "",
+   "curated_this_round": "yes",
+   "enzyme_preparation_route": "recombinant_yeast",
+   "control_reporting_status": "explicit_current",
+   "direct_conversion_support": "supported",
+   "curation_completion": "complete",
+   "source_line": "chavez-et-al-2022-elucidation-of-tropane-alkaloid-biosynthesis-in-erythroxylum-coca-using-a-microbial-pathway-discovery.pdf",
+   "product": "N-methylspermidine",
+   "e4_reason": "standard_or_nmr",
+   "year": "2022",
+   "evidence_state": "Supported",
+   "is_curated": true,
+   "conditions_verified": []
+  },
+  {
+   "family": "UGT",
+   "accession": "Rd3GT1",
+   "reaction": "cyanidin + UDP-glucose = cyanidin 3-O-glucoside",
+   "substrate": "cyanidin",
+   "position": "3-O",
+   "donor": "UDP-glucose",
+   "pmid": "file:fpls-13-863482.pdf",
+   "status": "Validated",
+   "level": "L2",
+   "outcome": "positive",
+   "tier": "A",
+   "figure": "",
+   "text_offset": 31502,
+   "quote": "HPLC analysis identified that both Rd3GTs could catalyze the transfer of glucose to the 3-OH of cyanidin via comparing it with the reference standard.",
+   "id_type": "protein",
+   "note": "extension 2015-2022",
+   "chassis": "recombinant E. coli",
+   "afdb_status": "",
+   "mean_plddt": "",
+   "curated_this_round": "yes",
+   "enzyme_preparation_route": "recombinant_Ecoli",
+   "control_reporting_status": "explicit_current",
+   "direct_conversion_support": "supported",
+   "curation_completion": "complete",
+   "source_line": "fpls-13-863482.pdf",
+   "product": "cyanidin 3-O-glucoside",
+   "e4_reason": "standard_or_nmr",
+   "year": "2022",
+   "evidence_state": "Supported",
+   "is_curated": true,
+   "conditions_verified": []
+  },
+  {
+   "family": "OMT",
+   "accession": "EnMT4",
+   "reaction": "ecgonone + SAM = methylecgonone",
+   "substrate": "ecgonone",
+   "position": "C2-O",
+   "donor": "SAM",
+   "pmid": "36376019",
+   "status": "Validated",
+   "level": "L2",
+   "outcome": "positive",
+   "tier": "B",
+   "figure": "",
+   "text_offset": 10285,
+   "quote": "The incubation of 7 with EnMT4 efficiently gave the methylated product 5 (Figure 2d), thus corroborating its status as the native substrate.",
+   "id_type": "protein",
+   "note": "extension 2015-2022",
+   "chassis": "recombinant E. coli",
+   "afdb_status": "",
+   "mean_plddt": "",
+   "curated_this_round": "yes",
+   "enzyme_preparation_route": "recombinant_Ecoli",
+   "control_reporting_status": "explicit_current",
+   "direct_conversion_support": "partial",
+   "curation_completion": "complete",
+   "source_line": "pmid36376019.pdf",
+   "product": "methylecgonone",
+   "e4_reason": "ms_only",
+   "year": "2022",
+   "evidence_state": "Partial",
+   "is_curated": true,
+   "conditions_verified": [],
+   "condition_clues": [
+    {
+     "ph": "7.1",
+     "temp": 37,
+     "conc": "100μM",
+     "status": "",
+     "verified": false
+    }
+   ]
+  },
+  {
+   "family": "UGT",
+   "accession": "CsUGT78A15",
+   "reaction": "cyanidin + UDP-galactose = cyanidin 3-O-galactoside",
+   "substrate": "cyanidin",
+   "position": "3-O",
+   "donor": "UDP-galactose",
+   "pmid": "file:1-s2.0-S0981942821003429-main.pdf",
+   "status": "Validated",
+   "level": "L2",
+   "outcome": "positive",
+   "tier": "A",
+   "figure": "",
+   "text_offset": 1525,
+   "quote": "Enzymatic assays indicated that rCsUGT78A15 could catalyze the synthesis of cyanidin 3-O-galactoside and delphinidin 3-O-galactoside using UDP-galactose as a sugar donor",
+   "id_type": "protein",
+   "note": "extension 2015-2022",
+   "chassis": "recombinant E. coli",
+   "afdb_status": "",
+   "mean_plddt": "",
+   "curated_this_round": "yes",
+   "enzyme_preparation_route": "recombinant_Ecoli",
+   "control_reporting_status": "explicit_current",
+   "direct_conversion_support": "supported",
+   "curation_completion": "complete",
+   "source_line": "1-s2.0-S0981942821003429-main.pdf",
+   "product": "cyanidin 3-O-galactoside",
+   "e4_reason": "standard_or_nmr",
+   "year": "2021",
+   "evidence_state": "Supported",
+   "is_curated": true,
+   "conditions_verified": []
+  },
+  {
+   "family": "UGT",
+   "accession": "CsUGT78A15",
+   "reaction": "myricetin + UDP-galactose = myricetin 3-O-galactoside",
+   "substrate": "myricetin",
+   "position": "3-O",
+   "donor": "UDP-galactose",
+   "pmid": "file:1-s2.0-S0981942821003429-main.pdf",
+   "status": "Validated",
+   "level": "L2",
+   "outcome": "positive",
+   "tier": "A",
+   "figure": "",
+   "text_offset": 31889,
+   "quote": "rCsUGT78A15 could also catalyze the galactosylation of myricetin to produce myricetin 3-O-galactoside (Fig. 4C)",
+   "id_type": "protein",
+   "note": "extension 2015-2022",
+   "chassis": "recombinant E. coli",
+   "afdb_status": "",
+   "mean_plddt": "",
+   "curated_this_round": "yes",
+   "enzyme_preparation_route": "recombinant_Ecoli",
+   "control_reporting_status": "explicit_current",
+   "direct_conversion_support": "supported",
+   "curation_completion": "complete",
+   "source_line": "1-s2.0-S0981942821003429-main.pdf",
+   "product": "myricetin 3-O-galactoside",
+   "e4_reason": "standard_or_nmr",
+   "year": "2021",
+   "evidence_state": "Supported",
+   "is_curated": true,
+   "conditions_verified": []
+  },
+  {
+   "family": "UGT",
+   "accession": "UGT74E2",
+   "reaction": "indole-3-butyric acid + UDP-glucose = IBA glucoside",
+   "substrate": "indole-3-butyric acid",
+   "position": "unresolved",
+   "donor": "UDP-glucose",
+   "pmid": "20798329",
+   "status": "Validated",
+   "level": "L2",
+   "outcome": "positive",
+   "tier": "B",
+   "figure": "",
+   "text_offset": 22147,
+   "quote": "A significant proportion of IBA was glucosylated only in the presence of UGT74E2.",
+   "id_type": "protein",
+   "note": "extension 2015-2022",
+   "chassis": "recombinant E. coli",
+   "afdb_status": "",
+   "mean_plddt": "",
+   "curated_this_round": "yes",
+   "enzyme_preparation_route": "recombinant_Ecoli",
+   "control_reporting_status": "explicit_current",
+   "direct_conversion_support": "partial",
+   "curation_completion": "complete",
+   "source_line": "pmid20798329.pdf",
+   "product": "IBA glucoside",
+   "e4_reason": "ms_only",
+   "year": "2020",
+   "evidence_state": "Partial",
+   "is_curated": true,
+   "conditions_verified": [],
+   "condition_clues": [
+    {
+     "ph": "8.0",
+     "temp": "",
+     "conc": "5mM",
+     "status": "",
+     "verified": false
+    }
+   ]
+  },
+  {
+   "family": "UGT",
+   "accession": "AsUGT91G16",
+   "reaction": "bis-deglucosyl avenacin A-1 + UDP-glucose = bis-deglucosyl avenacin A-1 + hexose",
+   "substrate": "bis-deglucosyl avenacin A-1",
+   "position": "unresolved",
+   "donor": "UDP-glucose",
+   "pmid": "file:orme-et-al-2019-a-noncanonical-vacuolar-",
+   "status": "Validated",
+   "level": "L2",
+   "outcome": "positive",
+   "tier": "B",
+   "figure": "",
+   "text_offset": 13666,
+   "quote": "AsUGT91G16 generated a more polar product with a mass consistent with addition of a hexose when analyzed by HPLC-MS (Fig. 2A)",
+   "id_type": "protein",
+   "note": "extension 2015-2022",
+   "chassis": "recombinant E. coli",
+   "afdb_status": "",
+   "mean_plddt": "",
+   "curated_this_round": "yes",
+   "enzyme_preparation_route": "recombinant_Ecoli",
+   "control_reporting_status": "explicit_current",
+   "direct_conversion_support": "partial",
+   "curation_completion": "complete",
+   "source_line": "orme-et-al-2019-a-noncanonical-vacuolar-sugar-transferase-required-for-biosynthesis-of-antimicrobial-defense-compounds.pdf",
+   "product": "bis-deglucosyl avenacin A-1 + hexose",
+   "e4_reason": "ms_only",
+   "year": "2019",
+   "evidence_state": "Partial",
+   "is_curated": true,
+   "conditions_verified": []
+  },
+  {
+   "family": "UGT",
+   "accession": "UGT76G1",
+   "reaction": "stevioside + UDP-glucose = rebaudioside A",
+   "substrate": "stevioside",
+   "position": "C13-O",
+   "donor": "UDP-glucose",
+   "pmid": "31182573",
+   "status": "Validated",
+   "level": "L2",
+   "outcome": "positive",
+   "tier": "B",
+   "figure": "",
+   "text_offset": 4242,
+   "quote": "Further modification by UGT76G1 at the C3' of the C13 sugar leads to synthesis of rebaudioside A",
+   "id_type": "protein",
+   "note": "extension 2015-2022",
+   "chassis": "recombinant E. coli",
+   "afdb_status": "",
+   "mean_plddt": "",
+   "curated_this_round": "yes",
+   "enzyme_preparation_route": "recombinant_Ecoli",
+   "control_reporting_status": "not_located",
+   "direct_conversion_support": "partial",
+   "curation_completion": "complete",
+   "source_line": "pmid31182573.pdf",
+   "product": "rebaudioside A",
+   "e4_reason": "ms_only",
+   "year": "2019",
+   "evidence_state": "Partial",
+   "is_curated": true,
+   "conditions_verified": [],
+   "condition_clues": [
+    {
+     "ph": "8.0",
+     "temp": 37,
+     "conc": "1mM",
+     "status": "",
+     "verified": false
+    }
+   ]
+  },
+  {
+   "family": "UGT",
+   "accession": "Gt6CGT",
+   "reaction": "luteolin + UDP-glucose = isoorientin",
+   "substrate": "luteolin",
+   "position": "C6",
+   "donor": "UDP-glucose",
+   "pmid": "31399929",
+   "status": "Validated",
+   "level": "L2",
+   "outcome": "positive",
+   "tier": "B",
+   "figure": "",
+   "text_offset": 4824,
+   "quote": "Gt6CGT could catalyze the glycosylation of luteolin and apigenin to synthesize isoorientin and isovitexin",
+   "id_type": "protein",
+   "note": "extension 2015-2022",
+   "chassis": "recombinant E. coli",
+   "afdb_status": "",
+   "mean_plddt": "",
+   "curated_this_round": "yes",
+   "enzyme_preparation_route": "recombinant_Ecoli",
+   "control_reporting_status": "not_located",
+   "direct_conversion_support": "supported",
+   "curation_completion": "complete",
+   "source_line": "pmid31399929.pdf",
+   "product": "isoorientin",
+   "e4_reason": "standard_or_nmr",
+   "year": "2019",
+   "evidence_state": "Supported",
+   "is_curated": true,
+   "conditions_verified": [],
+   "condition_clues": [
+    {
+     "ph": "7.9",
+     "temp": 30,
+     "conc": "50mM",
+     "status": "",
+     "verified": false
+    }
+   ]
+  },
+  {
+   "family": "UGT",
+   "accession": "Gt6CGT",
+   "reaction": "apigenin + UDP-glucose = isovitexin",
+   "substrate": "apigenin",
+   "position": "C6",
+   "donor": "UDP-glucose",
+   "pmid": "31399929",
+   "status": "Validated",
+   "level": "L2",
+   "outcome": "positive",
+   "tier": "B",
+   "figure": "",
+   "text_offset": 4824,
+   "quote": "Gt6CGT could catalyze the glycosylation of luteolin and apigenin to synthesize isoorientin and isovitexin",
+   "id_type": "protein",
+   "note": "extension 2015-2022",
+   "chassis": "recombinant E. coli",
+   "afdb_status": "",
+   "mean_plddt": "",
+   "curated_this_round": "yes",
+   "enzyme_preparation_route": "recombinant_Ecoli",
+   "control_reporting_status": "not_located",
+   "direct_conversion_support": "supported",
+   "curation_completion": "complete",
+   "source_line": "pmid31399929.pdf",
+   "product": "isovitexin",
+   "e4_reason": "standard_or_nmr",
+   "year": "2019",
+   "evidence_state": "Supported",
+   "is_curated": true,
+   "conditions_verified": [],
+   "condition_clues": [
+    {
+     "ph": "7.9",
+     "temp": 30,
+     "conc": "50mM",
+     "status": "",
+     "verified": false
+    }
+   ]
+  },
+  {
+   "family": "OMT",
+   "accession": "PpBMT",
+   "reaction": "bergaptol + SAM = bergapten",
+   "substrate": "bergaptol",
+   "position": "5-O",
+   "donor": "SAM",
+   "pmid": "31666994",
+   "status": "Validated",
+   "level": "L2",
+   "outcome": "positive",
+   "tier": "B",
+   "figure": "",
+   "text_offset": 2155,
+   "quote": "Site-directed mutagenesis and biochemical analysis revealed that the V320I mutant efficiently transformed bergaptol to produce bergapten.",
+   "id_type": "protein",
+   "note": "extension 2015-2022",
+   "chassis": "recombinant E. coli",
+   "afdb_status": "",
+   "mean_plddt": "",
+   "curated_this_round": "yes",
+   "enzyme_preparation_route": "recombinant_Ecoli",
+   "control_reporting_status": "not_located",
+   "direct_conversion_support": "partial",
+   "curation_completion": "complete",
+   "source_line": "pmid31666994.pdf",
+   "product": "bergapten",
+   "e4_reason": "ms_only",
+   "year": "2019",
+   "evidence_state": "Partial",
+   "is_curated": true,
+   "conditions_verified": [],
+   "condition_clues": [
+    {
+     "ph": "",
+     "temp": "",
+     "conc": "",
+     "status": "",
+     "verified": false
+    }
+   ]
+  },
+  {
+   "family": "UGT",
+   "accession": "UGT1",
+   "reaction": "phenyllactate + UDP-glucose = phenyllactoylglucose",
+   "substrate": "phenyllactate",
+   "position": "unresolved",
+   "donor": "UDP-glucose",
+   "pmid": "31705812",
+   "status": "Validated",
+   "level": "L2",
+   "outcome": "positive",
+   "tier": "B",
+   "figure": "",
+   "text_offset": 22082,
+   "quote": "When phenyllactate and UDP-glucose were both provided to the UGT1 enzyme in the reaction system, a new product, identified as phenyllactoylglucose (m/z 327.1088), was formed",
+   "id_type": "protein",
+   "note": "extension 2015-2022",
+   "chassis": "recombinant E. coli",
+   "afdb_status": "",
+   "mean_plddt": "",
+   "curated_this_round": "yes",
+   "enzyme_preparation_route": "recombinant_Ecoli",
+   "control_reporting_status": "explicit_current",
+   "direct_conversion_support": "partial",
+   "curation_completion": "complete",
+   "source_line": "pmid31705812.pdf",
+   "product": "phenyllactoylglucose",
+   "e4_reason": "ms_only",
+   "year": "2019",
+   "evidence_state": "Partial",
+   "is_curated": true,
+   "conditions_verified": [],
+   "condition_clues": [
+    {
+     "ph": "",
+     "temp": 30,
+     "conc": "",
+     "status": "",
+     "verified": false
+    }
+   ]
+  },
+  {
+   "family": "OMT",
+   "accession": "AcOMT1",
+   "reaction": "resveratrol + SAM = 4'-O-methylresveratrol (deoxyrhapontigenin)",
+   "substrate": "resveratrol",
+   "position": "4'-O",
+   "donor": "SAM",
+   "pmid": "file:1-s2.0-S1389172318306170-main.pdf",
+   "status": "Validated",
+   "level": "L2",
+   "outcome": "positive",
+   "tier": "A",
+   "figure": "",
+   "text_offset": 1261,
+   "quote": "We purified a reaction product enzymatically formed from resveratrol by AcOMT1 and confirmed it as 40-O-methylresveratrol (deoxyrhapontigenin).",
+   "id_type": "protein",
+   "note": "extension 2015-2022",
+   "chassis": "recombinant E. coli",
+   "afdb_status": "",
+   "mean_plddt": "",
+   "curated_this_round": "yes",
+   "enzyme_preparation_route": "recombinant_Ecoli",
+   "control_reporting_status": "explicit_current",
+   "direct_conversion_support": "supported",
+   "curation_completion": "complete",
+   "source_line": "1-s2.0-S1389172318306170-main.pdf",
+   "product": "4'-O-methylresveratrol (deoxyrhapontigenin)",
+   "e4_reason": "standard_or_nmr",
+   "year": "2018",
+   "evidence_state": "Supported",
+   "is_curated": true,
+   "conditions_verified": []
+  },
+  {
+   "family": "UGT",
+   "accession": "SrUGT76G1",
+   "reaction": "dulcoside A + UDP-glucose = rebaudioside C",
+   "substrate": "dulcoside A",
+   "position": "C13-O",
+   "donor": "UDP-glucose",
+   "pmid": "30569490",
+   "status": "Validated",
+   "level": "L2",
+   "outcome": "positive",
+   "tier": "A",
+   "figure": "",
+   "text_offset": 1747,
+   "quote": "Using the glutathione S-transferase-tagged SrUGT76G1 recombinant protein for an in vitro glucosyltransferase assay, we further demonstrated that Reb C can be produced from the glucosylation of dulcoside A by SrUGT76G1.",
+   "id_type": "protein",
+   "note": "extension 2015-2022",
+   "chassis": "recombinant E. coli",
+   "afdb_status": "",
+   "mean_plddt": "",
+   "curated_this_round": "yes",
+   "enzyme_preparation_route": "recombinant_Ecoli",
+   "control_reporting_status": "explicit_current",
+   "direct_conversion_support": "supported",
+   "curation_completion": "complete",
+   "source_line": "pmid30569490.pdf",
+   "product": "rebaudioside C",
+   "e4_reason": "standard_or_nmr",
+   "year": "2018",
+   "evidence_state": "Supported",
+   "is_curated": true,
+   "conditions_verified": [],
+   "condition_clues": [
+    {
+     "ph": "7.5",
+     "temp": 25,
+     "conc": "50mM",
+     "status": "",
+     "verified": false
+    }
+   ]
+  },
+  {
+   "family": "UGT",
+   "accession": "SrUGT76G1",
+   "reaction": "stevioside + UDP-glucose = rebaudioside A",
+   "substrate": "stevioside",
+   "position": "C13-O",
+   "donor": "UDP-glucose",
+   "pmid": "30569490",
+   "status": "Validated",
+   "level": "L2",
+   "outcome": "positive",
+   "tier": "A",
+   "figure": "",
+   "text_offset": 22508,
+   "quote": "In the positive control assay, Reb A was produced from the reaction mix containing GST-SrUGT76G1 with stevioside (Figure 6b).",
+   "id_type": "protein",
+   "note": "extension 2015-2022",
+   "chassis": "recombinant E. coli",
+   "afdb_status": "",
+   "mean_plddt": "",
+   "curated_this_round": "yes",
+   "enzyme_preparation_route": "recombinant_Ecoli",
+   "control_reporting_status": "explicit_current",
+   "direct_conversion_support": "supported",
+   "curation_completion": "complete",
+   "source_line": "pmid30569490.pdf",
+   "product": "rebaudioside A",
+   "e4_reason": "standard_or_nmr",
+   "year": "2018",
+   "evidence_state": "Supported",
+   "is_curated": true,
+   "conditions_verified": [],
+   "condition_clues": [
+    {
+     "ph": "7.5",
+     "temp": 25,
+     "conc": "50mM",
+     "status": "",
+     "verified": false
+    }
+   ]
+  },
+  {
+   "family": "UGT",
+   "accession": "UGT89C1",
+   "reaction": "quercetin + UDP-rhamnose = quercetin 7-O-rhamnoside",
+   "substrate": "quercetin",
+   "position": "7-O",
+   "donor": "UDP-rhamnose",
+   "pmid": "30893500",
+   "status": "Validated",
+   "level": "L2",
+   "outcome": "positive",
+   "tier": "A",
+   "figure": "",
+   "text_offset": 24184,
+   "quote": "In fact, the UGT89C1 catalyzed the conversion of quercetin to a single product, quercetin 7-O-rhamnoside, as confirmed by high-performance liquid chromatography (HPLC) retention time and MS ionization when compared with the standard compound (Figure 7).",
+   "id_type": "protein",
+   "note": "extension 2015-2022",
+   "chassis": "recombinant E. coli",
+   "afdb_status": "",
+   "mean_plddt": "",
+   "curated_this_round": "yes",
+   "enzyme_preparation_route": "recombinant_Ecoli",
+   "control_reporting_status": "explicit_current",
+   "direct_conversion_support": "supported",
+   "curation_completion": "complete",
+   "source_line": "pmid30893500.pdf",
+   "product": "quercetin 7-O-rhamnoside",
+   "e4_reason": "standard_or_nmr",
+   "year": "2018",
+   "evidence_state": "Supported",
+   "is_curated": true,
+   "conditions_verified": [],
+   "condition_clues": [
+    {
+     "ph": "",
+     "temp": 30,
+     "conc": "",
+     "status": "",
+     "verified": false
+    }
+   ]
+  },
+  {
+   "family": "UGT",
+   "accession": "BvUGT73C21",
+   "reaction": "oleanolic acid + UDP-glucose = oleanolic acid 3-O-glucoside",
+   "substrate": "oleanolic acid",
+   "position": "3-O",
+   "donor": "UDP-glucose",
+   "pmid": "29603041",
+   "status": "Validated",
+   "level": "L2",
+   "outcome": "positive",
+   "tier": "A",
+   "figure": "",
+   "text_offset": 29213,
+   "quote": "Two of them (BvUGT73C21 and BvUGT73C26) exclusively glucosylated at position 3, forming oleanolic acid 3-glucoside",
+   "id_type": "protein",
+   "note": "extension 2015-2022",
+   "chassis": "recombinant E. coli",
+   "afdb_status": "",
+   "mean_plddt": "",
+   "curated_this_round": "yes",
+   "enzyme_preparation_route": "recombinant_Ecoli",
+   "control_reporting_status": "explicit_current",
+   "direct_conversion_support": "partial",
+   "curation_completion": "complete",
+   "source_line": "pmid29603041.pdf",
+   "product": "oleanolic acid 3-O-glucoside",
+   "e4_reason": "ms_only",
+   "year": "2017",
+   "evidence_state": "Partial",
+   "is_curated": true,
+   "conditions_verified": [],
+   "condition_clues": [
+    {
+     "ph": "8.6",
+     "temp": 30,
+     "conc": "10µM",
+     "status": "",
+     "verified": false
+    }
+   ]
+  },
+  {
+   "family": "UGT",
+   "accession": "BvUGT73C22",
+   "reaction": "oleanolic acid + UDP-glucose = oleanolic acid 28-O-glucoside",
+   "substrate": "oleanolic acid",
+   "position": "28-O",
+   "donor": "UDP-glucose",
+   "pmid": "29603041",
+   "status": "Validated",
+   "level": "L2",
+   "outcome": "positive",
+   "tier": "B",
+   "figure": "",
+   "text_offset": 30170,
+   "quote": "A second UGT (BvUGT73C22) accepts both sapogenins and both 3-glucosides as substrates but mainly glucosylates at position 28.",
+   "id_type": "protein",
+   "note": "extension 2015-2022",
+   "chassis": "recombinant E. coli",
+   "afdb_status": "",
+   "mean_plddt": "",
+   "curated_this_round": "yes",
+   "enzyme_preparation_route": "recombinant_Ecoli",
+   "control_reporting_status": "explicit_current",
+   "direct_conversion_support": "partial",
+   "curation_completion": "complete",
+   "source_line": "pmid29603041.pdf",
+   "product": "oleanolic acid 28-O-glucoside",
+   "e4_reason": "ms_only",
+   "year": "2017",
+   "evidence_state": "Partial",
+   "is_curated": true,
+   "conditions_verified": [],
+   "condition_clues": [
+    {
+     "ph": "8.6",
+     "temp": 30,
+     "conc": "10µM",
+     "status": "",
+     "verified": false
+    }
+   ]
+  },
+  {
+   "family": "OMT",
+   "accession": "PsMT2/PsMT3",
+   "reaction": "narcotoline + SAM = noscapine",
+   "substrate": "narcotoline",
+   "position": "4'-O",
+   "donor": "SAM",
+   "pmid": "file:10.1038-ncomms12137.pdf",
+   "status": "Validated",
+   "level": "L2",
+   "outcome": "positive",
+   "tier": "A",
+   "figure": "",
+   "text_offset": 29787,
+   "quote": "The conversion of 9 to noscapine was detected when the PsMT2/PsMT3 complex was incubated with 9 and S-adenosyl methionine",
+   "id_type": "protein",
+   "note": "extension 2015-2022",
+   "chassis": "recombinant E. coli",
+   "afdb_status": "",
+   "mean_plddt": "",
+   "curated_this_round": "yes",
+   "enzyme_preparation_route": "recombinant_Ecoli",
+   "control_reporting_status": "explicit_current",
+   "direct_conversion_support": "partial",
+   "curation_completion": "complete",
+   "source_line": "10.1038-ncomms12137.pdf",
+   "product": "noscapine",
+   "e4_reason": "ms_only",
+   "year": "2016",
+   "evidence_state": "Partial",
+   "is_curated": true,
+   "conditions_verified": []
+  },
+  {
+   "family": "UGT",
+   "accession": "UGT720-269-1",
+   "reaction": "mogrol + UDP-glucose = mogrol 24-O-glucoside",
+   "substrate": "mogrol",
+   "position": "24-O",
+   "donor": "UDP-glucose",
+   "pmid": "file:itkin2016.pdf",
+   "status": "Validated",
+   "level": "L2",
+   "outcome": "positive",
+   "tier": "B",
+   "figure": "",
+   "text_offset": 27594,
+   "quote": "A fourth gene, also from the UGT720 family (UGT720-269-1), was the only UGT identified capable of the C24 primary glucosylation",
+   "id_type": "protein",
+   "note": "extension 2015-2022",
+   "chassis": "recombinant E. coli",
+   "afdb_status": "",
+   "mean_plddt": "",
+   "curated_this_round": "yes",
+   "enzyme_preparation_route": "recombinant_Ecoli",
+   "control_reporting_status": "not_located",
+   "direct_conversion_support": "partial",
+   "curation_completion": "complete",
+   "source_line": "itkin2016.pdf",
+   "product": "mogrol 24-O-glucoside",
+   "e4_reason": "ms_only",
+   "year": "2016",
+   "evidence_state": "Partial",
+   "is_curated": true,
+   "conditions_verified": []
+  },
+  {
+   "family": "UGT",
+   "accession": "UGT84A23",
+   "reaction": "gallic acid + UDP-glucose = beta-glucogallin",
+   "substrate": "gallic acid",
+   "position": "1-O",
+   "donor": "UDP-glucose",
+   "pmid": "file:ono2016.pdf",
+   "status": "Validated",
+   "level": "L2",
+   "outcome": "positive",
+   "tier": "A",
+   "figure": "",
+   "text_offset": 25018,
+   "quote": "Overall, the HPLC, MS and MS/MS data collectively indicated that UGT84A23 and UGT84A24 produced the galloyl glucose ester, β-glucogallin, from gallic acid and UDP-glucose in in vitro enzyme assays.",
+   "id_type": "protein",
+   "note": "extension 2015-2022",
+   "chassis": "recombinant E. coli",
+   "afdb_status": "",
+   "mean_plddt": "",
+   "curated_this_round": "yes",
+   "enzyme_preparation_route": "recombinant_Ecoli",
+   "control_reporting_status": "explicit_current",
+   "direct_conversion_support": "supported",
+   "curation_completion": "complete",
+   "source_line": "ono2016.pdf",
+   "product": "beta-glucogallin",
+   "e4_reason": "standard_or_nmr",
+   "year": "2016",
+   "evidence_state": "Supported",
+   "is_curated": true,
+   "conditions_verified": []
+  },
+  {
+   "family": "OMT",
+   "accession": "PlOMT4",
+   "reaction": "3'-hydroxy-daidzein + SAM = 3'-methoxy-daidzein",
+   "substrate": "3'-hydroxy-daidzein",
+   "position": "3'-O",
+   "donor": "SAM",
+   "pmid": "27458460",
+   "status": "Validated",
+   "level": "L2",
+   "outcome": "positive",
+   "tier": "A",
+   "figure": "",
+   "text_offset": 17163,
+   "quote": "Notably, yeast cells expressing PlOMT4 could convert the substrate 3'-hydroxy-daidzein to form the 3'-methoxy-daidzein (Figure 3A)",
+   "id_type": "protein",
+   "note": "extension 2015-2022",
+   "chassis": "recombinant yeast",
+   "afdb_status": "",
+   "mean_plddt": "",
+   "curated_this_round": "yes",
+   "enzyme_preparation_route": "recombinant_yeast",
+   "control_reporting_status": "explicit_current",
+   "direct_conversion_support": "partial",
+   "curation_completion": "complete",
+   "source_line": "pmid27458460.pdf",
+   "product": "3'-methoxy-daidzein",
+   "e4_reason": "ms_only",
+   "year": "2016",
+   "evidence_state": "Partial",
+   "is_curated": true,
+   "conditions_verified": [],
+   "condition_clues": [
+    {
+     "ph": "",
+     "temp": "",
+     "conc": "100µM",
+     "status": "",
+     "verified": false
+    }
+   ]
+  },
+  {
+   "family": "OMT",
+   "accession": "PlOMT4",
+   "reaction": "quercetin + SAM = isorhamnetin",
+   "substrate": "quercetin",
+   "position": "3'-O",
+   "donor": "SAM",
+   "pmid": "27458460",
+   "status": "Validated",
+   "level": "L2",
+   "outcome": "positive",
+   "tier": "B",
+   "figure": "",
+   "text_offset": 19211,
+   "quote": "In addition, the substrates quercetin and luteolin were also converted by PlOMT4, producing their respective methylated products isorhamnetin (peak 2) and chrysoeriol (peak 3), respectively (Figures 4B,C).",
+   "id_type": "protein",
+   "note": "extension 2015-2022",
+   "chassis": "recombinant E. coli",
+   "afdb_status": "",
+   "mean_plddt": "",
+   "curated_this_round": "yes",
+   "enzyme_preparation_route": "recombinant_Ecoli",
+   "control_reporting_status": "not_located",
+   "direct_conversion_support": "partial",
+   "curation_completion": "complete",
+   "source_line": "pmid27458460.pdf",
+   "product": "isorhamnetin",
+   "e4_reason": "ms_only",
+   "year": "2016",
+   "evidence_state": "Partial",
+   "is_curated": true,
+   "conditions_verified": [],
+   "condition_clues": [
+    {
+     "ph": "",
+     "temp": "",
+     "conc": "100µM",
+     "status": "",
+     "verified": false
+    }
+   ]
+  },
+  {
+   "family": "UGT",
+   "accession": "Fh3GT1",
+   "reaction": "cyanidin + UDP-glucose = cyanidin 3-O-glucoside",
+   "substrate": "cyanidin",
+   "position": "3-O",
+   "donor": "UDP-glucose",
+   "pmid": "file:sun2016.pdf",
+   "status": "Validated",
+   "level": "L2",
+   "outcome": "positive",
+   "tier": "A",
+   "figure": "",
+   "text_offset": 29086,
+   "quote": "In the presence of UDP-glucose, the recombinant Fh3GT1 was able to glucosylate all tested anthocyanidin and flavonol aglycones at their 3-position.",
+   "id_type": "protein",
+   "note": "extension 2015-2022",
+   "chassis": "recombinant E. coli",
+   "afdb_status": "",
+   "mean_plddt": "",
+   "curated_this_round": "yes",
+   "enzyme_preparation_route": "recombinant_Ecoli",
+   "control_reporting_status": "explicit_current",
+   "direct_conversion_support": "supported",
+   "curation_completion": "complete",
+   "source_line": "sun2016.pdf",
+   "product": "cyanidin 3-O-glucoside",
+   "e4_reason": "standard_or_nmr",
+   "year": "2016",
+   "evidence_state": "Supported",
+   "is_curated": true,
+   "conditions_verified": []
+  },
+  {
+   "family": "UGT",
+   "accession": "UGT71K3",
+   "reaction": "acylphloroglucinol aglycone + UDP-glucose = APG glucoside",
+   "substrate": "acylphloroglucinol aglycone",
+   "position": "O-glucoside",
+   "donor": "UDP-glucose",
+   "pmid": "file:10.1111-tpj.13140.pdf",
+   "status": "Validated",
+   "level": "L2",
+   "outcome": "positive",
+   "tier": "B",
+   "figure": "",
+   "text_offset": 18452,
+   "quote": "CHS/VPS and UGT71K3a or UGT71K3b was incubated with isovaleryl-CoA/isobutyryl-CoA, malonyl- CoA and UDP-glucose to examine whether UGT71K3a/b can glucosylate APG aglycones.",
+   "id_type": "protein",
+   "note": "extension 2015-2022",
+   "chassis": "recombinant E. coli",
+   "afdb_status": "",
+   "mean_plddt": "",
+   "curated_this_round": "yes",
+   "enzyme_preparation_route": "recombinant_Ecoli",
+   "control_reporting_status": "not_located",
+   "direct_conversion_support": "partial",
+   "curation_completion": "complete",
+   "source_line": "10.1111-tpj.13140.pdf",
+   "product": "APG glucoside",
+   "e4_reason": "ms_only",
+   "year": "2015",
+   "evidence_state": "Partial",
+   "is_curated": true,
+   "conditions_verified": []
+  },
+  {
+   "family": "UGT",
+   "accession": "MdPh-4-OGT",
+   "reaction": "phloretin + UDP-glucose = trilobatin",
+   "substrate": "phloretin",
+   "position": "4'-O-glucoside",
+   "donor": "UDP-glucose",
+   "pmid": "27316677",
+   "status": "Validated",
+   "level": "L2",
+   "outcome": "positive",
+   "tier": "B",
+   "figure": "",
+   "text_offset": 1620,
+   "quote": "Re- combinant MdPh-40-OGT protein glycosylates phloretin in the presence of UDP-glucose into trilobatin in vitro.",
+   "id_type": "protein",
+   "note": "extension 2015-2022",
+   "chassis": "recombinant E. coli",
+   "afdb_status": "",
+   "mean_plddt": "",
+   "curated_this_round": "yes",
+   "enzyme_preparation_route": "recombinant_Ecoli",
+   "control_reporting_status": "not_located",
+   "direct_conversion_support": "partial",
+   "curation_completion": "complete",
+   "source_line": "pmid27316677.pdf",
+   "product": "trilobatin",
+   "e4_reason": "ms_only",
+   "year": "2015",
+   "evidence_state": "Partial",
+   "is_curated": true,
+   "conditions_verified": [],
+   "condition_clues": [
+    {
+     "ph": "7.5",
+     "temp": "",
+     "conc": "50mM",
+     "status": "",
+     "verified": false
+    }
+   ]
+  },
+  {
+   "family": "OMT",
+   "accession": "OsCOMT",
+   "reaction": "N-acetylserotonin + SAM = melatonin",
+   "substrate": "N-acetylserotonin",
+   "position": "O-methyl",
+   "donor": "SAM",
+   "pmid": "file:byeon2015.pdf",
+   "status": "Validated",
+   "level": "L2",
+   "outcome": "positive",
+   "tier": "B",
+   "figure": "",
+   "text_offset": 947,
+   "quote": "To confirm the involvement of COMT on melatonin synthesis in other plant species, the ASMT activity of a COMT from rice (Oryza sativa) (OsCOMT) was evaluated.",
+   "id_type": "protein",
+   "note": "extension 2015-2022",
+   "chassis": "recombinant E. coli",
+   "afdb_status": "",
+   "mean_plddt": "",
+   "curated_this_round": "yes",
+   "enzyme_preparation_route": "recombinant_Ecoli",
+   "control_reporting_status": "not_located",
+   "direct_conversion_support": "partial",
+   "curation_completion": "complete",
+   "source_line": "byeon2015.pdf",
+   "product": "melatonin",
+   "e4_reason": "ms_only",
+   "year": "2015",
+   "evidence_state": "Partial",
+   "is_curated": true,
+   "conditions_verified": []
+  },
+  {
+   "family": "OMT",
+   "accession": "AtCOMT/ASMT",
+   "reaction": "N-acetylserotonin + SAM = melatonin",
+   "substrate": "N-acetylserotonin",
+   "position": "O-methyl",
+   "donor": "SAM",
+   "pmid": "file:byeon2015.pdf",
+   "status": "Validated",
+   "level": "L2",
+   "outcome": "positive",
+   "tier": "B",
+   "figure": "",
+   "text_offset": 653,
+   "quote": "Accepted 28 July 2015 Editor: Robert Hancock Abstract Caffeic acid O-methyltransferase (COMT) methylates N-acetylserotonin into melatonin; that is, it has N-acetylserotonin O-methyltransferase (ASMT) activity.",
+   "id_type": "protein",
+   "note": "extension 2015-2022",
+   "chassis": "recombinant E. coli",
+   "afdb_status": "",
+   "mean_plddt": "",
+   "curated_this_round": "yes",
+   "enzyme_preparation_route": "recombinant_Ecoli",
+   "control_reporting_status": "not_located",
+   "direct_conversion_support": "partial",
+   "curation_completion": "complete",
+   "source_line": "byeon2015.pdf",
+   "product": "melatonin",
+   "e4_reason": "ms_only",
+   "year": "2015",
+   "evidence_state": "Partial",
+   "is_curated": true,
+   "conditions_verified": []
+  },
+  {
+   "family": "UGT",
+   "accession": "UGT76G1",
+   "reaction": "steviolmonoside + UDP-glucose = steviolbioside",
+   "substrate": "steviolmonoside",
+   "position": "C13-O-glucoside",
+   "donor": "UDP-glucose",
+   "pmid": "26358188",
+   "status": "Validated",
+   "level": "L2",
+   "outcome": "positive",
+   "tier": "B",
+   "figure": "",
+   "text_offset": 6398,
+   "quote": "By adding ste- violmonoside and UDP-glucose as substrates, the end product steviolbioside was successfully detected.",
+   "id_type": "protein",
+   "note": "extension 2015-2022",
+   "chassis": "recombinant E. coli",
+   "afdb_status": "",
+   "mean_plddt": "",
+   "curated_this_round": "yes",
+   "enzyme_preparation_route": "recombinant_Ecoli",
+   "control_reporting_status": "not_located",
+   "direct_conversion_support": "partial",
+   "curation_completion": "complete",
+   "source_line": "pmid26358188.pdf",
+   "product": "steviolbioside",
+   "e4_reason": "ms_only",
+   "year": "2015",
+   "evidence_state": "Partial",
+   "is_curated": true,
+   "conditions_verified": [],
+   "condition_clues": [
+    {
+     "ph": "",
+     "temp": 30,
+     "conc": "",
+     "status": "",
+     "verified": false
+    }
+   ]
+  },
+  {
+   "family": "OMT",
+   "accession": "ROMT9",
+   "reaction": "selgin + SAM = tricin",
+   "substrate": "selgin",
+   "position": "5'-O-methyl",
+   "donor": "SAM",
+   "pmid": "26082402",
+   "status": "Validated",
+   "level": "L2",
+   "outcome": "positive",
+   "tier": "B",
+   "figure": "",
+   "text_offset": 15976,
+   "quote": "ROMT9 (Os08g06100) was previously 174 demonstrated to be a flavonoid B ring-specific OMT in enzyme activity assays (Kim 175 et al., 2006).",
+   "id_type": "protein",
+   "note": "extension 2015-2022",
+   "chassis": "recombinant E. coli",
+   "afdb_status": "",
+   "mean_plddt": "",
+   "curated_this_round": "yes",
+   "enzyme_preparation_route": "recombinant_Ecoli",
+   "control_reporting_status": "not_located",
+   "direct_conversion_support": "partial",
+   "curation_completion": "complete",
+   "source_line": "pmid26082402.pdf",
+   "product": "tricin",
+   "e4_reason": "ms_only",
+   "year": "2015",
+   "evidence_state": "Partial",
+   "is_curated": true,
+   "conditions_verified": [],
+   "condition_clues": [
+    {
+     "ph": "7.5",
+     "temp": 37,
+     "conc": "100mM",
+     "status": "",
+     "verified": false
+    }
+   ]
+  },
+  {
+   "family": "UGT",
+   "accession": "UGTPg45",
+   "reaction": "protopanaxadiol + UDP-glucose = ginsenoside Rh2",
+   "substrate": "protopanaxadiol",
+   "position": "C3-O-glucoside",
+   "donor": "UDP-glucose",
+   "pmid": "25769286",
+   "status": "Validated",
+   "level": "L2",
+   "outcome": "positive",
+   "tier": "B",
+   "figure": "",
+   "text_offset": 1626,
+   "quote": "UGTPg45 selectively transfers a glucose moiety to the C3 hydroxyl of PPD and its ginsenosides.",
+   "id_type": "protein",
+   "note": "extension 2015-2022",
+   "chassis": "recombinant E. coli",
+   "afdb_status": "",
+   "mean_plddt": "",
+   "curated_this_round": "yes",
+   "enzyme_preparation_route": "recombinant_Ecoli",
+   "control_reporting_status": "not_located",
+   "direct_conversion_support": "partial",
+   "curation_completion": "complete",
+   "source_line": "pmid25769286.pdf",
+   "product": "ginsenoside Rh2",
+   "e4_reason": "ms_only",
+   "year": "2015",
+   "evidence_state": "Partial",
+   "is_curated": true,
+   "conditions_verified": [],
+   "condition_clues": [
+    {
+     "ph": "8.0",
+     "temp": "",
+     "conc": "5mM",
+     "status": "",
+     "verified": false
+    }
+   ]
+  },
+  {
+   "family": "UGT",
+   "accession": "UGTPg29",
+   "reaction": "ginsenoside Rh2 + UDP-glucose = ginsenoside Rg3",
+   "substrate": "ginsenoside Rh2",
+   "position": "C3-O-glucose (1-2)",
+   "donor": "UDP-glucose",
+   "pmid": "25769286",
+   "status": "Validated",
+   "level": "L2",
+   "outcome": "positive",
+   "tier": "B",
+   "figure": "",
+   "text_offset": 1721,
+   "quote": "UGTPg29 selectively transfers a glucose moiety to the C3 glucose of Rh2 to form a 1–2-glycosidic bond.",
+   "id_type": "protein",
+   "note": "extension 2015-2022",
+   "chassis": "recombinant E. coli",
+   "afdb_status": "",
+   "mean_plddt": "",
+   "curated_this_round": "yes",
+   "enzyme_preparation_route": "recombinant_Ecoli",
+   "control_reporting_status": "not_located",
+   "direct_conversion_support": "partial",
+   "curation_completion": "complete",
+   "source_line": "pmid25769286.pdf",
+   "product": "ginsenoside Rg3",
+   "e4_reason": "ms_only",
+   "year": "2015",
+   "evidence_state": "Partial",
+   "is_curated": true,
+   "conditions_verified": [],
+   "condition_clues": [
+    {
+     "ph": "8.0",
+     "temp": "",
+     "conc": "5mM",
+     "status": "",
+     "verified": false
+    }
+   ]
+  },
+  {
+   "family": "UGT",
+   "accession": "UGTPg100",
+   "reaction": "protopanaxatriol + UDP-glucose = ginsenoside Rh1",
+   "substrate": "protopanaxatriol",
+   "position": "C6-O-glucoside",
+   "donor": "UDP-glucose",
+   "pmid": "26032089",
+   "status": "Validated",
+   "level": "L2",
+   "outcome": "positive",
+   "tier": "B",
+   "figure": "",
+   "text_offset": 1540,
+   "quote": "We demonstrate that UGTPg100 speciﬁcally glycosylates the C6-OH of PPT to produce bioactive ginsenoside Rh1, and UGTPg101 catalyzes PPT to produce F1, followed by the generation of ginsenoside Rg1 from F1.",
+   "id_type": "protein",
+   "note": "extension 2015-2022",
+   "chassis": "recombinant E. coli",
+   "afdb_status": "",
+   "mean_plddt": "",
+   "curated_this_round": "yes",
+   "enzyme_preparation_route": "recombinant_Ecoli",
+   "control_reporting_status": "not_located",
+   "direct_conversion_support": "partial",
+   "curation_completion": "complete",
+   "source_line": "pmid26032089.pdf",
+   "product": "ginsenoside Rh1",
+   "e4_reason": "ms_only",
+   "year": "2015",
+   "evidence_state": "Partial",
+   "is_curated": true,
+   "conditions_verified": [],
+   "condition_clues": [
+    {
+     "ph": "8.0",
+     "temp": 40,
+     "conc": "5mM",
+     "status": "",
+     "verified": false
+    }
+   ]
+  },
+  {
+   "family": "UGT",
+   "accession": "UGTPg101",
+   "reaction": "protopanaxatriol + UDP-glucose = ginsenoside F1",
+   "substrate": "protopanaxatriol",
+   "position": "C20-O-glucoside",
+   "donor": "UDP-glucose",
+   "pmid": "26032089",
+   "status": "Validated",
+   "level": "L2",
+   "outcome": "positive",
+   "tier": "B",
+   "figure": "",
+   "text_offset": 1540,
+   "quote": "We demonstrate that UGTPg100 speciﬁcally glycosylates the C6-OH of PPT to produce bioactive ginsenoside Rh1, and UGTPg101 catalyzes PPT to produce F1, followed by the generation of ginsenoside Rg1 from F1.",
+   "id_type": "protein",
+   "note": "extension 2015-2022",
+   "chassis": "recombinant E. coli",
+   "afdb_status": "",
+   "mean_plddt": "",
+   "curated_this_round": "yes",
+   "enzyme_preparation_route": "recombinant_Ecoli",
+   "control_reporting_status": "not_located",
+   "direct_conversion_support": "partial",
+   "curation_completion": "complete",
+   "source_line": "pmid26032089.pdf",
+   "product": "ginsenoside F1",
+   "e4_reason": "ms_only",
+   "year": "2015",
+   "evidence_state": "Partial",
+   "is_curated": true,
+   "conditions_verified": [],
+   "condition_clues": [
+    {
+     "ph": "8.0",
+     "temp": 40,
+     "conc": "5mM",
+     "status": "",
+     "verified": false
+    }
+   ]
   }
  ]
 }
