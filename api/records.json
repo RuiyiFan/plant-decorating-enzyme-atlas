@@ -23698,7 +23698,7 @@
    "quote": "The reaction product ion mass matched with monomethylated norbelladine at 4-hydroxyl position; however, this could not be confirmed",
    "E1_host": "recombinant_Ecoli",
    "E3_control": "explicit_current",
-   "E4_product_id": "partial",
+   "E4_product_id": "supported",
    "status": "Validated"
   },
   {
@@ -23719,7 +23719,7 @@
    "quote": "NpOMT also catalyzed the synthesis of 3,4-O-dimethylnorbelladine from norbelladine and 4-O-methylnorbelladine during in vitro enzymatic assay",
    "E1_host": "recombinant_Ecoli",
    "E3_control": "explicit_current",
-   "E4_product_id": "partial",
+   "E4_product_id": "supported",
    "status": "Validated"
   },
   {
@@ -23740,7 +23740,7 @@
    "quote": "The products were confirmed as ferulic acid ([M+H]+ m/z 195, peak at 8.10min) for the major product and isoferulic acid ([M+H]+ ion m/z 195, peak at 8.50min)",
    "E1_host": "recombinant_Ecoli",
    "E3_control": "explicit_current",
-   "E4_product_id": "partial",
+   "E4_product_id": "supported",
    "status": "Validated"
   },
   {
@@ -23761,7 +23761,7 @@
    "quote": "The products were confirmed as ferulic acid ([M+H]+ m/z 195, peak at 8.10min) for the major product and isoferulic acid ([M+H]+ ion m/z 195, peak at 8.50min)",
    "E1_host": "recombinant_Ecoli",
    "E3_control": "explicit_current",
-   "E4_product_id": "partial",
+   "E4_product_id": "supported",
    "status": "Validated"
   },
   {
@@ -23782,7 +23782,7 @@
    "quote": "NpOMT methylates 3,4-dihydroxybenzylaldehyde and caffeic acid in a nonregiospecific manner to produce meta/para monomethylated products",
    "E1_host": "recombinant_Ecoli",
    "E3_control": "explicit_current",
-   "E4_product_id": "partial",
+   "E4_product_id": "supported",
    "status": "Validated"
   },
   {
@@ -23803,7 +23803,7 @@
    "quote": "NpOMT methylates 3,4-dihydroxybenzylaldehyde and caffeic acid in a nonregiospecific manner to produce meta/para monomethylated products",
    "E1_host": "recombinant_Ecoli",
    "E3_control": "explicit_current",
-   "E4_product_id": "partial",
+   "E4_product_id": "supported",
    "status": "Validated"
   },
   {
