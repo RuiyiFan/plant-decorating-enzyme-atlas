@@ -23824,7 +23824,7 @@
    "quote": "LC-MS/MS analysis of anthocyanin ions confirmed glycosylation of the anthocyanidins cyanidin and peonidin, commonly found in rice, along with delphinidin, malvidin, pelargonidin, and petunidin, by both enzymes",
    "E1_host": "recombinant_Ecoli",
    "E3_control": "explicit_current",
-   "E4_product_id": "partial",
+   "E4_product_id": "supported",
    "status": "Validated"
   },
   {

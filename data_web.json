@@ -1,8 +1,8 @@
 {
- "version": "v0.52",
+ "version": "v0.52.1",
  "update_note": "v0.51: removed 4 non-plant records (Streptomyces 3, Trametes 1); PV3445810 -> PV344590; added e4_reason (ms_only / mixed_substrate_attribution / product_name_inferred / standard_or_nmr / explicit_nonconversion)",
  "boundary_note": "Reaction-level experimental evidence (E1 expression system, E3 negative control, E4 product identification) for plant specialized-metabolism enzymes, curated from full-text literature across four families (UGT, OMT, BAHD, CYP71 clan).",
- "sha": "07ec2b20dfcbdfff",
+ "sha": "17a5a3e11c0c64f1",
  "stats": {
   "total_records": 1451,
   "curated_records": 835,
@@ -25,8 +25,8 @@
   "scope_pending": 1
  },
  "e4_dist": {
-  "partial": 306,
-  "supported": 462,
+  "partial": 305,
+  "supported": 463,
   "negative_supported": 37
  },
  "family_summary": {
@@ -37012,7 +37012,7 @@
    "curated_this_round": true,
    "enzyme_preparation_route": "recombinant_Ecoli",
    "control_reporting_status": "explicit_current",
-   "direct_conversion_support": "partial",
+   "direct_conversion_support": "supported",
    "curation_completion": "complete_for_stated_scope",
    "source_line": "PMID 42043698 | Fig. 5A | offset 21274 | LC-MS/MS analysis of anthocyanin ions confirmed glycosylation of the anthocyanid",
    "product": "cyanidin 3-O-glucoside",
