@@ -1,11 +1,11 @@
 {
  "name": "Plant Decorating Enzyme Atlas",
- "version": "v0.52",
- "records": 1451,
+ "version": "v0.53",
+ "records": 1546,
  "tier_counts": {
   "legacy": 1080,
-  "A": 184,
-  "B": 187
+  "A": 260,
+  "B": 206
  },
  "license": "CC BY 4.0",
  "endpoint": "records.json",
