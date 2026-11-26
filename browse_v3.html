@@ -142,8 +142,8 @@ fetch('data_web.json').then(r=>r.json()).then(d=>{
   document.getElementById('stats').innerHTML = `
     <div class="stat"><b>${s.curated_records.toLocaleString()}</b><span>curated records</span></div>
     <div class="stat"><b>${s.coverage_pct}%</b><span>curation coverage (${s.curated_records}/${s.total_records})</span></div>
-    <div class="stat"><b>${s.papers}</b><span>papers</span></div>
-    <div class="stat"><b>${s.proteins}</b><span>proteins</span></div>
+    <div class="stat"><b>${s.papers}</b><span>papers (curated)</span></div>
+    <div class="stat"><b>${s.proteins}</b><span>proteins (curated)</span></div>
     <div class="stat"><b>${s.uncurated}</b><span>uncurated</span></div>`;
   document.getElementById('meta').innerHTML = `Version <code>${d.version}</code> · data SHA <code>${d.sha}</code> · <code>${s.total_records}</code> reaction records across <code>UGT / OMT / BAHD / CYP71 clan</code>`;
   document.getElementById('boundary').innerHTML = '<b>Scope &amp; boundaries:</b> '+(d.boundary_note||'')+'<br><b>Status labels</b>: <span class="badge b-sup">Supported</span> E4 confirmed (NMR/standard) · <span class="badge b-part">Partial</span> E4 MS-only · <span class="badge b-ctl">Control not located</span> E3 not located in searched scope · <span class="badge b-unc">Uncurated</span> no E1/E3/E4 yet · <span class="badge b-legacy">Legacy</span> historical Validated/Candidate (does NOT override current E1/E3/E4)<br><b>Note:</b> the % shown is <b>curation coverage</b> (records with E1/E3/E4 wired), <i>not</i> accuracy or evidence-confirmation rate; a <code>source_line</code> records where a claim was located during curation, not proof that the line supports the reaction.';
